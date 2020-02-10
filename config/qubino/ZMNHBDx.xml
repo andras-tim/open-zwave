@@ -9,7 +9,7 @@
 If the service button S is pressed for mor ethan 6 seconds the module will be reset to the factory defoult state</MetaDataItem>
     <MetaDataItem name="ExclusionDescription">Module Exclusion/Reset (Removing from Z-Wave network)
 •	Connect module to power supply
-•	bring module within maximum 1 meter (3feet) of the main controller, 
+•	bring module within maximum 1 meter (3feet) of the main controller,
 •	enable add/remove mode on main controller,
 •	press service button S for more than 6 second or
 •	press push button I1 five  times within 3s ( 5	times change switch state within 3 seconds) in the first 60 seconds after the module is connected to the power supply.
@@ -22,7 +22,7 @@ Module measures power consumption of two electrical devices and supports connect
 </MetaDataItem>
     <MetaDataItem id="0051" name="FrequencyName" type="0002">CEPT (Europe)</MetaDataItem>
     <MetaDataItem name="InclusionDescription">Module Inclusion (Adding to Z-Wave network)
-•	Connect module to power supply (with 
+•	Connect module to power supply (with
 temperature sensor connected - if purchased),
 •	enable add/remove mode on main controller
 •	auto-inclusion (works for about 5 seconds after connected to power supply) or

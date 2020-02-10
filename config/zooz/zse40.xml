@@ -26,7 +26,7 @@ Installation: Indoor Use Only
 1 Year Warranty</MetaDataItem>
     <MetaDataItem id="2101" name="FrequencyName" type="2021">U.S. / Canada / Mexico</MetaDataItem>
     <MetaDataItem name="ResetDescription">Remove cover to trigged tamper switch, LED flash once &amp; send out Alarm Report.  Press Program Switch 10 times within 10 seconds, ZSE40 will send the “Device Reset Locally Notification” command and reset to the factory default. (Remark: This is to be used only in the case of primary controller being inoperable or otherwise unavailable.)
-   
+
 </MetaDataItem>
     <ChangeLog>
       <Entry author="Justin Hammond - Justin@dynam.ac" date="24 May 2019" revision="4">Initial Metadata Import from Z-Wave Alliance Database - https://products.z-wavealliance.org/products/1804/xml</Entry>

@@ -32,7 +32,7 @@
     <!-- Here is a Byte/Int/Short Value Sample -->
     <Value genre="config" index="1" label="A Label" max="100" min="0" type="byte" units="%" value="50">
       <Help>
-			Small Description of what this config param does. 
+			Small Description of what this config param does.
 			</Help>
     </Value>
     <!-- Here is a List Value Sample -->
@@ -46,7 +46,7 @@
     <Value genre="config" index="100" label="A Button Label" type="button" write_only="true">
       <Help>Short Help Description</Help>
     </Value>
-    
+
     <!-- Here is a BitSet Sample -->
     <Value genre="config" index="101" label="A Label" size="4" type="bitset" bitmask="241" value="241">
       <Help>Help text that describes what this Param does over all</Help>

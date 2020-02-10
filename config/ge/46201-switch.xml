@@ -3,11 +3,11 @@
     <MetaDataItem name="OzwInfoPage">http://www.openzwave.com/device-database/0063:3135:4952</MetaDataItem>
     <MetaDataItem name="ProductPic">images/ge/46201-switch.png</MetaDataItem>
     <MetaDataItem id="3135" name="ZWProductPage" type="4952">https://products.z-wavealliance.org/products/3317/</MetaDataItem>
-    <MetaDataItem name="ExclusionDescription">1. Follow the instructions for your Z-Wave certified controller to exclude a device from the Z-Wave network. 
+    <MetaDataItem name="ExclusionDescription">1. Follow the instructions for your Z-Wave certified controller to exclude a device from the Z-Wave network.
 2. Once the controller is ready to exclude your device, press and release the top button of the wireless smart switch (rocker) to exclude it from the network.</MetaDataItem>
     <MetaDataItem id="3135" name="Identifier" type="4952">14291/46201/ZW4008</MetaDataItem>
     <MetaDataItem name="Description">In-Wall Smart Switch with QuickFit and SimpleWire enhancements. Revolutionary QuickFit design features a housing depth that is up to 20 percent smaller than the previous Z-Wave models. This reduced size coupled with the elimination of heat taps provides a better fit in older style boxes and multi-gang configurations. SimpleWire technology allows line and load to automatically be configured with auto-sensing line-load terminals. All of this is coupled with Z-Wave S2 and Smart Start allows for effortless installation while being safer than ever!</MetaDataItem>
-    <MetaDataItem name="ResetDescription">1. Quickly press ON (Top) button 3 times then immediately press the OFF (Bottom) button 3 times. The LED will flash ON/OFF 5 times when completed successfully. 
+    <MetaDataItem name="ResetDescription">1. Quickly press ON (Top) button 3 times then immediately press the OFF (Bottom) button 3 times. The LED will flash ON/OFF 5 times when completed successfully.
 2. Please use this reset procedure only when the primary controller is missing or inoperable. </MetaDataItem>
     <MetaDataItem id="3135" name="FrequencyName" type="4952">U.S. / Canada / Mexico</MetaDataItem>
     <MetaDataItem name="Name">In-Wall Smart Switch</MetaDataItem>

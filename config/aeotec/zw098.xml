@@ -3,7 +3,7 @@
     <MetaDataItem name="OzwInfoPage">http://www.openzwave.com/device-database/0086:0062:0103</MetaDataItem>
     <MetaDataItem name="ProductPic">images/aeotec/zw098.png</MetaDataItem>
     <MetaDataItem id="0062" name="ZWProductPage" type="0103">https://products.z-wavealliance.org/products/1829/</MetaDataItem>
-    <MetaDataItem name="Description">Aeotec LED Bulb is a low-cost Z-Wave LED module which allows control (on/off/dim) with the use of Z-Wave. 
+    <MetaDataItem name="Description">Aeotec LED Bulb is a low-cost Z-Wave LED module which allows control (on/off/dim) with the use of Z-Wave.
 It’s a bulb has a Smart RGB LED, which can be used to add colour to your home. The bulb has 5 main colour channels available for you to adjust: Red, Green, Blue, Warm White and Cold White. You can configure its colour according to your favour.
 The LED Bulb is also a security Z-Wave device and supports the Over The Air (OTA) feature for the product’s firmware upgrade.</MetaDataItem>
     <MetaDataItem name="ProductManual">https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&amp;filename=Manuals/1851/LED Bulb manual.pdf</MetaDataItem>
@@ -33,9 +33,9 @@ Use this procedure only in the event that your primary network controller is mis
     <MetaDataItem id="0062" name="FrequencyName" type="0003">CEPT (Europe)</MetaDataItem>
     <MetaDataItem id="0062" name="Identifier" type="0003">ZW098-C55</MetaDataItem>
   </MetaData>
-  <!-- 
+  <!--
 Aeotec ZW098 LED Bulb
-https://aeotec.freshdesk.com/helpdesk/attachments/6009584691 v1.04 
+https://aeotec.freshdesk.com/helpdesk/attachments/6009584691 v1.04
 https://aeotec.freshdesk.com/helpdesk/attachments/6034356249 v1.05
 -->
 	<!-- Configuration Parameters -->

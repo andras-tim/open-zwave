@@ -7,7 +7,7 @@
     <MetaDataItem id="0446" name="Identifier" type="0003">914C</MetaDataItem>
     <MetaDataItem name="ProductPage">https://www.kwikset.com/products/detail/kwikset-convert-smart-lock-conversion-kit-with-z-wave-technology</MetaDataItem>
     <MetaDataItem name="Description">Extend your smart home system to your current deadbolt, enabling your existing deadbolt to wirelessly communicate with your smart home or security system
-Dramatically reduced, all-metal interior 
+Dramatically reduced, all-metal interior
 Works with existing select single cylinder deadbolts</MetaDataItem>
     <MetaDataItem name="ProductSupport">http://www.kwikset.com/Customer-Support/Overview.aspx</MetaDataItem>
     <MetaDataItem name="Name">Convert Electronic Deadbolt</MetaDataItem>
@@ -24,7 +24,7 @@ Please allow time for the controller to add the lock to your system.</MetaDataIt
     <MetaDataItem name="ResetDescription">A factory reset will delete all user codes associated with the lock and will remove itself from your smart home system.
 Please only perform a factory reset when the primary controller is missing or inoperable.
 
-To perform a factory reset, please perform the following:  
+To perform a factory reset, please perform the following:
 1. Remove the battery pack
 2. Press and HOLD the Program button while reinserting the battery pack.
 3. Keep holding the button for 30 seconds until the lock beeps and the status LED flashes red.
@@ -42,18 +42,18 @@ To perform a factory reset, please perform the following:
       </Help>
     </Value>
     <Value genre="config" index="33" instance="1" label="MSB SKU part numbers" max="255" min="0" type="byte">
-      <Help>The Configuration Parameter 33 and 34 are used to set the SKU part numbers to the Kwikset locks. 
-			Is the first four most significant bytes (MSB). 
+      <Help>The Configuration Parameter 33 and 34 are used to set the SKU part numbers to the Kwikset locks.
+			Is the first four most significant bytes (MSB).
 			Below describes how Configuration Parameter 33 and 34 are being used.
-			* For a ZW Configuration Set, the DLM will first do a GET_SKU_ID to retrieve the full SKU from the lock, and the lock will respond with all 8 bytes. (If it not yet set, the DLM will consider that as all 0x30s.) 
+			* For a ZW Configuration Set, the DLM will first do a GET_SKU_ID to retrieve the full SKU from the lock, and the lock will respond with all 8 bytes. (If it not yet set, the DLM will consider that as all 0x30s.)
 			  The DLM changes only the appropriate 4 bytes in its local copy of the SKU, and it then sends the full 8 bytes down to the lock in a SET_SKU_ID.
-			* For a ZW Configuration Get, the DLM will do a GET_SKU_ID down to the lock, to which the lock will respond with all 8 bytes. 
+			* For a ZW Configuration Get, the DLM will do a GET_SKU_ID down to the lock, to which the lock will respond with all 8 bytes.
 			  The DLM will return the requested 4 bytes via ZW. If the SKU is not set, it will return all 0x30s (ASCII 0s).
 			</Help>
     </Value>
     <Value genre="config" index="34" instance="1" label="LSB SKU part numbers" max="255" min="0" type="byte">
-      <Help>The Configuration Parameter 33 and 34 are used to set the SKU part numbers to the Kwikset locks. 
-			Is the least four significant bytes (LSB). 			
+      <Help>The Configuration Parameter 33 and 34 are used to set the SKU part numbers to the Kwikset locks.
+			Is the least four significant bytes (LSB).
       </Help>
     </Value>
     <Value genre="config" index="40" label="Reset To Factory Defaults" size="1" type="list" value="0" write_only="true">

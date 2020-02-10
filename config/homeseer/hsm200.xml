@@ -24,7 +24,7 @@ Save energy by automatically turning off lights in unoccupied rooms or hallways.
 
 Set the color LED night light to inform you that your garage door is open, there is a severe weather alert or any indicator you can imagine!
 
-Operates as a Z-Wave range extender utilizing fifth generation Z-Wave technology to enhance the reliability and speed of every device on a Z-Wave network. 
+Operates as a Z-Wave range extender utilizing fifth generation Z-Wave technology to enhance the reliability and speed of every device on a Z-Wave network.
 
 Version 2.0 firmware adds AES-128 security S2 and SmartStart</MetaDataItem>
     <MetaDataItem id="0001" name="FrequencyName" type="0004">U.S. / Canada / Mexico</MetaDataItem>
@@ -56,12 +56,12 @@ Version 2.0 firmware adds AES-128 security S2 and SmartStart</MetaDataItem>
 				20 min for an office environment.
 				60 min for a library or other room where someone may be sitting
 				still for a long time.
-				This may be inaccurate, but default for Homeseer HSM100 may actually be 3 minutes, instead of 20?				
+				This may be inaccurate, but default for Homeseer HSM100 may actually be 3 minutes, instead of 20?
 			</Help>
     </Value>
     <Value genre="config" index="2" label="On Level" max="99" min="-1" type="byte" value="99">
       <Help>
-				OnLevel is the value sent by the Z-Wave BASIC_SET command to all Association Group 2 nodes when motion is detected. 
+				OnLevel is the value sent by the Z-Wave BASIC_SET command to all Association Group 2 nodes when motion is detected.
 				A value of 0 will turn the lights off (not recommended).
 				A value between 1 and 99 will set the dim level to between 1% and 99% (99% is full on).
 				A value of -1 will turn the light on which depends on the device but most will set the dim level to the last dim setting.

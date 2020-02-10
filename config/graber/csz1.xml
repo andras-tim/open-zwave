@@ -3,7 +3,7 @@
     <MetaDataItem name="OzwInfoPage">http://www.openzwave.com/device-database/026E:5A31:4353</MetaDataItem>
     <MetaDataItem name="ProductPic">images/graber/csz1.png</MetaDataItem>
     <MetaDataItem id="5A31" name="ZWProductPage" type="4353">https://products.z-wavealliance.org/products/1749/</MetaDataItem>
-    <MetaDataItem name="InclusionDescription">1. Put Primary Controller into 
+    <MetaDataItem name="InclusionDescription">1. Put Primary Controller into
 Inclusion Mode
 
 2. Press and Hold Shade Programming Button for >2seconds
@@ -16,7 +16,7 @@ Inclusion Mode
 Press and hold the button on the shade for approximately 15 seconds (the LED will stop flashing when complete)</MetaDataItem>
     <MetaDataItem name="Description">Enjoy the comfort, convenience and energy efficiency of beautiful custom motorized window treatments featuring Z-Wave protocol for easy integration.  Lighting control has never been more simple. Window treatments can be automated using your favorite Z-Wave certified gateway or security system, or controlled by a remote control.  Raise or lower the shades to control just the right amount of light, privacy and solar heat. Shades can be fully open, fully closed or anywhere in between, it’s up to you.  In addition, some systems will also report back the state of the battery charge on battery operated versions.  </MetaDataItem>
     <MetaDataItem name="Name">Cellular Shade Radio Z-Wave</MetaDataItem>
-    <MetaDataItem name="ExclusionDescription">1. Put Primary Controller into 
+    <MetaDataItem name="ExclusionDescription">1. Put Primary Controller into
 Exclusion Mode
 
 2. Press and Hold Shade Programming Button for >2seconds

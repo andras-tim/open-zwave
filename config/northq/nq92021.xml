@@ -12,7 +12,7 @@
 
 The product consists of 3 parts: a Power Reader, a battery-powered wireless transmitter and a USB receiver. Electricity data is transferred to a chosen PC every 15 minutes, where it can then be visualized in the form of graphs, enabling customers to keep track of their electricity consumption (in kWh and in local currency), and monitor their CO2 emissions, etc. It is also possible to receive real-time measurements in order to investigate how much each individual appliance uses in active or standby mode.
 
-Furthermore, it is possible to enter a budget for how much you want to consume in EUR or kWh per year. The NorthQ eGadget on the screen continuously monitors and updates the electricity consumption data to indicate whether you are under or over budget. You are then able to compare your electricity consumption in the current year with that in previous years. It is also possible to compare the consumption in your current home with other types of homes, e.g. apartments, houses, villas, etc. 
+Furthermore, it is possible to enter a budget for how much you want to consume in EUR or kWh per year. The NorthQ eGadget on the screen continuously monitors and updates the electricity consumption data to indicate whether you are under or over budget. You are then able to compare your electricity consumption in the current year with that in previous years. It is also possible to compare the consumption in your current home with other types of homes, e.g. apartments, houses, villas, etc.
 </MetaDataItem>
     <MetaDataItem id="0001" name="FrequencyName" type="0001">CEPT (Europe)</MetaDataItem>
     <MetaDataItem name="Name">NorthQ Power Reader &amp; Power Manager</MetaDataItem>

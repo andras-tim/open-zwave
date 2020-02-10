@@ -11,8 +11,8 @@ Aeotec ZW130 WallMote Quad, base on Engineering Spec 9/27/2016
     <MetaDataItem name="ResetDescription">Press and hold the Action button that you can find on the product's housing for 20 seconds and then release. This procedure should only be used when the primary controller is missing or inoperable.</MetaDataItem>
     <MetaDataItem name="ProductManual">https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&amp;filename=Manuals/2153/Aeon Labs WallMote Quad manual.pdf</MetaDataItem>
     <MetaDataItem id="0082" name="FrequencyName" type="0102">U.S. / Canada / Mexico</MetaDataItem>
-    <MetaDataItem name="Description">Aeotec WallMote Quad is an intelligent Z-Wave remote controller that mounted on a wall. It has 4 touch buttons that you can easily control the Z-Wave devices in your home network via touching, long pressing or sliding the button areas. 
-Its surface has a RGB LED to indicate the button actions also accompanied by touch beep and vibration. 
+    <MetaDataItem name="Description">Aeotec WallMote Quad is an intelligent Z-Wave remote controller that mounted on a wall. It has 4 touch buttons that you can easily control the Z-Wave devices in your home network via touching, long pressing or sliding the button areas.
+Its surface has a RGB LED to indicate the button actions also accompanied by touch beep and vibration.
 The WallMote Quad is also a security Z-Wave device and supports Over The Air (OTA) feature for the products firmware upgrade.
 </MetaDataItem>
     <MetaDataItem id="0082" name="Identifier" type="0102">ZW130-A</MetaDataItem>

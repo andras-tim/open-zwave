@@ -7,7 +7,7 @@
 	ZMNHLD4 869,0 MHz
 	ZMNHLD5 916,0 MHz
 	 -->
-	 
+
 	<!-- The thermostat does not properly report its operating modes -->
   <CommandClass id="64">
     <SupportedModes>

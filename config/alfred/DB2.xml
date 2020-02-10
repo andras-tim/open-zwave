@@ -1,4 +1,4 @@
-<Product Revision="1" 
+<Product Revision="1"
   xmlns="https://github.com/OpenZWave/open-zwave">
   <MetaData>
     <MetaDataItem name="Name">DB2 Z-Wave Accessory</MetaDataItem>
@@ -22,7 +22,7 @@
     <MetaDataItem name="ResetDescription">Please use this procedure only when the network primary controller is missing or inoperable.
 -Operations on lock
 1.Open the door and keep the lock in "unlock" status
-2.Open battery box and find the reset button. 
+2.Open battery box and find the reset button.
 3.Use a sharp thing to press and hold the reset button.
 4.Keep holding the reset button and remove a battery from battery box then replace it.
 5.Keep holding the reset button until hearing voice guide.</MetaDataItem>

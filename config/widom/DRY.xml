@@ -37,7 +37,7 @@
       </Help>
     </Value>
     <Value  type="byte" genre="config" index="5" label="Value used for devices belonging to Group 3" max="100" min="-1" size="1" value="100">
-      <Help>Value used for devices belonging to Group 3 when the external switch receives 2 
+      <Help>Value used for devices belonging to Group 3 when the external switch receives 2
         1-99 : Dimming purpose
         0 : OFF
         -1 : ON
@@ -45,7 +45,7 @@
       </Help>
     </Value>
     <Value  type="byte" genre="config" index="6" label=" Value used for devices belonging to Group 4" max="100" min="-1" size="1" value="100">
-      <Help>Value used for devices belonging to Group 4 when external switch receives 3 Clicks 
+      <Help>Value used for devices belonging to Group 4 when external switch receives 3 Clicks
         1-99 : Dimming purpose
         0 : OFF
         -1 : ON

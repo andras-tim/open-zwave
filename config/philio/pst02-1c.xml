@@ -47,13 +47,13 @@ Node ID has been excluded.</MetaDataItem>
   <CommandClass id="112">
     <Value genre="config" index="2" label="Basic Set Level" max="255" min="-1" type="byte" value="255">
       <Help>
-          Setting the BASIC command value to turn on the light. The 0xFF (-1) means turn on the light. 
+          Setting the BASIC command value to turn on the light. The 0xFF (-1) means turn on the light.
           For dimmer equipment 1 to 100 means the light strength. 0 means turn off the light.
 	  </Help>
     </Value>
     <Value genre="config" index="4" label="Light threshold" max="100" min="0" type="byte" value="99">
       <Help>
-          Setting the illumination threshold to turn on the light. When the event triggered and the environment illumination lower than 
+          Setting the illumination threshold to turn on the light. When the event triggered and the environment illumination lower than
           the threshold, the device will turn on the light.
           0 means turn off illumination detected function and never turn on the light.
           1 means darkest.
@@ -64,36 +64,36 @@ Node ID has been excluded.</MetaDataItem>
     </Value>
     <Value genre="config" index="5" label="Operation Mode" max="127" min="0" type="byte" value="0">
       <Help>
-          Bit 0: Reserved 
-          Bit 1: Reserved 
-          Bit 2: Disable the door/window function (1: Disable, 0: Enable). 
-          Bit 3: Setting the temperature scale. 0: Fahrenheit, 1:Celsius. 
-          Bit 4: Disable the illumination report after event triggered (1: Disable, 0: Enable). 
+          Bit 0: Reserved
+          Bit 1: Reserved
+          Bit 2: Disable the door/window function (1: Disable, 0: Enable).
+          Bit 3: Setting the temperature scale. 0: Fahrenheit, 1:Celsius.
+          Bit 4: Disable the illumination report after event triggered (1: Disable, 0: Enable).
           Bit 5: Disable the temperature report after event triggered (1: Disable, 0: Enable).
        </Help>
     </Value>
     <Value genre="config" index="6" label="Multi-Sensor Function Switch" max="127" min="0" type="byte" value="4">
       <Help>
           Multi-Sensor Function switch. Using bit to control.
-          Bit 0: Disable magnetic integrate illumination to turn ON the lighting nodes in the association group 2 (1: Disable, 0: Enable). 
-          Bit 1: Reserved always 1 
+          Bit 0: Disable magnetic integrate illumination to turn ON the lighting nodes in the association group 2 (1: Disable, 0: Enable).
+          Bit 1: Reserved always 1
           Bit 2: Reserved always 1
           Bit 3: Reserved
-          Bit 4: Disable delay 5 seconds to turn off the light, when door/window closed. 
-          Bit 5: Disable auto turn off the light, after door/window opened to turn on the light. Notice: If bit2 is zero, this setting is useless. Notice: If the configuration No.9 is zero, this setting is useless. 
+          Bit 4: Disable delay 5 seconds to turn off the light, when door/window closed.
+          Bit 5: Disable auto turn off the light, after door/window opened to turn on the light. Notice: If bit2 is zero, this setting is useless. Notice: If the configuration No.9 is zero, this setting is useless.
           Bit 6: Enable temperature monitoring. When this bit enabled the temperature changed 3 degree Fahrenheit. It will report. And also temp above 140 it will report every 64 seconds.
 	  </Help>
     </Value>
     <Value genre="config" index="7" label="Customer Function" max="127" min="0" type="byte" value="4">
       <Help>
-          Customer function switch, using bit control. 
-          Bit 0: Reserve. 
-          Bit 1: Enable sending motion OFF report (0:Disable, 1:Enable). 
-				 Note: Depends on the Bit4, 0: Report Notification CC, Type: 0x07, Event: 0xFE 1: Sensor Binary Report, Type: 0x0C, Value: 0x00. 
+          Customer function switch, using bit control.
+          Bit 0: Reserve.
+          Bit 1: Enable sending motion OFF report (0:Disable, 1:Enable).
+				 Note: Depends on the Bit4, 0: Report Notification CC, Type: 0x07, Event: 0xFE 1: Sensor Binary Report, Type: 0x0C, Value: 0x00.
           Bit 2: Enable PIR super sensitivity mode (0:Disable, 1:Enable).
-          Bit 3: Disable send out BASIC OFF after door closed (1:Disable, 0:Enable). 
+          Bit 3: Disable send out BASIC OFF after door closed (1:Disable, 0:Enable).
           Bit 4: Notification Type (0: Notification Report, 1: Sensor Binary Report).
-          Bit 5: Disable Multi CC in auto report (1:Disable, 0:Enable). 
+          Bit 5: Disable Multi CC in auto report (1:Disable, 0:Enable).
           Bit 6: Disable to report battery state when the device triggered (1:Disable, 0:Enable)
           Bit 7: Reserve.
 		  ozw recommended setting: 00010110 : 22
@@ -101,7 +101,7 @@ Node ID has been excluded.</MetaDataItem>
     </Value>
     <Value genre="config" index="9" label="Turn Off Light Time" max="127" min="0" type="byte" units="8 sec" value="4">
       <Help>
-          After turn on the lighting, setting the delay time to turn off the lighting when the PIR motion is not detected. 
+          After turn on the lighting, setting the delay time to turn off the lighting when the PIR motion is not detected.
           8 seconds per tick, default tick is 4 (32 seconds). 0 means never send turn off light command.
        </Help>
     </Value>
@@ -143,7 +143,7 @@ Node ID has been excluded.</MetaDataItem>
   </CommandClass>
   <!-- Basic set as report -->
   <!-- <CommandClass id="32" setasreport="true" ignoremapping="true"/> -->
- 
+
   <!-- Association Groups -->
   <CommandClass id="133">
     <Associations num_groups="2">

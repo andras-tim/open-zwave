@@ -10,7 +10,7 @@
 </MetaDataItem>
     <MetaDataItem name="WakeupDescription">After it has been included into a Z-Wave network, the detector will go to sleep but will send a Wakeup Notification Command periodically at preset period to the controller. The Motion detector will stay awake for 10 seconds at least and then go back to sleep to conserve battery life.
 
-The time interval between Wakeup Notification Commands can be set in the Wakeup Command Class based on the range values below: 
+The time interval between Wakeup Notification Commands can be set in the Wakeup Command Class based on the range values below:
 
 Minimum Wake Up Interval	600s (10 minutes)
 Maximum Wake Up Interval	86400s (1 day)

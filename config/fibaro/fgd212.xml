@@ -9,7 +9,7 @@
 2) Locate the B-button on the housing.
 3) Click and hold the B-button to enter the menu mode.
 4) Release and click the B-button to choose "Device reset" option in the menu that is signalled with the yellow LED indicator colour.
-5) After few seconds the device will be restarted, which is signalled with the red LED indicator colour and entering the calibration mode. 
+5) After few seconds the device will be restarted, which is signalled with the red LED indicator colour and entering the calibration mode.
 Note! Resetting the device is not the recommended way of removing the device from the Z-Wave network. Use reset procedure only if the primary controller is missing or inoperable.
 </MetaDataItem>
     <MetaDataItem name="InclusionDescription">1) Switch off the mains voltage.
@@ -69,7 +69,7 @@ https://www.youtube.com/watch?v=K35uFXoa5c0
     <MetaDataItem id="2000" name="FrequencyName" type="0102">U.S. / Canada / Mexico / CEPT (Europe)</MetaDataItem>
     <MetaDataItem id="2000" name="Identifier" type="0102">FGD-212</MetaDataItem>
   </MetaData>
-  <!-- 
+  <!--
   Fibaro FGD-212
   config based on http://manuals.fibaro.com/content/manuals/en/FGD-212/FGD-212-EN-T-v1.3.pdf
   -->
@@ -318,7 +318,7 @@ Default setting: 3600 (3600s)</Help>
     </Value>
     <Value genre="config" index="53" instance="1" label="Energy reports" max="255" min="0" type="short" units="kWh" value="10">
       <Help>Energy level change which will result in sending a new energy report. Available settings:
-0 - energy reports disabled; 
+0 - energy reports disabled;
 1-255 (0,01 - 2,55 kWh) - report triggering threshold;
 Default setting: 10 (0,1 kWh)</Help>
     </Value>

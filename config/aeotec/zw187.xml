@@ -19,7 +19,7 @@
     <MetaDataItem name="ResetDescription">Press and hold the Z-Wave button that you can find in back of the product for 20 seconds and then release. This procedure should only be used when the primary controller is inoperable.</MetaDataItem>
     <MetaDataItem name="ExclusionDescription">Turn the primary controller of Z-Wave network into exclusion mode, short press the product’s Z-Wave button that you can find in back of the product.</MetaDataItem>
     <MetaDataItem name="Description">The Aeotec Recessed Door Sensor 7 is a door sensor that can detect the state of the door's open/close. It will report the door state to your controller/ gateway/associated nodes in real time when the state of your door has a change.
-It’s a security Z-Wave device that supports security encryption. Also it supports the “Over the Air Firmware Updating” that allows you wirelessly update its firmware if needs. 
+It’s a security Z-Wave device that supports security encryption. Also it supports the “Over the Air Firmware Updating” that allows you wirelessly update its firmware if needs.
 It can be included and operated in any Z-Wave network with other Z-Wave certified devices from manufacturers and/or other applications.
 </MetaDataItem>
     <ChangeLog>

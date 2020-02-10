@@ -32,12 +32,12 @@
     </Value>
     <Value genre="config" index="40" instance="1" label="Watt Power Consumption Reporting Threshold for Q Load " max="100" min="0" size="1" type="byte" units="%" value="10">
       <Help>
-                Choose by how much power consumption needs to increase or decrease to be reported. Values correspond to percentages so if 10 is set, for example, the device will report any power consumption changes of 10% or more compared to the last reading. 
+                Choose by how much power consumption needs to increase or decrease to be reported. Values correspond to percentages so if 10 is set, for example, the device will report any power consumption changes of 10% or more compared to the last reading.
 				Values (size is 1 byte dec):
-					default value 10 
-					0 - Power consumption reporting disabled 
+					default value 10
+					0 - Power consumption reporting disabled
 					1 - 100 = 1% - 100% Power consumption reporting enabled. New value is reported only when Wattage in real time changes by more than the percentage value set in this parameter compared to the previous Wattage reading, starting at 1% (the lowest value possible).
-				NOTE: Power consumption needs to increase or decrease by at least 1 Watt to be reported, REGARDLESS of percentage set in this parameter.  
+				NOTE: Power consumption needs to increase or decrease by at least 1 Watt to be reported, REGARDLESS of percentage set in this parameter.
 			</Help>
     </Value>
     <Value genre="config" index="42" instance="1" label="Watt Power Consumption Reporting Time Threshold for Q" max="32767" min="0" size="2" type="short" units="seconds" value="0">
@@ -46,7 +46,7 @@
 				Values (size is 2 byte dec):
 					default value 0 (power report is disabled)
 					0 - Power consumption reporting disabled
-					30 - 32767 = 30 - 32767 seconds. Power consumption reporting enabled. Report is sent according to time interval (value) set here. 
+					30 - 32767 = 30 - 32767 seconds. Power consumption reporting enabled. Report is sent according to time interval (value) set here.
 			</Help>
     </Value>
     <Value genre="config" index="43" instance="1" label="Hysteresis Upper temperature offset" max="450" min="0" size="2" type="short" value="5">
@@ -73,12 +73,12 @@
     </Value>
     <Value genre="config" index="45" instance="1" label="Antifreeze" max="1000" min="-125" size="2" type="short" value="50">
       <Help>
-				Set value determines at which temperature the device will be turned on even (if the thermostat was manually set to off). 
+				Set value determines at which temperature the device will be turned on even (if the thermostat was manually set to off).
 				Values (size is 2 byte dec):
 					default value 50 (5.0 C)
 					-125 - 545
 					1000 - Antifreeze functionality disabled
-				NOTE1: Antifreeze is activated only in heating mode and it uses hysteresis of +-0.5C. 
+				NOTE1: Antifreeze is activated only in heating mode and it uses hysteresis of +-0.5C.
 				NOTE2: If configuration parameter 78 (Scale selection) is set to Celsius, then valid interval is -125 - 125 (-12.5 C - 12.5 C, resolution 0.1 C)
 				NOTE3: If configuration parameter 78 (Scale selection) is set to Fahrenheit, then valid interval is 95 - 545 (9.5 F - 54.5 F, resolution 0.1 F)
 				NOTE4: If configuration parameter 78 (Scale selection) is set to Fahrenheit, note that Fahrenheit values will be converted to Celsius degrees. Due to conversion algorithm please be advised that configuration value could drift when converting values back and forth.
@@ -118,8 +118,8 @@
     </Value>
     <Value genre="config" index="63" instance="1" label="Output switch selection" max="1" min="0" size="1" type="list" value="0">
       <Help>
-				Set value determines the type of the device connected to the on/off output. The output type can be normally open (NO) or normally closed (NC). 
-				Default value: 0.				
+				Set value determines the type of the device connected to the on/off output. The output type can be normally open (NO) or normally closed (NC).
+				Default value: 0.
 			</Help>
       <Item label="When switch/device is off the output is 0V (NC)" value="0"/>
       <Item label="When switch/device is off the output is 240V or 24V (NO)" value="1"/>

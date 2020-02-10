@@ -7,7 +7,7 @@
     <MetaDataItem name="ExclusionDescription">REMOVAL FROM A ZWAVE NETWORK (Z-WAVE EXCLUSION)
 
 1. Connect the device to the power supply
-2. Make sure the device is within direct range of your Z-Wave gateway (hub) or use a hand-held Z-Wave remote to perform exclusion 
+2. Make sure the device is within direct range of your Z-Wave gateway (hub) or use a hand-held Z-Wave remote to perform exclusion
 3. Enable add/remove mode on your Z-Wave gateway (hub)
 4. Toggle the switch connected to the I1 terminal 3 times within 5 seconds
 OR
@@ -26,17 +26,17 @@ If the device is powered by 24 V SELV supply, press and hold the S (Service) but
     <MetaDataItem name="ProductManual">https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&amp;filename=Manuals/2795/Qubino_Flush 1 Relay PLUS extended manual_eng_2.2.pdf</MetaDataItem>
     <MetaDataItem name="Name">Flush 1 Relay</MetaDataItem>
     <MetaDataItem id="0052" name="FrequencyName" type="0002">CEPT (Europe)</MetaDataItem>
-    <MetaDataItem name="InclusionDescription">AUTOMATICALLY ADDING THE DEVICE TO A Z-WAVE NETWORK (AUTO INCLUSION) 
+    <MetaDataItem name="InclusionDescription">AUTOMATICALLY ADDING THE DEVICE TO A Z-WAVE NETWORK (AUTO INCLUSION)
 
-1. Enable add/remove mode on your Z-Wave gateway (hub) 
+1. Enable add/remove mode on your Z-Wave gateway (hub)
 2. Connect the device to the power supply (with the temperature sensor already connected – sold separately*).
 3. Auto-inclusion will be initiated within 5 seconds of connection to the power supply and the device will automatically enrol in your network
 
 MANUALLY ADDING THE DEVICE TO A Z-WAVE NETWORK (MANUAL INCLUSION)
 
-1. Enable add/remove mode on your Z-Wave gateway (hub) 
-2. Connect the device to the power supply (with the temperature sensor already connected*) 
-3. Toggle the switch connected to the I1 terminal 3 times within 5 seconds 
+1. Enable add/remove mode on your Z-Wave gateway (hub)
+2. Connect the device to the power supply (with the temperature sensor already connected*)
+3. Toggle the switch connected to the I1 terminal 3 times within 5 seconds
 OR
 If the device is powered by 24 V SELV supply, press and hold the S (Service) button between 2 and 6 seconds
 4. A new multi-channel device will appear on your dashboard

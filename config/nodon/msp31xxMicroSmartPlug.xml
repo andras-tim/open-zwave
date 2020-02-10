@@ -11,7 +11,7 @@ Please use this procedure only when the primary controller is missing or otherwi
     <MetaDataItem name="ExclusionDescription">To exclude/remove from the Z-Wave network, long press during 2 seconds to send several NIF during 30 seconds or a triple press to send a single NIF </MetaDataItem>
     <MetaDataItem name="Description">The NodOn Micro Smart Plug can be controlled by any kind of Z-Wave® (or Z-Wave Plus®) gateway or other Z-Wave® controller (standalone mode) such as the NodOn® Soft Remote or Octan Remote.
 It existed in both standard, Type E (French) or Schuko (German). Its very small design and volume allow easy integration, without obstructing nearby power holes on a power strip. Furthermore, it can perform Power and Energy Metering.
-The NodOn Smart Plug is based on brand new 500 series Z-Wave® module from Sigma Designs®, and support all the new features of Z-Wave Plus® standard: 
+The NodOn Smart Plug is based on brand new 500 series Z-Wave® module from Sigma Designs®, and support all the new features of Z-Wave Plus® standard:
 Longer range (up to 40m), lower power consumption, higher data rate transmission, and many more new features.</MetaDataItem>
     <MetaDataItem id="0003" name="Identifier" type="0001">MSP-3-1-X1</MetaDataItem>
     <MetaDataItem id="0003" name="FrequencyName" type="0001">CEPT (Europe)</MetaDataItem>

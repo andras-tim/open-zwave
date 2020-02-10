@@ -9,18 +9,18 @@
 Press any key once, the device will awake 10 seconds.</MetaDataItem>
     <MetaDataItem name="ProductManual">https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&amp;filename=Manuals/1151/D-Link DCH-Z110_120 manual.pdf</MetaDataItem>
     <MetaDataItem name="ExclusionDescription">There are two tamper keys in the device, one is in the back side, another is in the front side.  Both of them  can add,  remove, reset or association from Z-Wave network.
-To remove the device from a Z-Wave network: 
+To remove the device from a Z-Wave network:
 1. Have Z-Wave  Controller entered exclusion mode.
 2. Pressing tamper key three times within 1.5 seconds to enter the exclusion mode.
 Node ID has been excluded.</MetaDataItem>
     <MetaDataItem name="InclusionDescription">There are two tamper keys in the device, one is in the back side, another is in the front side.  Both of them  can add,  remove, reset or association from Z-Wave network.
-To add into a Z-Wave network: 
+To add into a Z-Wave network:
 1. Have Z-Wave  Controller entered inclusion mode.
 2. Pressing tamper key three times within 1.5 seconds to enter the inclusion mode.
 3. After add successful, the device will wake to receive the setting command from Z-Wave Controller about 20 seconds.</MetaDataItem>
     <MetaDataItem id="000E" name="Identifier" type="0002">DCH-Z110</MetaDataItem>
     <MetaDataItem name="ResetDescription">There are two tamper keys in the device, one is in the back side, another is in the front side.  Both of them  can add,  remove, reset or association from Z-Wave network.
-To reset the device: 
+To reset the device:
 Notice: Use this procedure only in the event that the primary controller is lost or otherwise inoperable.
 1. Pressing tamper key four times within 1.5 seconds and do not release the tamper key in the 4th  pressed, and the LED will light ON.
 2. After 3 seconds the LED will turn OFF, after that within 2 seconds, release the tamper key. If successful, the LED will light ON one second. Otherwise, the LED will flash once.
@@ -34,13 +34,13 @@ Notice: Use this procedure only in the event that the primary controller is lost
   <CommandClass id="112">
     <Value genre="config" index="2" label="2. Basic Set Level" max="100" min="-1" type="byte" value="-1">
       <Help>
-          Setting the BASIC command value to turn on the light. The 0xFF (-1) means turn on the light. 
+          Setting the BASIC command value to turn on the light. The 0xFF (-1) means turn on the light.
           For dimmer equipment 1 to 100 means the light strength. 0 means turn off the light.
 	  </Help>
     </Value>
     <Value genre="config" index="4" label="4. Light threshold" max="100" min="0" type="byte" value="99">
       <Help>
-          Setting the illumination threshold to turn on the light. When the event triggered and the environment illumination lower than 
+          Setting the illumination threshold to turn on the light. When the event triggered and the environment illumination lower than
           the threshold, the device will turn on the light.
           0 means turn off illumination detected function and never turn on the light.
           1 means darkest.
@@ -51,42 +51,42 @@ Notice: Use this procedure only in the event that the primary controller is lost
     </Value>
     <Value genre="config" index="5" label="5. Operation Mode" max="127" min="0" type="byte" value="0">
       <Help>
-          Bit 0: Reserved 
-          Bit 1: Reserved 
-          Bit 2: Disable the door/window function (1: Disable, 0: Enable). 
-          Bit 3: Setting the temperature scale. 0: Fahrenheit, 1:Celsius. 
-          Bit 4: Disable the illumination report after event triggered (1: Disable, 0: Enable). 
+          Bit 0: Reserved
+          Bit 1: Reserved
+          Bit 2: Disable the door/window function (1: Disable, 0: Enable).
+          Bit 3: Setting the temperature scale. 0: Fahrenheit, 1:Celsius.
+          Bit 4: Disable the illumination report after event triggered (1: Disable, 0: Enable).
           Bit 5: Disable the temperature report after event triggered (1: Disable, 0: Enable).
        </Help>
     </Value>
     <Value genre="config" index="6" label="6. Multi-Sensor Function Switch" max="127" min="0" type="byte" value="4">
       <Help>
           Multi-Sensor Function switch. Using bit to control.
-          Bit 0: Disable magnetic integrate illumination to turn ON the lighting nodes in the association group 2 (1: Disable, 0: Enable). 
-          Bit 1: Reserved always 1 
+          Bit 0: Disable magnetic integrate illumination to turn ON the lighting nodes in the association group 2 (1: Disable, 0: Enable).
+          Bit 1: Reserved always 1
           Bit 2: Reserved always 1
           Bit 3: Reserved
-          Bit 4: Disable delay 5 seconds to turn off the light, when door/window closed. 
-          Bit 5: Disable auto turn off the light, after door/window opened to turn on the light. Notice: If bit2 is zero, this setting is useless. Notice: If the configuration No.9 is zero, this setting is useless. 
+          Bit 4: Disable delay 5 seconds to turn off the light, when door/window closed.
+          Bit 5: Disable auto turn off the light, after door/window opened to turn on the light. Notice: If bit2 is zero, this setting is useless. Notice: If the configuration No.9 is zero, this setting is useless.
           Bit 6: Enable temperature monitoring. When this bit enabled the temperature changed 3 degree Fahrenheit. It will report. And also temp above 140 it will report every 64 seconds.
 	  </Help>
     </Value>
     <Value genre="config" index="7" label="7. Customer Function" max="127" min="0" type="byte" value="4">
       <Help>
-          Customer function switch, using bit control. 
-          Bit 0: Reserve. 
-          Bit 1: Enable sending motion OFF report. Note: Depends on the Bit4, 0: Report Notification CC, Type: 0x07, Event: 0xFE 1: Sensor Binary Report, Type: 0x0C, Value: 0x00. 
-          Bit 2: Enable PIR super sensitivity mode. 
-          Bit 3: Enable don't send out BASIC OFF after door closed. 
-          Bit 4: Notification Type, 0: Using Notification Report. 1: Using Sensor Binary Report. 
-          Bit 5: Disable Multi CC in auto report. 
-          Bit 6: Disable to report battery state when the device triggered. 
+          Customer function switch, using bit control.
+          Bit 0: Reserve.
+          Bit 1: Enable sending motion OFF report. Note: Depends on the Bit4, 0: Report Notification CC, Type: 0x07, Event: 0xFE 1: Sensor Binary Report, Type: 0x0C, Value: 0x00.
+          Bit 2: Enable PIR super sensitivity mode.
+          Bit 3: Enable don't send out BASIC OFF after door closed.
+          Bit 4: Notification Type, 0: Using Notification Report. 1: Using Sensor Binary Report.
+          Bit 5: Disable Multi CC in auto report.
+          Bit 6: Disable to report battery state when the device triggered.
           Bit 7: Reserve.
        </Help>
     </Value>
     <Value genre="config" index="9" label="9. Turn Off Light Time" max="127" min="0" type="byte" units="8 sec" value="4">
       <Help>
-          After turn on the lighting, setting the delay time to turn off the lighting when the PIR motion is not detected. 
+          After turn on the lighting, setting the delay time to turn off the lighting when the PIR motion is not detected.
           8 seconds per tick, default tick is 4 (32 seconds). 0 means never send turn off light command.
        </Help>
     </Value>
@@ -128,7 +128,7 @@ Notice: Use this procedure only in the event that the primary controller is lost
   </CommandClass>
   <!-- Basic set as report -->
   <!-- <CommandClass id="32" setasreport="true" ignoremapping="true"/> -->
- 
+
   <!-- Association Groups -->
   <CommandClass id="133">
     <Associations num_groups="2">

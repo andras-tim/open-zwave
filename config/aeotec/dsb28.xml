@@ -14,15 +14,15 @@ Installed in an electricity box, the energy meter will monitor the total consump
       <Entry author="Justin Hammond - Justin@dynam.ac" date="03 May 2019" revision="2">Initial Metadata Import from Z-Wave Alliance Database - https://products.z-wavealliance.org/products/705/xml</Entry>
     </ChangeLog>
   </MetaData>
-  <!-- 
-Aeotec DSB28 Home Energy Meter (2nd Edition) 
+  <!--
+Aeotec DSB28 Home Energy Meter (2nd Edition)
 https://aeotec.freshdesk.com/helpdesk/attachments/6009584508
 -->
   <!-- Configuration Parameters -->
   <CommandClass id="112">
     <Value genre="config" index="2" label="Reverse Clamping" max="1" min="0" size="1" type="list" units="" value="0">
       <Help>
-      If the reverse clamping pliers, negative power is detected. 
+      If the reverse clamping pliers, negative power is detected.
       </Help>
       <Item label="Disable" value="0"/>
       <Item label="Enable" value="1"/>

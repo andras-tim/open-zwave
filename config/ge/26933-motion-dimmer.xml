@@ -98,7 +98,7 @@ network.</MetaDataItem>
                   3 = 30 seconds
                   4 = 45 seconds
                   ...
-                  110 = 27 minutes 15 seconds 
+                  110 = 27 minutes 15 seconds
     	          </Help>
     </Value>
     <Value genre="config" index="16" label="Switch Mode" max="1" min="0" size="1" type="list" value="0">

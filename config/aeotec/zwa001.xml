@@ -1,4 +1,4 @@
-<!-- 
+<!--
 ZWA001 LED Bulb 6 Multi-White
 --><Product Revision="3" xmlns="https://github.com/OpenZWave/open-zwave">
   <MetaData>
@@ -7,7 +7,7 @@ ZWA001 LED Bulb 6 Multi-White
     <MetaDataItem id="0001" name="ZWProductPage" type="0003">https://products.z-wavealliance.org/products/2840/</MetaDataItem>
     <MetaDataItem name="Name">LED Bulb 6: Multi-White</MetaDataItem>
     <MetaDataItem name="ResetDescription">Reset the device :
-a)	Please use this procedure only when the network primary controller is missing or otherwise inoperable. 
+a)	Please use this procedure only when the network primary controller is missing or otherwise inoperable.
 b)	Led bulb re-power 6 times (between 0.5-2 seconds each time); If the 6th power on, the led bulb flashes twice, which means that the resetting is successful.
 
 </MetaDataItem>

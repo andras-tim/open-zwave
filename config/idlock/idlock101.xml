@@ -56,7 +56,7 @@ It enables your ID Lock to operate in a Z-Wave network with numerous access cont
     <Value genre="config" index="2" label="RFID Registration Configuration" max="3" min="0" size="1" type="list" units="">
       <Help>
 		RFID Registration Configuration
-        	IDLocks can use up to 50 RFID cards. In order to use a RFID, RFID has to be registered by z-wave configuration command class. 
+        	IDLocks can use up to 50 RFID cards. In order to use a RFID, RFID has to be registered by z-wave configuration command class.
 		Configuration Set in case of starting to register from backend side ( Ex. App)
       </Help>
       <Item label="Begin RFID Registering mode on the door lock" value="0x01"/>

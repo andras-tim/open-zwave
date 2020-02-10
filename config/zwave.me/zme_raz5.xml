@@ -15,7 +15,7 @@ The RaZberry consists of various parts:
 (a) Z-Wave transceiver pluggable to the GPIO interface of the Raspberry PI,
 (b) A Z-Wave stack integrated into an open source Javascript based smart home
 automation engine
-(c) Various user interfaces including an AJAX based Web UI, Apple HomeKit server 
+(c) Various user interfaces including an AJAX based Web UI, Apple HomeKit server
 and several IOS and Android Apps.</MetaDataItem>
     <MetaDataItem name="ResetDescription">Web Interface; Network Tab, "Reset Controller"</MetaDataItem>
     <MetaDataItem name="InclusionDescription">Web Interface; Network Tab, "Include Device"</MetaDataItem>

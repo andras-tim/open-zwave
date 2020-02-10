@@ -7,12 +7,12 @@
     <MetaDataItem id="1000" name="FrequencyName" type="0600">CEPT (Europe)</MetaDataItem>
     <MetaDataItem name="ProductSupport">http://www.fibaro.com/manuals/en/FGWPE_F-101-Wall-Plug/FGWPE_F-101-Wall-Plug-en-2.1-2.3.pdf</MetaDataItem>
     <MetaDataItem id="1000" name="Identifier" type="0600">FGWPE/F-101</MetaDataItem>
-    <MetaDataItem name="Description">Fibaro Wall Plug is a universal, Z-Wave compatible, relay switch in 
-the form of a socket adapter. The Plug may be used to operate any 
-device up to 2,500W power output. The Plug features power 
-consumption measuring and uses a crystal LED ring to visualize the 
+    <MetaDataItem name="Description">Fibaro Wall Plug is a universal, Z-Wave compatible, relay switch in
+the form of a socket adapter. The Plug may be used to operate any
+device up to 2,500W power output. The Plug features power
+consumption measuring and uses a crystal LED ring to visualize the
 current load by color changing illumination.
-Fibaro Wall Plug may be operated using the service button located 
+Fibaro Wall Plug may be operated using the service button located
 on its casing, or via any Z-Wave compatible controller.
 </MetaDataItem>
     <ChangeLog>

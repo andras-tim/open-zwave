@@ -12,7 +12,7 @@
 3.	Sensor Fault
 4.	Alarm removal from mounting plate
 5.	End of life to make sure it is replaced on time.
-The device is a secure Z-Wave Plus device and can be used in one wireless Z-Wave network with other certified devices regardless of origin and brand.  
+The device is a secure Z-Wave Plus device and can be used in one wireless Z-Wave network with other certified devices regardless of origin and brand.
 </MetaDataItem>
     <MetaDataItem name="WakeupDescription">A single click on the button will wakeup the device.</MetaDataItem>
     <MetaDataItem name="InclusionDescription">Pressing the button 'Inclusion Button' for one second will include the device. If the button is pressed for at least 2 seconds the inclusion will be done without the Security Command Class. </MetaDataItem>

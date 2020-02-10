@@ -8,8 +8,8 @@
     <MetaDataItem name="WakeupDescription">Press the Action Button once, which will trigger sending out the Wake up notification command, press and hold the Action Button for 3 seconds, which will toggle on/off the Sensor be waked up for 10 minutes.</MetaDataItem>
     <MetaDataItem id="0070" name="FrequencyName" type="0102">U.S. / Canada / Mexico</MetaDataItem>
     <MetaDataItem name="InclusionDescription">Turn the primary controller into inclusion mode, short press the product’s Action Button that you can find in the back of the product.</MetaDataItem>
-    <MetaDataItem name="Description">Aeon Labs Door/ Window Sensor 6 is a smart Z-Wave sensor that can detect the status of door/window's open/close in real time. 
-It’s a security Z-Wave device that supports security encryption. Also it supports the “Over the Air Firmware Updating” that allows you wirelessly update its firmware if needs. 
+    <MetaDataItem name="Description">Aeon Labs Door/ Window Sensor 6 is a smart Z-Wave sensor that can detect the status of door/window's open/close in real time.
+It’s a security Z-Wave device that supports security encryption. Also it supports the “Over the Air Firmware Updating” that allows you wirelessly update its firmware if needs.
 It can be included and operated in any Z-Wave network with other Z-Wave certified devices from manufacturers and/or other applications.</MetaDataItem>
     <MetaDataItem name="Name">Door/ Window Sensor 6</MetaDataItem>
     <MetaDataItem name="ResetDescription">Press the Action Button once that you can find in the back of the product for 20 seconds and then release. This procedure should only be used when the primary controller is inoperable.</MetaDataItem>

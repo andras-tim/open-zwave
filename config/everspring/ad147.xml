@@ -26,7 +26,7 @@
   <CommandClass id="112">
     <Value genre="config" index="1" label="Basic Set Command value" max="255" min="0" type="short" units="" value="255">
       <Help>
-	0 is off. 1 to 99 sets output level at specified value. 
+	0 is off. 1 to 99 sets output level at specified value.
 255 sets output level at last memorized level
       </Help>
     </Value>

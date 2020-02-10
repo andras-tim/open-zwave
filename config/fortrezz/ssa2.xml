@@ -7,7 +7,7 @@
     <MetaDataItem name="Name">FortrezZ SSA1/SSA2 Siren &amp; Strobe Alarm</MetaDataItem>
     <MetaDataItem id="0107" name="FrequencyName" type="0313">U.S. / Canada / Mexico</MetaDataItem>
     <MetaDataItem name="Description">The SSA1 / SSA2 is a Z-Wave enabled device that will sound a loud siren and/or flash a strobe light when signaled via a Z-Wave enabled network. SSA1: clear lens version; SSA2: red lens version.Integrate it into the home automation and/ or security network, and this siren/strobe module will deliver the audible and visual notifications you can depend on.
-- SSA will sound a loud audible alarm >110dB@1m and a strobe lighting when an alarm signal is received from a device in the Z-Wave home network. 
+- SSA will sound a loud audible alarm >110dB@1m and a strobe lighting when an alarm signal is received from a device in the Z-Wave home network.
 - Intended for use inside a Z-Wave Home Automation network as a Siren / Strobe Light Alarm.
 
 - Can be used in a normal, existing home’s security system with wired controllers, using  Z-Wave to RS-232/485 bridge.

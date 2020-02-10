@@ -15,7 +15,7 @@
 2) Set the Z-Wave network main controller into learning mode (see Z-Wave network controller operating manual).
 3) Triple clicking the Z-button.
 4) If the inclusion is successful, the LED will blink less than 5 seconds and then keep on for 3 seconds, otherwise the LED will blink 5 seconds and then turn off, in which you need to repeat the process from step 2.
-Add for inclusion (security): 
+Add for inclusion (security):
 1) Insert two CR123A batteries.
 2) Set the Z-Wave network main controller into learning mode (see Z-Wave network controller operating manual).
 3) Press and hold the Z-button for 3 seconds.

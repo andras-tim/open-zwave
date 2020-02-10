@@ -8,9 +8,9 @@
     <MetaDataItem name="ExclusionDescription">To Exclude your switch, put your HUB in exclusion mode and press the Configuration Button three (3) times.</MetaDataItem>
     <MetaDataItem id="0001" name="FrequencyName" type="0004">U.S. / Canada / Mexico</MetaDataItem>
     <MetaDataItem name="ProductManual">https://products.z-wavealliance.org/ProductManual/File?folder=&amp;filename=MarketCertificationFiles/3452/LZW30%20Manual.pdf</MetaDataItem>
-    <MetaDataItem name="ResetDescription">You may factory reset the switch by holding down the Config Button for twenty (20) or more seconds. The LED Bar will turn Red and blink three (3) times to confirm. 
+    <MetaDataItem name="ResetDescription">You may factory reset the switch by holding down the Config Button for twenty (20) or more seconds. The LED Bar will turn Red and blink three (3) times to confirm.
 
-However, we recommend using a certified Z-Wave controller to remove the device from your network for factory resetting the switch. 
+However, we recommend using a certified Z-Wave controller to remove the device from your network for factory resetting the switch.
 
 Only use either of these procedures in the event that the network primary controller is missing or otherwise inoperable.
     </MetaDataItem>

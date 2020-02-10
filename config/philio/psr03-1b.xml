@@ -7,15 +7,15 @@ https://products.z-wavealliance.org/products/2432
     <MetaDataItem name="ProductPic">images/philio/psr03-1b.png</MetaDataItem>
     <MetaDataItem id="001D" name="ZWProductPage" type="0008">https://products.z-wavealliance.org/products/1176/</MetaDataItem>
     <MetaDataItem name="ExclusionDescription">1. Have Z-Wave ™  Controller entered remove mode.
-2. Hold down the central key, then press the top-right 
-key three times within 1.5 seconds to enter the 
+2. Hold down the central key, then press the top-right
+key three times within 1.5 seconds to enter the
 remove mode.
 Node ID has been excluded.</MetaDataItem>
     <MetaDataItem id="001D" name="Identifier" type="0008">PSR03</MetaDataItem>
     <MetaDataItem name="ResetDescription">Notice: Use this procedure only in the event that the primary controller is lost or otherwise inoperable.
 1. Hold down the central key, then press the top-right key four times within 1.5 seconds and do not release the top-right key in the 4 th  pressed, and the LED will light ON.
 2. After 3 seconds the LED will turn OFF, after that within 2 seconds, release the keys. If successful, the LED will light ON one second. Otherwise, the LED will flash once.
-3. IDs are remove and all settings will reset to factory 
+3. IDs are remove and all settings will reset to factory
 default.</MetaDataItem>
     <MetaDataItem name="Name">Remote</MetaDataItem>
     <MetaDataItem id="001D" name="FrequencyName" type="0008">CEPT (Europe)</MetaDataItem>

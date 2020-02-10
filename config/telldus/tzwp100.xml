@@ -11,7 +11,7 @@
     <MetaDataItem name="InclusionDescription">Tripple click the button on the device</MetaDataItem>
     <MetaDataItem id="0001" name="Identifier" type="0003">TZWP-100</MetaDataItem>
     <MetaDataItem name="ResetDescription">Press and hold the button until the LED starts flashing white (approx. 6 seconds).
-Press the button once more, short. 
+Press the button once more, short.
 
 Please note!  Only use the reset procedure when the primary controller is missing or inoperable.
 </MetaDataItem>

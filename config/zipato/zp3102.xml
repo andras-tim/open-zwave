@@ -21,7 +21,7 @@ sensor should stop flashing, if not, please try again.</MetaDataItem>
 switch, LED ON &amp; send out Alarm Report. Press Program Switch
 10 times within 10 seconds. Multisensor Duo will send the “Device
 Reset Locally Notification” command and reset to the factory
-default settings. 
+default settings.
 
 (Remark: This is to be done only in case of primary
 controller being inoperable or otherwise unavailable.)</MetaDataItem>

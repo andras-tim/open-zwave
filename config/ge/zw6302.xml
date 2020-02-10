@@ -6,20 +6,20 @@
     <MetaDataItem id="3133" name="Identifier" type="4953">34193/ZW6302</MetaDataItem>
     <MetaDataItem name="ProductManual">https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&amp;filename=Manuals/2124/34194 QSG and Parameter List.pdf</MetaDataItem>
     <MetaDataItem id="3133" name="FrequencyName" type="4953">U.S. / Canada / Mexico</MetaDataItem>
-    <MetaDataItem name="ExclusionDescription">1. Follow the instructions for your Z-Wave certified controller to exclude a device from the Z-Wave network. 
+    <MetaDataItem name="ExclusionDescription">1. Follow the instructions for your Z-Wave certified controller to exclude a device from the Z-Wave network.
  2. Once the controller is ready to exclude your device, press and release the program button to exclude it from the network. </MetaDataItem>
     <MetaDataItem name="Name">Portable Smart Motion Sensor </MetaDataItem>
-    <MetaDataItem name="Description">Make the move toward convenience with the Z-Wave Portable Smart Motion Sensor for your home. 
-This Z-Wave compatible device boosts the safety of your home by working with your home’s gateway 
-to wirelessly trigger scenes and send alerts to your smartphone or tablet whenever motion is detected. 
-Use the included batteries for easy placement anywhere, plug into the wall using a AC adapter and 
+    <MetaDataItem name="Description">Make the move toward convenience with the Z-Wave Portable Smart Motion Sensor for your home.
+This Z-Wave compatible device boosts the safety of your home by working with your home’s gateway
+to wirelessly trigger scenes and send alerts to your smartphone or tablet whenever motion is detected.
+Use the included batteries for easy placement anywhere, plug into the wall using a AC adapter and
 USB cable – never replace batteries again.
 </MetaDataItem>
-    <MetaDataItem name="ResetDescription">1. Press the program button 10 times within 6 seconds. 
-2. The blue LED will blink for 3 seconds. 
+    <MetaDataItem name="ResetDescription">1. Press the program button 10 times within 6 seconds.
+2. The blue LED will blink for 3 seconds.
 Note: This should only be done in the event your primary controller is missing or otherwise inoperable.</MetaDataItem>
-    <MetaDataItem name="InclusionDescription">1. Follow the instructions for your Z-Wave certified controller to include a device to the Z-Wave network. 
-2. Once the controller is ready to include your device, press and release the program button to include it in the network. 
+    <MetaDataItem name="InclusionDescription">1. Follow the instructions for your Z-Wave certified controller to include a device to the Z-Wave network.
+2. Once the controller is ready to include your device, press and release the program button to include it in the network.
 3. The blue LED will activate for 3 seconds to confirm it has been included.</MetaDataItem>
     <ChangeLog>
       <Entry author="Justin Hammond - Justin@dynam.ac" date="24 May 2019" revision="2">Initial Metadata Import from Z-Wave Alliance Database - https://products.z-wavealliance.org/products/1902/xml</Entry>

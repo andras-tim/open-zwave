@@ -23,7 +23,7 @@
 3. Move the Magnet and Sensor Base in and out of the closed position 6 times.
 4. The LED Indicator will light up red for five seconds when reset successfully.
 
-The Door/Window Sensor Pro memory will be erased to factory settings. 
+The Door/Window Sensor Pro memory will be erased to factory settings.
 </MetaDataItem>
     <MetaDataItem id="0201" name="FrequencyName" type="0003">U.S. / Canada / Mexico / CEPT (Europe) / Australia / New Zealand</MetaDataItem>
     <MetaDataItem id="0201" name="Identifier" type="0003">DMDP1</MetaDataItem>

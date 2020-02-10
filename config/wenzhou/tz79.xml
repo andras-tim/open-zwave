@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Product xmlns='https://github.com/OpenZWave/open-zwave' Revision="1">
     <!--
-    Wenzhou TKB Control System TZ79 Power meter Relay Switch 
+    Wenzhou TKB Control System TZ79 Power meter Relay Switch
     -->
     <!-- Configuration -->
     <CommandClass id="112">

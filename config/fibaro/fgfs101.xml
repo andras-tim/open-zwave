@@ -40,11 +40,11 @@ Possible parameter settings:1 to 1000 [each 0.01oC] [0.01oC to 10.00oC].</Help>
       <Item label="Flood ACTIVE, tamper ACTIVE" value="3"/>
     </Value>
     <Value genre="config" index="50" instance="1" label="Low temperature alarm threshold." max="10000" min="-10000" type="short" value="1500">
-      <Help>The parameter stores a temperature value, below which LED indicator blinks with a colour determined by Parameter 61 settings. By default the LED indicator blinks blue. 
+      <Help>The parameter stores a temperature value, below which LED indicator blinks with a colour determined by Parameter 61 settings. By default the LED indicator blinks blue.
 Possible parameter settings:-10000 to 10000 [each 0.01oC] [-100oC to 100oC].</Help>
     </Value>
     <Value genre="config" index="51" instance="1" label="High temperature alarm threshold." max="10000" min="-10000" type="short" value="3500">
-      <Help>The parameter stores a temperature value, above which LED indicator blinks with a colour determined by Parameter 62 settings. By default the LED indicator blinks red. 
+      <Help>The parameter stores a temperature value, above which LED indicator blinks with a colour determined by Parameter 62 settings. By default the LED indicator blinks red.
 Possible parameter settings:-10000 to 10000 [each 0.01oC] [-100oC to 100oC].</Help>
     </Value>
     <Value genre="config" index="61" instance="1" label="Low temperature alarm indicator colour." max="16777215" min="0" type="int" value="255">

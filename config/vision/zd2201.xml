@@ -4,8 +4,8 @@
     <MetaDataItem name="ProductPic">images/vision/zd2201.png</MetaDataItem>
     <MetaDataItem id="1F10" name="ZWProductPage" type="201F">https://products.z-wavealliance.org/products/2480/</MetaDataItem>
     <MetaDataItem id="1F10" name="FrequencyName" type="201F">CEPT (Europe) / Japan</MetaDataItem>
-    <MetaDataItem name="ResetDescription">Factory Default Reset: 
-*Open the rear cover to send the Alarm Report and then press the program switch 10 times in 10 seconds, ZD2301 will send the “Device Reset Locally” command and reset to the factory default. 
+    <MetaDataItem name="ResetDescription">Factory Default Reset:
+*Open the rear cover to send the Alarm Report and then press the program switch 10 times in 10 seconds, ZD2301 will send the “Device Reset Locally” command and reset to the factory default.
 * Please use this procedure only in the event that the network primary controller is missing or otherwise inoperable.
 </MetaDataItem>
     <MetaDataItem name="WakeupDescription">Use “Wake Up” command to set up the awaking time and send the wake up notification to controller.  User can use command to change the auto wake up from 10 minutes to 1 week, Interval increment is 3 minutes.</MetaDataItem>

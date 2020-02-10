@@ -44,7 +44,7 @@ described in "Adding the device" on page 8.
 8)	Successful removing will be confirmed by the Z-Wave controller’s message and sequence of 2 short beeps, pause, 1 short beep.
 </MetaDataItem>
     <MetaDataItem name="Description">FIBARO Swipe is a revolutionary, battery-powered gesture control pad that allows you to control devices through the Z-Wave network. Swipe your hand up, down, left or right in front of the pad, make circular gestures and use sequences of gestures to get full and intuitive control of your smart home.
-Installed device perfectly matches your interior design, as it resembles a picture frame. You can even personalize it with your favourite picture. Gesture controlled menu allow to add/remove or reset the device without dismounting it. 
+Installed device perfectly matches your interior design, as it resembles a picture frame. You can even personalize it with your favourite picture. Gesture controlled menu allow to add/remove or reset the device without dismounting it.
 The device is equipped with a buzzer that confirms performed gestures and other actions.
 </MetaDataItem>
     <MetaDataItem id="1000" name="Identifier" type="0D01">FGGC-001</MetaDataItem>

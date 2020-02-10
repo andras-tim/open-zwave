@@ -7,11 +7,11 @@
     <MetaDataItem id="0085" name="Identifier" type="0003">NAS-WS01Z</MetaDataItem>
     <MetaDataItem name="InclusionDescription">Add the Sensor to Z-Wave Network
 
-1.Remove the sensor cover. 
+1.Remove the sensor cover.
 
-2.Make sure the sensor is powered. 
+2.Make sure the sensor is powered.
 
-3.Set Z-Wave controller or Z-Wave gateway into inclusion mode (Refer to the controller or gateway operating manual) 
+3.Set Z-Wave controller or Z-Wave gateway into inclusion mode (Refer to the controller or gateway operating manual)
 
 4.Press the button three times within 1.5 second, the device will enter inclusion mode. And the LED will flash on and off alternately five times. </MetaDataItem>
     <MetaDataItem name="Description">In the front casing, there is button that is used to carry out include, exclude or reset factory default settings on PCB Board.
@@ -22,11 +22,11 @@ This product can be included and operated in any Z-Wave network with other Z-Wav
     <MetaDataItem name="Name">Water Sensor </MetaDataItem>
     <MetaDataItem name="ExclusionDescription">Delete the Sensor from Z-Wave Network
 
-1.Remove the device cover. 
+1.Remove the device cover.
 
-2.Make sure the sensor is powered. 
+2.Make sure the sensor is powered.
 
-3.Set Z-Wave controller or Z-Wave gateway into exclusion mode (Refer to the controller or gateway operating manual) 
+3.Set Z-Wave controller or Z-Wave gateway into exclusion mode (Refer to the controller or gateway operating manual)
 
 4.Press the button three times within 1.5 second, the device will enter exclusion mode. </MetaDataItem>
     <MetaDataItem name="ResetDescription">Restore the Sensor to Factory Default Settings
@@ -35,11 +35,11 @@ Note: to use the reset procedure only when the primary controller is missing or 
 
 Reset procedure will delete all information on the Z-Wave network and Z-Wave controller or Z-Wave Gateway, and restore the sensor to factory default settings.
 
-1.Remove the device cover. 
+1.Remove the device cover.
 
-2.Make sure the sensor is powered. 
+2.Make sure the sensor is powered.
 
-3.Press and hold the button for 10 seconds, led will blink once. 
+3.Press and hold the button for 10 seconds, led will blink once.
 
 4.Release the button. </MetaDataItem>
     <MetaDataItem name="WakeupDescription">Wakeup the Sensor Manual

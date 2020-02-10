@@ -3,9 +3,9 @@
     <MetaDataItem name="OzwInfoPage">http://www.openzwave.com/device-database/0084:0204:0463</MetaDataItem>
     <MetaDataItem name="ProductPic">images/fortrezz/mimo2plus.png</MetaDataItem>
     <MetaDataItem id="0204" name="ZWProductPage" type="0463">https://products.z-wavealliance.org/products/1893/</MetaDataItem>
-    <MetaDataItem name="ResetDescription">Device Reset to Factory Defaults – Press and hold the program button for 15 seconds and then release. This can be done while the device is either in or out of a network. CAUTION – When this is done in-network, the device will no longer be in the network and all configurations and associations will be set to default. 
+    <MetaDataItem name="ResetDescription">Device Reset to Factory Defaults – Press and hold the program button for 15 seconds and then release. This can be done while the device is either in or out of a network. CAUTION – When this is done in-network, the device will no longer be in the network and all configurations and associations will be set to default.
 Please use this procedure only when your network primary controller is missing or otherwise inoperable.</MetaDataItem>
-    <MetaDataItem name="Description">The MIMO2+ module provides two voltage inputs and two relay outputs (either can be wired normally open or normally closed). 
+    <MetaDataItem name="Description">The MIMO2+ module provides two voltage inputs and two relay outputs (either can be wired normally open or normally closed).
 Z-Wave™ messages can be used to read the inputs and control the outputs. The inputs are very configurable for different trigger conditions and can even be mapped to control the outputs. The module includes a button for Z-Wave™ inclusion/exclusion and an LED for various status indications. The functionality of the SIG1 and SIG2 inputs is:
 - Analog Triggering: Various trigger conditions can be set for high-to-low and low-to-high transitions. This provides great flexibility for capturing digital or analog events in a wide variety of applications. The trigger status can be automatically sent to the controller.
 - Associations: Each input can be associated with up to two other Z-Wave™ devices, so that, for example, an associated device will automatically turn on (or off) based on the occurrence of a trigger event.

@@ -3,7 +3,7 @@
     <MetaDataItem name="OzwInfoPage">http://www.openzwave.com/device-database/000C:000B:0201</MetaDataItem>
     <MetaDataItem name="ProductPic">images/homeseer/hs-fls100plus.png</MetaDataItem>
     <MetaDataItem id="000B" name="ZWProductPage" type="0201">https://products.z-wavealliance.org/products/2947/</MetaDataItem>
-    <MetaDataItem name="Description">HS-FLS100+ is a Z-Wave enabled outdoor motion sensor that may be used for a variety of applications. 
+    <MetaDataItem name="Description">HS-FLS100+ is a Z-Wave enabled outdoor motion sensor that may be used for a variety of applications.
 
 • Use as a stand alone outdoor motion sensor and/or LUX sensor.
 • Use as a replacement sensor for a motion-activated floodlight unit. In this configuration, it can control floodlight loads when motion is sensed or when commands are received from the central controller.</MetaDataItem>

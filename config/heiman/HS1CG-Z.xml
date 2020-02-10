@@ -6,14 +6,14 @@ http://products.z-wavealliance.org/products/2070
     <MetaDataItem name="OzwInfoPage">http://www.openzwave.com/device-database/0260:1000:8003</MetaDataItem>
     <MetaDataItem name="ProductPic">images/zipato/HS1CG-Z.png</MetaDataItem>
     <MetaDataItem id="1000" name="ZWProductPage" type="8003">https://products.z-wavealliance.org/products/2473/</MetaDataItem>
-    <MetaDataItem name="Description">Smart Combustible Gas Sensor in a convenient wall plug form factor for easy installation. 
+    <MetaDataItem name="Description">Smart Combustible Gas Sensor in a convenient wall plug form factor for easy installation.
 
 Built-in audio and led notification systems for gas leakage detection events.</MetaDataItem>
     <MetaDataItem id="1000" name="Identifier" type="8003">hm-hs1cg-z.eu</MetaDataItem>
-    <MetaDataItem name="ExclusionDescription">- Press the Net_Button 3 times within 1.5s 
+    <MetaDataItem name="ExclusionDescription">- Press the Net_Button 3 times within 1.5s
 - If remove Process is successful, Green LED is Blinking 6 times, then turn on </MetaDataItem>
     <MetaDataItem id="1000" name="FrequencyName" type="8003">CEPT (Europe)</MetaDataItem>
-    <MetaDataItem name="ResetDescription">-Long press Net_Button at least 10 seconds in the device. 
+    <MetaDataItem name="ResetDescription">-Long press Net_Button at least 10 seconds in the device.
 -Device Reset Locally notification is Transmitted.
 Please use this procedure only when the network primary controller is missing or otherwise inoperable. </MetaDataItem>
     <MetaDataItem name="ProductManual">https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&amp;filename=Manuals/2473/ZipatoSmartCombustibleGasSensorManual.pdf</MetaDataItem>

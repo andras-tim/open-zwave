@@ -3,7 +3,7 @@
     <MetaDataItem name="OzwInfoPage">http://www.openzwave.com/device-database/026E:5A31:5253</MetaDataItem>
     <MetaDataItem name="ProductPic">images/graber/rsz1.png</MetaDataItem>
     <MetaDataItem id="5A31" name="ZWProductPage" type="5253">https://products.z-wavealliance.org/products/1785/</MetaDataItem>
-    <MetaDataItem name="ExclusionDescription">1. Put Primary Controller into 
+    <MetaDataItem name="ExclusionDescription">1. Put Primary Controller into
 Exclusion Mode
 
 2. Press and Hold Shade Programming Button for >2seconds
@@ -13,7 +13,7 @@ Exclusion Mode
     <MetaDataItem name="ResetDescription">Press and hold the button on the shade for   approximately 15 seconds (the LED will stop flashing when complete).
 
 "Please use this procedure only when the network primary controller is missing or otherwise inoperable." </MetaDataItem>
-    <MetaDataItem name="InclusionDescription">1. Put Primary Controller into 
+    <MetaDataItem name="InclusionDescription">1. Put Primary Controller into
 Inclusion Mode
 
 2. Press and Hold Shade Programming Button for >2seconds

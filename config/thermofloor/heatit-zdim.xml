@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Product Revision="1" xmlns="https://github.com/OpenZWave/open-zwave">
   <MetaData>
-    <MetaDataItem name="OzwInfoPage">http://www.openzwave.com/device-database/019b:2200:0003</MetaDataItem>  
-    <MetaDataItem name="ProductPic">images/thermofloor/heatit_zdim.png</MetaDataItem>	
-    <MetaDataItem id="2200" name="ZWProductPage" type="0003">https://products.z-wavealliance.org/products/3261</MetaDataItem>  
-    <MetaDataItem id="2200" name="Identifier" type="0003">Zdim</MetaDataItem>	
-    <MetaDataItem name="ProductManual">https://products.z-wavealliance.org/ProductManual/File?folder=&amp;filename=product_documents/3261/Manual_Heatit_Z-DIM_FW%201.0_Ver2019-A_ENG.pdf</MetaDataItem>	
+    <MetaDataItem name="OzwInfoPage">http://www.openzwave.com/device-database/019b:2200:0003</MetaDataItem>
+    <MetaDataItem name="ProductPic">images/thermofloor/heatit_zdim.png</MetaDataItem>
+    <MetaDataItem id="2200" name="ZWProductPage" type="0003">https://products.z-wavealliance.org/products/3261</MetaDataItem>
+    <MetaDataItem id="2200" name="Identifier" type="0003">Zdim</MetaDataItem>
+    <MetaDataItem name="ProductManual">https://products.z-wavealliance.org/ProductManual/File?folder=&amp;filename=product_documents/3261/Manual_Heatit_Z-DIM_FW%201.0_Ver2019-A_ENG.pdf</MetaDataItem>
     <MetaDataItem name="Description">Z-Wave rotary dimmer for different light sources. The LED dimmer dims at low load without the light flickering. Dimmer LED from 1-200VA, 230V halogen and incandescent bulbs, dimmable LED drivers and electronic transformers. Not affected by additional starting currents. Need L + N conductor connected.
 The dimmer has end-turn function. This allows you to turn on the light and dimming with one dimmer, and then turn off the light with another dimmer. Convenient for example in stairs and corridors.
 The dimmer fits into standard Elko, Schneider Exxact and Gira System 55 frame systems.
@@ -83,11 +83,11 @@ Press the main button on dimmer 6 times in a rapid sequence. Heatit Z-DIM is now
       <Entry author="Pål Kristensen - paalkr77@gmail.com" date="10 January 2020" revision="1">Initial release</Entry>
     </ChangeLog>
   </MetaData>
-  
+
   <CommandClass id="112">
     <Value genre="config" instance="1" index="1" value="0" label="Connected Load" size="1" min="0" max="200" type="byte">
       <Help>
-The parameter defines the value of connected load. Refer to Paragraph 8 "Power Metering". 
+The parameter defines the value of connected load. Refer to Paragraph 8 "Power Metering".
 0 = Default
 1 - 200 = 1-200 Watts connected load
 
@@ -98,12 +98,12 @@ estimated value, therefore power consumption accuracy depends on load estimation
 1. Estimate the load value (Watt) connected to the Heatit Z-Dim.
 2. Use this value in Parameter 1.
 Heatit Z-Dim can report accumulated (kWh) and instant (Watt), or only instant (Watt)
-power consumption. The report time interval can be altered by Parameter 9. 
+power consumption. The report time interval can be altered by Parameter 9.
 	  </Help>
     </Value>
     <Value genre="config" instance="1" index="2" value="20" label="Minimum Dim level" units="%" size="1" min="1" max="98" type="byte">
       <Help>
-The parameter defines the lowest dimming level of the dimmer. The value must be lower than parameter 3 "Maximum Dim Level"	  
+The parameter defines the lowest dimming level of the dimmer. The value must be lower than parameter 3 "Maximum Dim Level"
 1% - 98% Default is 20 (20%)
 	  </Help>
     </Value>
@@ -111,7 +111,7 @@ The parameter defines the lowest dimming level of the dimmer. The value must be 
       <Help>
 The parameter defines the highest dimming level of the dimmer.
 The value must be higher than parameter 2 "Minimum Dim Level"
-2% - 99% Default is 85 (85%)	  
+2% - 99% Default is 85 (85%)
 	  </Help>
     </Value>
     <Value genre="config" instance="1" index="4" value="15" label="Total steps" units="step" size="1" min="5" max="255" type="byte">
@@ -134,7 +134,7 @@ to maximum dim level (One round = 20 steps).
     <Value genre="config" instance="1" index="7" value="0" label="Switch ON level" units="%" size="1" min="0" max="99" type="byte">
       <Help>
 The parameter defines the dimming level when restored from the OFF state
-by push button. 
+by push button.
 0 = Restores last dim level (Default)
 1 - 99 = 1% - 99%
 	  </Help>
@@ -142,7 +142,7 @@ by push button.
     <Value genre="config" instance="1" index="8" value="1" label="Dimming Duration" units="time" size="1" min="0" max="255" type="byte">
       <Help>
 The parameter defines how long it takes to dim to the desired level.
-Note! Only Multilevel Switch Command Class is affected by this parameter. 
+Note! Only Multilevel Switch Command Class is affected by this parameter.
 0 = Disabled
 1 - 127 = Duration in seconds (1 - 127 seconds. Default is 1)
 128 - 255 = Duration in minutes (1 - 127 minutes)

@@ -11,8 +11,8 @@
     <MetaDataItem id="0059" name="Identifier" type="0102">ZW089-A</MetaDataItem>
     <MetaDataItem name="ResetDescription">Press and hold the Z-Wave button that you can find in back of the product for 20 seconds and then release. This procedure should only be used when the primary controller is inoperable.</MetaDataItem>
     <MetaDataItem name="ExclusionDescription">Turn the primary controller of Z-Wave network into exclusion mode, short press the product’s Z-Wave button that you can find in back of the product.</MetaDataItem>
-    <MetaDataItem name="Description">The Aeotec by Aeon Labs Recessed Door Sensor Gen5 is a door sensor that can detect the state of the door's open/close. It will report the door state to your controller/ gateway/associated nodes in real time when the state of your door has a change. 
-It’s a security Z-Wave device that supports security encryption. Also it supports the “Over the Air Firmware Updating” that allows you wirelessly update its firmware if needs. 
+    <MetaDataItem name="Description">The Aeotec by Aeon Labs Recessed Door Sensor Gen5 is a door sensor that can detect the state of the door's open/close. It will report the door state to your controller/ gateway/associated nodes in real time when the state of your door has a change.
+It’s a security Z-Wave device that supports security encryption. Also it supports the “Over the Air Firmware Updating” that allows you wirelessly update its firmware if needs.
 It can be included and operated in any Z-Wave network with other Z-Wave certified devices from manufacturers and/or other applications.
 </MetaDataItem>
     <ChangeLog>
@@ -32,22 +32,22 @@ It can be included and operated in any Z-Wave network with other Z-Wave certifie
   <CommandClass action="remove" id="113"/>
   <CommandClass id="112">
     <Value genre="config" index="1" instance="1" label="Sensor Binary Report Toggle" max="1" min="0" size="1" type="list" value="0">
-      <Help>Which value of the Sensor Binary Report will be sent when 
+      <Help>Which value of the Sensor Binary Report will be sent when
             the magnet switch to open/close.</Help>
       <Item label="Normal" value="0"/>
       <Item label="Inverse" value="1"/>
     </Value>
     <Value genre="config" index="3" instance="1" label="Basic Set Toggle" max="1" min="0" size="1" type="list" value="0">
-      <Help>Which value of the Basic Set will be sent when the magnet 
+      <Help>Which value of the Basic Set will be sent when the magnet
             switch to open/close.
             </Help>
       <Item label="Normal" value="0"/>
       <Item label="Inverse" value="1"/>
     </Value>
     <Value genre="config" index="101" instance="1" label="Low Battery Check Enable" max="1" min="0" size="1" type="list" value="0">
-      <Help>Enable/disable the function of low battery checking, when 
-            the current voltage is less than the warning voltage, it will 
-            send the Battery Low Warning Report. 
+      <Help>Enable/disable the function of low battery checking, when
+            the current voltage is less than the warning voltage, it will
+            send the Battery Low Warning Report.
             </Help>
       <Item label="Disabled" value="0"/>
       <Item label="Enabled" value="1"/>

@@ -17,14 +17,14 @@ Use reset procedure only if the primary controller is missing or inoperable.
 </MetaDataItem>
     <MetaDataItem id="1000" name="Identifier" type="0403">FGS-213</MetaDataItem>
     <MetaDataItem name="InclusionDescription">1)           Switch off the mains voltage (disable the fuse).
-2)           Make sure the Switch 2 is within the direct range of your Z-Wave controller. 
+2)           Make sure the Switch 2 is within the direct range of your Z-Wave controller.
 3)           Connect the device in accordance with one of the diagrams included in the manual.
 4)           After verifying correctness of the connection switch on the mains voltage.
-5)           Identify the S1 switch or the B-button (located on the device’s housing). 
-6)           Set the main controller in (security/non-security) add mode (see the controller’s manual). 
-7)           Quickly, three times press the S1 switch or the B-button. 
-8)           Wait for the adding process to end. 
-9)           Successful adding will be confirmed by the Z-Wave controller’s message. 
+5)           Identify the S1 switch or the B-button (located on the device’s housing).
+6)           Set the main controller in (security/non-security) add mode (see the controller’s manual).
+7)           Quickly, three times press the S1 switch or the B-button.
+8)           Wait for the adding process to end.
+9)           Successful adding will be confirmed by the Z-Wave controller’s message.
 </MetaDataItem>
     <MetaDataItem name="WakeupDescription">The FIBARO Single Switch 2 is powered with the mains voltage so it is always awake.</MetaDataItem>
     <MetaDataItem name="Description">The remotely operated FIBARO Single Switch 2 is designed to turn electrical devices on and off and to measure their power and energy consumption. The compact size of the device makes it the world's smallest of its type and allows for the product to be installed in wall switch boxes or housings. FIBARO Single Switch 2 can be controlled either via Z-Wave network or with a wall switch through a direct connection.</MetaDataItem>

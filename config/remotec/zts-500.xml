@@ -20,7 +20,7 @@ The Z-Wave disconnect icon will also be removed from the standby screen.
 -	The “x” symbol will be displayed on screen if there is no action (time out) or unable to include the ZTS-500US into the network.
 </MetaDataItem>
     <MetaDataItem id="8170" name="Identifier" type="0200">ZTS-500US</MetaDataItem>
-    <MetaDataItem name="ExclusionDescription">Press and keep holding > or &lt; for 3 seconds to navigate to the System Main (SYS) screen. 
+    <MetaDataItem name="ExclusionDescription">Press and keep holding > or &lt; for 3 seconds to navigate to the System Main (SYS) screen.
 On the Z-Wave (Z-w) screen.
 Tap + to exclude ZTS-500US from the network.
 Press &lt; to cancel and back to the previous screen.

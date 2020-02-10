@@ -11,12 +11,12 @@ Use this procedure only in the event that the network primary controller is miss
     <MetaDataItem name="Description">The 2 ports smart plug provides one Z-Wave outlet for remote controlled by controller through Z-Wave gateway for internet of thing service and can be configured in Z-Wave sensor network,</MetaDataItem>
     <MetaDataItem name="InclusionDescription">1. Follow the instructions for your Z-Wave certified controller to include
     a device to the Z-Wave network.
-2. Once the controller is ready to include your device, press up and 
+2. Once the controller is ready to include your device, press up and
      release the toggle to include it in the network. </MetaDataItem>
     <MetaDataItem id="241C" name="FrequencyName" type="B211">U.S. / Canada / Mexico</MetaDataItem>
-    <MetaDataItem name="ExclusionDescription">1. Follow the instructions for your Z-Wave certified controller to exclude 
+    <MetaDataItem name="ExclusionDescription">1. Follow the instructions for your Z-Wave certified controller to exclude
     a device from the Z-Wave network.
-2. Once the controller is ready to Exclude your device, press up and 
+2. Once the controller is ready to Exclude your device, press up and
      release the toggle to exclude it from the network. </MetaDataItem>
     <ChangeLog>
       <Entry author="Justin Hammond - Justin@dynam.ac" date="02 Jun 2019" revision="2">Initial Metadata Import from Z-Wave Alliance Database - https://products.z-wavealliance.org/products/2352/xml</Entry>

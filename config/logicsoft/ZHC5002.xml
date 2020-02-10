@@ -107,51 +107,51 @@
 		</Value>
 		<Value type="int" genre="config" index="13" label="Multilevel Switch on single press for device 1 (button #1)" value="33488896" size="4">
 			<Help>
-			Byte 1: Enable / Disable 0 = Disabled - When single pressing the button, nodes associated to group 6 wont be switched. 1 = Enabled - When single pressing the button, nodes associated to group 6 will be switched between the configured upper and lower switch values. (Default) 
-			Byte 2: Upper switch value: 0 - 99, 255; When single pressing the button for ON, a Multilevel Switch Set with this value will be send to devices in association group 6. (Default = 255) 
-			Byte 3: Lower switch value: 0 - 99; When single pressing the button for OFF, a Multilevel Switch Set with this value will be send to devices in association group 6. (Default = 0) 
+			Byte 1: Enable / Disable 0 = Disabled - When single pressing the button, nodes associated to group 6 wont be switched. 1 = Enabled - When single pressing the button, nodes associated to group 6 will be switched between the configured upper and lower switch values. (Default)
+			Byte 2: Upper switch value: 0 - 99, 255; When single pressing the button for ON, a Multilevel Switch Set with this value will be send to devices in association group 6. (Default = 255)
+			Byte 3: Lower switch value: 0 - 99; When single pressing the button for OFF, a Multilevel Switch Set with this value will be send to devices in association group 6. (Default = 0)
 			Byte 4: Not used - must be set to 0.
-			</Help>                        
+			</Help>
 		</Value>
 		<Value type="int" genre="config" index="14" label="Multilevel Switch on single press for device 2 (button #2)" value="33488896" size="4">
 			<Help>
-			Byte 1: Enable / Disable 0 = Disabled - When single pressing the button, nodes associated to group 6 wont be switched. 1 = Enabled - When single pressing the button, nodes associated to group 6 will be switched between the configured upper and lower switch values. (Default) 
-			Byte 2: Upper switch value: 0 - 99, 255; When single pressing the button for ON, a Multilevel Switch Set with this value will be send to devices in association group 6. (Default = 255) 
-			Byte 3: Lower switch value: 0 - 99; When single pressing the button for OFF, a Multilevel Switch Set with this value will be send to devices in association group 6. (Default = 0) 
+			Byte 1: Enable / Disable 0 = Disabled - When single pressing the button, nodes associated to group 6 wont be switched. 1 = Enabled - When single pressing the button, nodes associated to group 6 will be switched between the configured upper and lower switch values. (Default)
+			Byte 2: Upper switch value: 0 - 99, 255; When single pressing the button for ON, a Multilevel Switch Set with this value will be send to devices in association group 6. (Default = 255)
+			Byte 3: Lower switch value: 0 - 99; When single pressing the button for OFF, a Multilevel Switch Set with this value will be send to devices in association group 6. (Default = 0)
 			Byte 4: Not used - must be set to 0.
-			</Help>                        
+			</Help>
 		</Value>
 		<Value type="int" genre="config" index="15" label="Multilevel Switch on single press for device 3 (button #3)" value="33488896" size="4">
 			<Help>
-			Byte 1: Enable / Disable 0 = Disabled - When single pressing the button, nodes associated to group 6 wont be switched. 1 = Enabled - When single pressing the button, nodes associated to group 6 will be switched between the configured upper and lower switch values. (Default) 
-			Byte 2: Upper switch value: 0 - 99, 255; When single pressing the button for ON, a Multilevel Switch Set with this value will be send to devices in association group 6. (Default = 255) 
-			Byte 3: Lower switch value: 0 - 99; When single pressing the button for OFF, a Multilevel Switch Set with this value will be send to devices in association group 6. (Default = 0) 
+			Byte 1: Enable / Disable 0 = Disabled - When single pressing the button, nodes associated to group 6 wont be switched. 1 = Enabled - When single pressing the button, nodes associated to group 6 will be switched between the configured upper and lower switch values. (Default)
+			Byte 2: Upper switch value: 0 - 99, 255; When single pressing the button for ON, a Multilevel Switch Set with this value will be send to devices in association group 6. (Default = 255)
+			Byte 3: Lower switch value: 0 - 99; When single pressing the button for OFF, a Multilevel Switch Set with this value will be send to devices in association group 6. (Default = 0)
 			Byte 4: Not used - must be set to 0.
-			</Help>                        
+			</Help>
 		</Value>
 		<Value type="int" genre="config" index="16" label="Multilevel Switch on single press for device 4 (button #4)" value="33488896" size="4">
 			<Help>
-			Byte 1: Enable / Disable 0 = Disabled - When single pressing the button, nodes associated to group 6 wont be switched. 1 = Enabled - When single pressing the button, nodes associated to group 6 will be switched between the configured upper and lower switch values. (Default) 
-			Byte 2: Upper switch value: 0 - 99, 255; When single pressing the button for ON, a Multilevel Switch Set with this value will be send to devices in association group 6. (Default = 255) 
-			Byte 3: Lower switch value: 0 - 99; When single pressing the button for OFF, a Multilevel Switch Set with this value will be send to devices in association group 6. (Default = 0) 
+			Byte 1: Enable / Disable 0 = Disabled - When single pressing the button, nodes associated to group 6 wont be switched. 1 = Enabled - When single pressing the button, nodes associated to group 6 will be switched between the configured upper and lower switch values. (Default)
+			Byte 2: Upper switch value: 0 - 99, 255; When single pressing the button for ON, a Multilevel Switch Set with this value will be send to devices in association group 6. (Default = 255)
+			Byte 3: Lower switch value: 0 - 99; When single pressing the button for OFF, a Multilevel Switch Set with this value will be send to devices in association group 6. (Default = 0)
 			Byte 4: Not used - must be set to 0.
-			</Help>                        
+			</Help>
 		</Value>
 		<Value type="int" genre="config" index="17" label="Multilevel Switch on single press for device 5 (button #5)" value="33488896" size="4">
 			<Help>
-			Byte 1: Enable / Disable 0 = Disabled - When single pressing the button, nodes associated to group 6 wont be switched. 1 = Enabled - When single pressing the button, nodes associated to group 6 will be switched between the configured upper and lower switch values. (Default) 
-			Byte 2: Upper switch value: 0 - 99, 255; When single pressing the button for ON, a Multilevel Switch Set with this value will be send to devices in association group 6. (Default = 255) 
-			Byte 3: Lower switch value: 0 - 99; When single pressing the button for OFF, a Multilevel Switch Set with this value will be send to devices in association group 6. (Default = 0) 
+			Byte 1: Enable / Disable 0 = Disabled - When single pressing the button, nodes associated to group 6 wont be switched. 1 = Enabled - When single pressing the button, nodes associated to group 6 will be switched between the configured upper and lower switch values. (Default)
+			Byte 2: Upper switch value: 0 - 99, 255; When single pressing the button for ON, a Multilevel Switch Set with this value will be send to devices in association group 6. (Default = 255)
+			Byte 3: Lower switch value: 0 - 99; When single pressing the button for OFF, a Multilevel Switch Set with this value will be send to devices in association group 6. (Default = 0)
 			Byte 4: Not used - must be set to 0.
-			</Help>                        
+			</Help>
 		</Value>
 		<Value type="int" genre="config" index="18" label="Multilevel Switch on single press for device 6 (button #6)" value="33488896" size="4">
 			<Help>
-			Byte 1: Enable / Disable 0 = Disabled - When single pressing the button, nodes associated to group 6 wont be switched. 1 = Enabled - When single pressing the button, nodes associated to group 6 will be switched between the configured upper and lower switch values. (Default) 
-			Byte 2: Upper switch value: 0 - 99, 255; When single pressing the button for ON, a Multilevel Switch Set with this value will be send to devices in association group 6. (Default = 255) 
-			Byte 3: Lower switch value: 0 - 99; When single pressing the button for OFF, a Multilevel Switch Set with this value will be send to devices in association group 6. (Default = 0) 
+			Byte 1: Enable / Disable 0 = Disabled - When single pressing the button, nodes associated to group 6 wont be switched. 1 = Enabled - When single pressing the button, nodes associated to group 6 will be switched between the configured upper and lower switch values. (Default)
+			Byte 2: Upper switch value: 0 - 99, 255; When single pressing the button for ON, a Multilevel Switch Set with this value will be send to devices in association group 6. (Default = 255)
+			Byte 3: Lower switch value: 0 - 99; When single pressing the button for OFF, a Multilevel Switch Set with this value will be send to devices in association group 6. (Default = 0)
 			Byte 4: Not used - must be set to 0.
-			</Help>                        
+			</Help>
 		</Value>
 		<Value type="list" index="19" genre="config" label="Controll of assosiation groups for device 1 (button#1)" min="0" max="1" value="1" size="1">
 			<Help>Enable or disable if received commands are relayed to the nodes in the assosiation groups</Help>
@@ -194,7 +194,7 @@
 			<Item label="Basic Set commands to endpoint 0 controls backlight (on/off)" value="1" />
 		</Value>
 	</CommandClass>
-	
+
 	<!-- Association Groups -->
 	<CommandClass id="133">
 		<Associations num_groups="31">

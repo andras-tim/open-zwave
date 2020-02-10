@@ -59,7 +59,7 @@ Removing L 810 LED iHF from the Smart Friends system:
                 2-1999 - threshold [lux].
                 2000   - is used as daylight (always night mode).
 
-                Value can be controlled via potentiometer (if present on device)  - potentiometer value is then used as the default value and any potentiometer movement rewrites the current setting. 
+                Value can be controlled via potentiometer (if present on device)  - potentiometer value is then used as the default value and any potentiometer movement rewrites the current setting.
             </Help>
     </Value>
     <Value genre="config" index="3" instance="1" label="Night dim mode and time" max="255" min="0" size="1" type="byte" units="minutes" value="0">
@@ -69,7 +69,7 @@ Removing L 810 LED iHF from the Smart Friends system:
                 1-60     - time [minutes] (enabled in night mode, starts after lamp is switched off after motion detection).
                 255 (-1) - whole night (dim through the whole night when lamp is off).
 
-                Dim mode is also disabled when local control is disabled as well as in Slave imode. 
+                Dim mode is also disabled when local control is disabled as well as in Slave imode.
             </Help>
     </Value>
     <Value genre="config" index="4" instance="1" label="Motion Radar Range" max="500" min="100" size="2" type="short" units="centimeters" value="500">
@@ -118,7 +118,7 @@ Removing L 810 LED iHF from the Smart Friends system:
                   When slave bit is 0:
                     - device signalises fail of lifeline connection (if this bit is zero, fail of lifeline connection is not signalised).
                   When slave bit is 1:
-                    - device checks presence of Z-Wave device in lifeline group (gateway). 
+                    - device checks presence of Z-Wave device in lifeline group (gateway).
                       If it is not present for 2 minutes (testing repeatedly every 30 seconds) device switches to normal mode in the same way as after the end of local disabled mode (ON_BEHAVIOUR).
                     - the device checks every 1 minute for recovery of lifeline connection.
                     - if no lifeline specified - it works in normal mode.
@@ -165,7 +165,7 @@ Removing L 810 LED iHF from the Smart Friends system:
     </Value>
     <Value genre="config" index="12" instance="1" label="On behaviour time over (timeout)" max="255" min="0" size="2" type="short" units="" value="204">
       <Help>
-                Time limit to stop waiting for motion after timeout of ON_BEHAVIOUR or OFF_ON_BEHAVIOUR (0-209) to prevent staying ON forever when there is no motion. 
+                Time limit to stop waiting for motion after timeout of ON_BEHAVIOUR or OFF_ON_BEHAVIOUR (0-209) to prevent staying ON forever when there is no motion.
 
                 Range: 0-209, 255 (default: 204, 4 hours).
                 0     - No additional waiting for motion.

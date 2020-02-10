@@ -5,7 +5,7 @@
     <MetaDataItem id="0001" name="ZWProductPage" type="1000">https://products.z-wavealliance.org/products/20/</MetaDataItem>
     <MetaDataItem id="0001" name="Identifier" type="1000">ZME_06431</MetaDataItem>
     <MetaDataItem name="ProductPage">http://www.pepper1.net/zwavedb/device/117</MetaDataItem>
-    <MetaDataItem name="Description">This Z-Wave.Me switching Flush-Mountable is intended to control all kinds of electrical loads. A 230V powered pattress box is needed for installation. The Flush-Mountable has two buttons. In order to use them for local control the Flush-Mountable needs to be completed with a switching paddle and a mounting frame of one of the DUWI switching series “Everlux” or “Arcada”. 
+    <MetaDataItem name="Description">This Z-Wave.Me switching Flush-Mountable is intended to control all kinds of electrical loads. A 230V powered pattress box is needed for installation. The Flush-Mountable has two buttons. In order to use them for local control the Flush-Mountable needs to be completed with a switching paddle and a mounting frame of one of the DUWI switching series “Everlux” or “Arcada”.
 
 Technical data of the hardware:
 •	Power rating: 230V, 50 Hz
@@ -26,9 +26,9 @@ Technical data of the hardware:
     </ChangeLog>
   </MetaData>
   <!-- Configuration Parameters -->
-	<!--IMPORTANT: Controllers may only allow to configure signed values. 
+	<!--IMPORTANT: Controllers may only allow to configure signed values.
 	    In order to set values in the range  128?255 for parameters 4,  5 and 6 the
-	    value sent in the application shall be the desired value minus 256. 
+	    value sent in the application shall be the desired value minus 256.
 	    For example: to set parameter 4 in Window Blind to 200? sit may be  needed
 	    to set a value of 200?256=?56.
 	    Similar rule applies to parameter 2: to set values in range 32768?65535

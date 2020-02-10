@@ -8,9 +8,9 @@
     <MetaDataItem name="ResetDescription">Use this procedure only in the event that the primary controller is missing or otherwise inoperable.
 
 Press and hold the “Mode” button and “Learn” button for 20 seconds and then release.</MetaDataItem>
-    <MetaDataItem name="Description">Key Fob Gen5 is a fully functional Z-wave remote controller, which can include, exclude and control the other Z-Wave certified devices.  It also can be acted a secondary controller in a network.  
+    <MetaDataItem name="Description">Key Fob Gen5 is a fully functional Z-wave remote controller, which can include, exclude and control the other Z-Wave certified devices.  It also can be acted a secondary controller in a network.
 
-It is a four buttons design. You can use each button to control your home’s Z-Wave devices and build a Z-Wave network for them. 
+It is a four buttons design. You can use each button to control your home’s Z-Wave devices and build a Z-Wave network for them.
 
 Products that are Z-Wave certified can be used and communicate with other Z-Wave certified devices.
 </MetaDataItem>

@@ -6,12 +6,12 @@ http://products.z-wavealliance.org/products/1130
     <MetaDataItem name="ProductPic">images/devolo/mt02648.png</MetaDataItem>
     <MetaDataItem id="000E" name="ZWProductPage" type="0002">https://products.z-wavealliance.org/products/1130/</MetaDataItem>
     <MetaDataItem name="InclusionDescription">There are two tamper keys in the device, one is in the back side, another is in the front side.  Both of them  can add,  remove, reset or association from Z-Wave network.
-To add into a Z-Wave network: 
+To add into a Z-Wave network:
 1. Have Z-Wave  Controller entered inclusion mode.
 2. Pressing tamper key three times within 1.5 seconds to enter the inclusion mode.
 3. After add successful, the device will wake to receive the setting command from Z-Wave Controller about 20 seconds.</MetaDataItem>
     <MetaDataItem name="ExclusionDescription">There are two tamper keys in the device, one is in the back side, another is in the front side.  Both of them  can add,  remove, reset or association from Z-Wave network.
-To remove the device from a Z-Wave network: 
+To remove the device from a Z-Wave network:
 1. Have Z-Wave  Controller entered exclusion mode.
 2. Pressing tamper key three times within 1.5 seconds to enter the exclusion mode.
 Node ID has been excluded.</MetaDataItem>
@@ -22,7 +22,7 @@ Press any key once, the device will awake 10 seconds.</MetaDataItem>
     <MetaDataItem id="000E" name="FrequencyName" type="0002">CEPT (Europe)</MetaDataItem>
     <MetaDataItem id="000E" name="Identifier" type="0002">MT02648</MetaDataItem>
     <MetaDataItem name="ResetDescription">There are two tamper keys in the device, one is in the back side, another is in the front side.  Both of them  can add,  remove, reset or association from Z-Wave network.
-To reset the device: 
+To reset the device:
 Notice: Use this procedure only in the event that the primary controller is lost or otherwise inoperable.
 1. Pressing tamper key four times within 1.5 seconds and do not release the tamper key in the 4th  pressed, and the LED will light ON.
 2. After 3 seconds the LED will turn OFF, after that within 2 seconds, release the tamper key. If successful, the LED will light ON one second. Otherwise, the LED will flash once.
@@ -44,7 +44,7 @@ Notice: Use this procedure only in the event that the primary controller is lost
     </Value>
     <Value genre="config" index="4" label="Light threshold" max="100" min="0" type="byte" value="99">
       <Help>
-          Setting the illumination threshold to turn on the light. When the event triggered and the environment illumination lower than 
+          Setting the illumination threshold to turn on the light. When the event triggered and the environment illumination lower than
           the threshold, the device will turn on the light.
           0 means turn off illumination detected function and never turn on the light.
           1 means darkest.
@@ -85,7 +85,7 @@ Notice: Use this procedure only in the event that the primary controller is lost
     </Value>
     <Value genre="config" index="9" label="Turn Off Light Time" max="127" min="0" type="byte" units="8 sec" value="4">
       <Help>
-          After turn on the lighting, setting the delay time to turn off the lighting when the PIR motion is not detected. 
+          After turn on the lighting, setting the delay time to turn off the lighting when the PIR motion is not detected.
           8 seconds per tick, default tick is 4 (32 seconds). 0 means never send turn off light command.
        </Help>
     </Value>

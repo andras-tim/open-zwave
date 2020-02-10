@@ -12,10 +12,10 @@ http://products.z-wavealliance.org/ProductManual/File?folder=&filename=Manuals/1
     <MetaDataItem name="Name">Ecolink Z-Wave Plus FireFighter</MetaDataItem>
     <MetaDataItem name="ExclusionDescription">Removing Sensor
 A)	Any sensor can be removed from any Z-Wave Plus network with any Z-Wave Plus controller.  Follow the directions to put your Z-Wave Plus Controller into Z-Wave Plus exclusion mode.
-B)	Press the learn button located near the LED and Tamper switch.  If successfully removed from the Z-Wave Plus network, the sensor’s LED should blink continuously if successful. 
+B)	Press the learn button located near the LED and Tamper switch.  If successfully removed from the Z-Wave Plus network, the sensor’s LED should blink continuously if successful.
 </MetaDataItem>
     <MetaDataItem name="ResetDescription"> Factory Default
- The FireFighter™ can be restored back to factory default settings which will remove its Z-Wave Plus node ID from the sensor (but not the controller) with the following steps. 
+ The FireFighter™ can be restored back to factory default settings which will remove its Z-Wave Plus node ID from the sensor (but not the controller) with the following steps.
 A)	Put the battery into the sensor.
 B)	Do not press the tamper switch.
 C)	Hold the learn button down for 10 seconds until the LED turns RED.
@@ -25,9 +25,9 @@ Please use this procedure only when the network primary
 controller is missing or otherwise inoperable. </MetaDataItem>
     <MetaDataItem id="000F" name="FrequencyName" type="0005">U.S. / Canada / Mexico</MetaDataItem>
     <MetaDataItem name="InclusionDescription">Adding Sensor
-A)	Be sure that the Z-Wave Plus Controller you are using is compatible with the FireFighter™. 
-B)	Either mount or move the sensor as close as possible to the place in the building where the sensor is to be mounted in order that the new Z-Wave Plus node is added to the correct place in the mesh network routing tables. 
-C)	To add the sensor to an existing Z-Wave Plus network, follow the directions to put your Z-Wave Plus Controller into add (inclusion) mode. The FireFighter™ enters add and remove (inclusion/exclusion) mode on pressing the learn button for 1 second which is located on the PCB between the LED and the tamper switch. If the LED starts blinking continuously, the sensor has no node ID and was not successfully added, so start step C over again. 
+A)	Be sure that the Z-Wave Plus Controller you are using is compatible with the FireFighter™.
+B)	Either mount or move the sensor as close as possible to the place in the building where the sensor is to be mounted in order that the new Z-Wave Plus node is added to the correct place in the mesh network routing tables.
+C)	To add the sensor to an existing Z-Wave Plus network, follow the directions to put your Z-Wave Plus Controller into add (inclusion) mode. The FireFighter™ enters add and remove (inclusion/exclusion) mode on pressing the learn button for 1 second which is located on the PCB between the LED and the tamper switch. If the LED starts blinking continuously, the sensor has no node ID and was not successfully added, so start step C over again.
 D)	If after 5 seconds the LED is not blinking, look on the Z-Wave Plus controller’s interface for feedback on whether the sensor was added successfully. If you do not see any feedback that the sensor was added, follow directions for removing the sensor from a Z-Wave Plus network, and then try adding the sensor again. If you are still having problems, you may need to add additional Z-Wave Plus listening devices in-between the controller and the sensor.
 </MetaDataItem>
     <ChangeLog>

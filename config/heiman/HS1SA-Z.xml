@@ -12,7 +12,7 @@ http://products.z-wavealliance.org/products/1936
 -  If Inclusion Process is successful, Green led will turn off.
 </MetaDataItem>
     <MetaDataItem name="ExclusionDescription">-  Click [Remove] icon in Z-Wave Controller
--  Press the Net_Button 3 times within 1.5s 
+-  Press the Net_Button 3 times within 1.5s
 -  If Exclusion Process is successful, Green led is Blinking 6 times, then turn off.
 </MetaDataItem>
     <MetaDataItem name="WakeupDescription">-  Wake up Notification is transmitted every 24 hours by default.

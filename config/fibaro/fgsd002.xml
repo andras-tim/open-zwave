@@ -19,7 +19,7 @@ FIBARO Smoke Sensor reset procedure:
     <MetaDataItem id="1002" name="Identifier" type="0C02">FGSD-002</MetaDataItem>
     <MetaDataItem name="Description">The FIBARO Smoke Sensor is a universal, ultra-light, perfectly designed, optical Z-Wave smoke detector. Fire alarm is signalled by sound, visual indicator blinking and alarm reports sent to the other devices within Z-wave network. The optical sensor detects smoke at an early stage of fire, often before flames appear and temperature starts to rise significantly. Moreover, the device has a built-in temperature sensor, which is adjustable to allow detection of fire by exceeding given temperature threshold. The FIBARO Smoke Sensor is a battery powered device designed to be placed on the wall or ceiling. Visual indicator signals fire, operating mode and it is used to check if the device is within the Z-wave network using a built-in Z-Wave range tester. The Smoke Sensor is designed to operate in confined spaces, under normal conditions (lacking of smoke, dust or condensed water vapor).
 
-Product video: 
+Product video:
 https://www.youtube.com/watch?v=50QGfkdUtns
 </MetaDataItem>
     <MetaDataItem name="ProductManual">https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&amp;filename=Manuals/2837/FGSD-002-EN-A-v1.1.pdf</MetaDataItem>

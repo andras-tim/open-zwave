@@ -1,5 +1,5 @@
 <!-- Honeywell(Jasco) 39348 / ZW4008 In-Wall Smart Switch-->
-<Product Revision="1" 
+<Product Revision="1"
   xmlns="https://github.com/OpenZWave/open-zwave">
   <MetaData>
     <!--<MetaDataItem name="OzwInfoPage">http://www.openzwave.com/device-database/</MetaDataItem>-->
@@ -32,7 +32,7 @@ Note: This should only be used in the event your network’s primary controller 
       <Item label="LED always on" value="3"/>
     </Value>
     <Value genre="config" index="19" label="Alternate Exclusion" max="1" size="1" type="list" value="0">
-      <Help>0 (default) - Press any button on the device 
+      <Help>0 (default) - Press any button on the device
 1 - Press 2 times ON button and then 2 times OFF button, LED will flash 5 times if done successful</Help>
       <Item label="Any button" value="0"/>
       <Item label="2x ON button, 2x OFF button" value="1"/>

@@ -1,9 +1,9 @@
 <!--Taken from http://en.z-wave.me/docs/ZME_0643x_UserManual.pdf-->
 <Product Revision="3" xmlns="https://github.com/OpenZWave/open-zwave">
   <!-- Configuration Parameters -->
-	<!--IMPORTANT: Controllers may only allow to configure signed values. 
+	<!--IMPORTANT: Controllers may only allow to configure signed values.
 	    In order to set values in the range  128?255 for parameters 4,  5 and 6 the
-	    value sent in the application shall be the desired value minus 256. 
+	    value sent in the application shall be the desired value minus 256.
 	    For example: to set parameter 4 in Window Blind to 200? sit may be  needed
 	    to set a value of 200?256=?56.
 	    Similar rule applies to parameter 2: to set values in range 32768?65535

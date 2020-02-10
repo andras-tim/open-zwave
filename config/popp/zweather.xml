@@ -28,14 +28,14 @@ Z-Weather‘s wind yield and solar yield metering can be used as a calculation b
   <CommandClass id="112">
     <Value genre="config" index="1" instance="1" label="Wind speed action threshold" max="30" min="0" size="1" type="byte" units="ms" value="6">
       <Help>
-			Crossing this parameter on the rising edge, Z-Weather sends a basic set to the associated groups, serves the lifeline and sends a wake up notification. 
-			Valid values: 0-30 m/s, where 0 means no notification on too much wind. 
+			Crossing this parameter on the rising edge, Z-Weather sends a basic set to the associated groups, serves the lifeline and sends a wake up notification.
+			Valid values: 0-30 m/s, where 0 means no notification on too much wind.
 			Default: 6
 			</Help>
     </Value>
     <Value genre="config" index="2" instance="1" label="Twilight action threshold" max="100" min="0" size="1" type="byte" units="%" value="37">
       <Help>
-			Crossing this parameter from night to day, association group 3 is informed. 
+			Crossing this parameter from night to day, association group 3 is informed.
 			Crossing this parameter from day to night, association group 4 is informed.
 			Valid values: 0-100 %, where 0 means off.
 			Default: 37 (street lightning)

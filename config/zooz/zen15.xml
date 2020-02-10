@@ -69,7 +69,7 @@ Press and HOLD the Z-Wave button for at least 3 seconds
       <Entry author="Justin Hammond - Justin@dynam.ac" date="02 Jun 2019" revision="2">Initial Metadata Import from Z-Wave Alliance Database - https://products.z-wavealliance.org/products/2517/xml</Entry>
     </ChangeLog>
   </MetaData>
-  <!-- Zooz ZEN15 Power Switch 
+  <!-- Zooz ZEN15 Power Switch
          Configuration Parameters -->
   <Protocol refreshonnodeinfoframe="true"/>
   <CommandClass id="112">

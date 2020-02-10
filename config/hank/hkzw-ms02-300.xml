@@ -11,7 +11,7 @@
 
 Please use this procedure only when the network primary controller is missing or otherwise inoperable.
 </MetaDataItem>
-    <MetaDataItem name="Description">Motion sensor can be included and operated in any Z-Wave network with other Z-Wave certified devices. 
+    <MetaDataItem name="Description">Motion sensor can be included and operated in any Z-Wave network with other Z-Wave certified devices.
 
 The features list:
 1)	Z-Wave Plus certified for wide compatibility (500 serials product).
@@ -25,7 +25,7 @@ The features list:
     <MetaDataItem name="InclusionDescription">1) Open the cover.
 2) Place the device within the direct range of your Z-Wave controller.
 3) Set the main controller in add mode (see the controller’s manual).
-4) Click the Z-button once or triple click the Z-button quickly, the LED indicator should blink fast. 
+4) Click the Z-button once or triple click the Z-button quickly, the LED indicator should blink fast.
 5) Wait for the adding process to end.
 6) Successful adding will be confirmed by the Z-Wave controller’s message.
 

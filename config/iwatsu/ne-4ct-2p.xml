@@ -6,7 +6,7 @@
     <MetaDataItem id="0102" name="Identifier" type="0102">NE-4CT-2P</MetaDataItem>
     <MetaDataItem id="0102" name="FrequencyName" type="0102">Japan</MetaDataItem>
     <MetaDataItem name="Name">Iwatsu Smart Connect NE-4CT-2P</MetaDataItem>
-    <MetaDataItem name="Description">Smart-CONNECT CT. 
+    <MetaDataItem name="Description">Smart-CONNECT CT.
 
 Electric power measuring equipment with Z-Wave.</MetaDataItem>
     <ChangeLog>

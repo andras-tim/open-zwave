@@ -12,10 +12,10 @@
     <MetaDataItem name="Name">Smart Plug</MetaDataItem>
     <MetaDataItem name="ResetDescription">1) Insert the Plug into a socket,
 2) Press and hold the Z button for more than 20 seconds,
-3) If holding time more than 20seconds, the RGB LED indicator will keep yellow for 2 seconds, which means resetting is complete. 
+3) If holding time more than 20seconds, the RGB LED indicator will keep yellow for 2 seconds, which means resetting is complete.
  Use this procedure only in the event that the network primary controller is missing or otherwise inoperable.
 </MetaDataItem>
-    <MetaDataItem name="Description">Smart plug is a Z-Wave Switch plugin module specifically used to enable Z-Wave command and control (on/off) of any plug-in tool. It can report wattage consumption or kWh energy usage. 
+    <MetaDataItem name="Description">Smart plug is a Z-Wave Switch plugin module specifically used to enable Z-Wave command and control (on/off) of any plug-in tool. It can report wattage consumption or kWh energy usage.
 Smart Plug is also a security Z-Wave device and supports the Over The Air (OTA) feature for the product’s firmware upgrade .
 </MetaDataItem>
     <MetaDataItem name="ProductManual">https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&amp;filename=Manuals/1854/HKZW-SO03_manual.pdf</MetaDataItem>

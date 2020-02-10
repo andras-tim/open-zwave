@@ -27,13 +27,13 @@ http://northq.com/wp-content/uploads/2016/01/Technical-Integration.pdf
     </Value>
     <Value genre="config" index="4" label="IR Pulse Width" max="127" min="0" type="byte" units="" value="50">
       <Help>
-      	Adjusts transmit signal so received signal will in average be equal to this values. 
+      	Adjusts transmit signal so received signal will in average be equal to this values.
       	Auto calibration might select another value than this.
       </Help>
     </Value>
     <Value genre="config" index="5" label="Poll / Wake up frequency" max="50" min="1" type="byte" units="seconds" value="20">
       <Help>
-      	Wake device up this many times per second. 
+      	Wake device up this many times per second.
       	This value also controls number of measurements per second on mechanical meters.
      </Help>
     </Value>

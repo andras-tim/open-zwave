@@ -1,6 +1,6 @@
 <!--
 Aeotec ZW139 Nano Switch, base on Engineering Spec 03/19/2018 V2.0
-Product Type ID: EU=0x00, US=0x01, AU=0x02 CN=0x1D 
+Product Type ID: EU=0x00, US=0x01, AU=0x02 CN=0x1D
 --><Product Revision="5" xmlns="https://github.com/OpenZWave/open-zwave">
   <MetaData>
     <MetaDataItem name="OzwInfoPage">http://www.openzwave.com/device-database/0086:008B:0103</MetaDataItem>

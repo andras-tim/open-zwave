@@ -4,7 +4,7 @@
     <MetaDataItem name="ProductPic">images/zooz/zse19.png</MetaDataItem>
     <MetaDataItem id="0003" name="ZWProductPage" type="000C">https://products.z-wavealliance.org/products/3116/</MetaDataItem>
     <MetaDataItem name="Name">S2 Multisiren</MetaDataItem>
-    <MetaDataItem name="ResetDescription">If your primary controller is missing or inoperable, you may need to reset the device to factory settings. To complete the reset process manually, make sure the Multisiren is powered, then CLICK-CLICK-CLICKCLICK’N’HOLD the Z-Wave button for AT LEAST 5 SECONDS. The LED indicator will flash to confirm successful reset. 
+    <MetaDataItem name="ResetDescription">If your primary controller is missing or inoperable, you may need to reset the device to factory settings. To complete the reset process manually, make sure the Multisiren is powered, then CLICK-CLICK-CLICKCLICK’N’HOLD the Z-Wave button for AT LEAST 5 SECONDS. The LED indicator will flash to confirm successful reset.
 NOTE: All previously recorded activity and custom settings will be erased from the device’s memory.</MetaDataItem>
     <MetaDataItem name="ExclusionDescription">1. Bring the Multisiren within direct range of your Z-Wave gateway (hub).
 2. Put the Z-Wave hub into exclusion mode (not sure how to do that? ask@getzooz.com).

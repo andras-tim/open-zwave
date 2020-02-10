@@ -54,8 +54,8 @@ Please use this procedure only when the network primary controller is missing or
   <CommandClass id="112">
     <Value genre="config" index="1" instance="1" label="Lock Mode - unlocking sequence" max="28086" min="0" type="short" value="0">
       <Help>
-			This parameter allows to activate Lock Mode and set up unlocking sequence. 
-			Device will lock after time set in parameter 2 or after pressing and holding selected button. 
+			This parameter allows to activate Lock Mode and set up unlocking sequence.
+			Device will lock after time set in parameter 2 or after pressing and holding selected button.
 			0 - Lock Mode disabled.
 			9-28086 - unlocking sequence.
 			See "Lock Mode" on page 9 for more information.
@@ -76,7 +76,7 @@ Please use this procedure only when the network primary controller is missing or
 			This parameter allows to set up sequence that activates scene with ID 7.
 			0 - 1st sequence disabled.
 			9-28086 - value of sequence.
-			See "Sequences" on page 10 for more information.			
+			See "Sequences" on page 10 for more information.
 			</Help>
     </Value>
     <Value genre="config" index="4" instance="1" label="Second scene sequence" max="28086" min="0" type="short" value="0">
@@ -84,7 +84,7 @@ Please use this procedure only when the network primary controller is missing or
 			This parameter allows to set up sequence that activates scene with ID 8.
 			0 - 1st sequence disabled.
 			9-28086 - value of sequence.
-			See "Sequences" on page 10 for more information.			
+			See "Sequences" on page 10 for more information.
 			</Help>
     </Value>
     <Value genre="config" index="5" instance="1" label="Third scene sequence" max="28086" min="0" type="short" value="0">
@@ -92,7 +92,7 @@ Please use this procedure only when the network primary controller is missing or
 			This parameter allows to set up sequence that activates scene with ID 9.
 			0 - 1st sequence disabled.
 			9-28086 - value of sequence.
-			See "Sequences" on page 10 for more information.			
+			See "Sequences" on page 10 for more information.
 			</Help>
     </Value>
     <Value genre="config" index="6" instance="1" label="Fourth scene sequence" max="28086" min="0" type="short" value="0">
@@ -100,7 +100,7 @@ Please use this procedure only when the network primary controller is missing or
 			This parameter allows to set up sequence that activates scene with ID 10.
 			0 - 1st sequence disabled.
 			9-28086 - value of sequence.
-			See "Sequences" on page 10 for more information.			
+			See "Sequences" on page 10 for more information.
 			</Help>
     </Value>
     <Value genre="config" index="7" instance="1" label="Fifth scene sequence" max="28086" min="0" type="short" value="0">
@@ -108,7 +108,7 @@ Please use this procedure only when the network primary controller is missing or
 			This parameter allows to set up sequence that activates scene with ID 11.
 			0 - 1st sequence disabled.
 			9-28086 - value of sequence.
-			See "Sequences" on page 10 for more information.			
+			See "Sequences" on page 10 for more information.
 			</Help>
     </Value>
     <Value genre="config" index="8" instance="1" label="Sixth scene sequence" max="28086" min="0" type="short" value="0">
@@ -116,7 +116,7 @@ Please use this procedure only when the network primary controller is missing or
 			This parameter allows to set up sequence that activates scene with ID 12.
 			0 - 1st sequence disabled.
 			9-28086 - value of sequence.
-			See "Sequences" on page 10 for more information.			
+			See "Sequences" on page 10 for more information.
 			</Help>
     </Value>
     <Value genre="config" index="9" instance="1" label="Sequences - timeout" max="30" min="5" type="byte" value="10">
@@ -133,55 +133,55 @@ Please use this procedure only when the network primary controller is missing or
     </Value>
     <Value genre="config" index="11" instance="1" label="Value sent to Square association group" max="255" min="1" type="byte" value="255">
       <Help>
-			This parameter allows to set value sent to devices in association group. 
-			It will result in turning multilevel devices on with set or last level. 
+			This parameter allows to set value sent to devices in association group.
+			It will result in turning multilevel devices on with set or last level.
 			Value is irrelevant for simple on/off devices.
 			Available settings: 1-99 or 255.
 			</Help>
     </Value>
     <Value genre="config" index="12" instance="1" label="Value sent to Circle association group" max="255" min="1" type="byte" value="255">
       <Help>
-			This parameter allows to set value sent to devices in association group. 
-			It will result in turning multilevel devices on with set or last level. 
+			This parameter allows to set value sent to devices in association group.
+			It will result in turning multilevel devices on with set or last level.
 			Value is irrelevant for simple on/off devices.
 			Available settings: 1-99 or 255.
 			</Help>
     </Value>
     <Value genre="config" index="13" instance="1" label="Value sent to Cross association group" max="255" min="1" type="byte" value="255">
       <Help>
-			This parameter allows to set value sent to devices in association group. 
-			It will result in turning multilevel devices on with set or last level. 
+			This parameter allows to set value sent to devices in association group.
+			It will result in turning multilevel devices on with set or last level.
 			Value is irrelevant for simple on/off devices.
 			Available settings: 1-99 or 255.
 			</Help>
     </Value>
     <Value genre="config" index="14" instance="1" label="Value sent to Triangle association group" max="255" min="1" type="byte" value="255">
       <Help>
-			This parameter allows to set value sent to devices in association group. 
-			It will result in turning multilevel devices on with set or last level. 
+			This parameter allows to set value sent to devices in association group.
+			It will result in turning multilevel devices on with set or last level.
 			Value is irrelevant for simple on/off devices.
 			Available settings: 1-99 or 255.
 			</Help>
     </Value>
     <Value genre="config" index="15" instance="1" label="Value sent to Minus association group" max="255" min="1" type="byte" value="255">
       <Help>
-			This parameter allows to set value sent to devices in association group. 
-			It will result in turning multilevel devices on with set or last level. 
+			This parameter allows to set value sent to devices in association group.
+			It will result in turning multilevel devices on with set or last level.
 			Value is irrelevant for simple on/off devices.
 			Available settings: 1-99 or 255.
 			</Help>
     </Value>
     <Value genre="config" index="16" instance="1" label="Value sent to Plus association group" max="255" min="1" type="byte" value="255">
       <Help>
-			This parameter allows to set value sent to devices in association group. 
-			It will result in turning multilevel devices on with set or last level. 
+			This parameter allows to set value sent to devices in association group.
+			It will result in turning multilevel devices on with set or last level.
 			Value is irrelevant for simple on/off devices.
 			Available settings: 1-99 or 255.
 			</Help>
     </Value>
     <Value genre="config" index="17" instance="1" label="Paired buttons association for Square and Circle" size="1" type="list" value="0">
       <Help>
-			This parameter allows to activate paired buttons association mode for Square and Circle buttons. 
+			This parameter allows to activate paired buttons association mode for Square and Circle buttons.
 			Paired buttons are dependent and association are sent only to Square groups. Circle turns devices on and increases value, Square turns them off and decreases value.
 			</Help>
       <Item label="Inactive" value="0"/>
@@ -189,7 +189,7 @@ Please use this procedure only when the network primary controller is missing or
     </Value>
     <Value genre="config" index="18" instance="1" label="Paired buttons association for Cross and Triangle" size="1" type="list" value="0">
       <Help>
-			This parameter allows to activate paired buttons association mode for Cross and Triangle buttons. 
+			This parameter allows to activate paired buttons association mode for Cross and Triangle buttons.
 			Paired buttons are dependent and association are sent only to Cross groups. Triangle turns devices on and increases value, Cross turns them off and decreases value.
 			</Help>
       <Item label="Inactive" value="0"/>
@@ -197,7 +197,7 @@ Please use this procedure only when the network primary controller is missing or
     </Value>
     <Value genre="config" index="19" instance="1" label="Paired buttons association for Minus and Plus" size="1" type="list" value="0">
       <Help>
-			This parameter allows to activate paired buttons association mode for Minus and Plus buttons. 
+			This parameter allows to activate paired buttons association mode for Minus and Plus buttons.
 			Paired buttons are dependent and association are sent only to Minus groups. Plus turns devices on and increases value, Minus turns them off and decreases value.
 			</Help>
       <Item label="Inactive" value="0"/>

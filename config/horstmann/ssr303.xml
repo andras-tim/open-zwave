@@ -30,15 +30,15 @@ Follow  ‘Exclusion’ steps.</MetaDataItem>
       <Entry author="Justin Hammond - Justin@dynam.ac" date="24 May 2019" revision="3">Initial Metadata Import from Z-Wave Alliance Database - https://products.z-wavealliance.org/products/1618/xml</Entry>
     </ChangeLog>
   </MetaData>
-  <!-- Associate V2: 
-    Product supports one group (Lifeline) and have a maximum of 4 node. No current active group. 
+  <!-- Associate V2:
+    Product supports one group (Lifeline) and have a maximum of 4 node. No current active group.
   -->
   <CommandClass id="133">
     <Associations num_groups="1">
       <Group index="1" label="Lifeline" max_associations="4"/>
     </Associations>
   </CommandClass>
-  <!-- Thermostat mode (v1): 
+  <!-- Thermostat mode (v1):
     Only 'Idle Mode' and 'Heat Mode' are supported within this command class, which can either set or read.
     The SSR 303 has a failsafe mode where by the relay is turned off if another Thermostat Mode SET command has not been received within 60 minutes.
   -->

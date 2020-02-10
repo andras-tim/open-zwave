@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--    
-        Enerwave ZWN-RSM2 Smart Dual Relay Switch Module 
-        Enerwave ZWN-RSM2-PLUS Smart Dual Relay Switch Module 
+<!--
+        Enerwave ZWN-RSM2 Smart Dual Relay Switch Module
+        Enerwave ZWN-RSM2-PLUS Smart Dual Relay Switch Module
 
         Note:  the two devices share the same device ID but have different configuration parameters.
 
-        Z-Wave Alliance Product Database info: 
+        Z-Wave Alliance Product Database info:
         https://products.z-wavealliance.org/products/2242
 -->
 <Product xmlns='https://github.com/OpenZWave/open-zwave' Revision="1">

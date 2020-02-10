@@ -1,4 +1,4 @@
-<Product Revision="5" 
+<Product Revision="5"
   xmlns="https://github.com/OpenZWave/open-zwave">
   <MetaData>
     <MetaDataItem name="OzwInfoPage">http://www.openzwave.com/device-database/0086:0003:0001</MetaDataItem>
@@ -18,9 +18,9 @@ Although simplicity and user experience is the primary focus, the full range of 
       <Entry author="Peter Gebruers - peter.gebruers@gmail.com" date="22 Aug 2019" revision="5">Added GetSupported false and add 3rd option to parameter 250 to work around this limitation</Entry>
     </ChangeLog>
   </MetaData>
-  <!-- 
-Aeotec DSA03202 Minimote 
-https://aeotec.freshdesk.com/helpdesk/attachments/6009584532 
+  <!--
+Aeotec DSA03202 Minimote
+https://aeotec.freshdesk.com/helpdesk/attachments/6009584532
 -->
   <!-- Minimote requires at least firmware 1.17, 1.19 is highly recommend -->
   <!-- Minimote will normally not respond to Get commands, but Set is possible when woken up -->

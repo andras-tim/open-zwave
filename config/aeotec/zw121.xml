@@ -10,7 +10,7 @@ Aeotec ZW121 LED Strip, base on Engineering Spec 5/20/2016
     <MetaDataItem name="ResetDescription">Press and hold the Action Button on the LED Strip Controller for 20 seconds and then release it.
 Use this procedure only in the event that your primary network controller is missing or inoperable.</MetaDataItem>
     <MetaDataItem name="ProductManual">https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&amp;filename=Manuals/2000/LED Strip manual.pdf</MetaDataItem>
-    <MetaDataItem name="Description">Aeotec LED Strip is a multi-coloured LED Strip which allows control (on/off/dim/colour change) via wireless Z-Wave commands. 
+    <MetaDataItem name="Description">Aeotec LED Strip is a multi-coloured LED Strip which allows control (on/off/dim/colour change) via wireless Z-Wave commands.
 The LED Strip can also communicate securely via AES 128 wireless Z-Wave commands and supports Over-The-Air (OTA) firmware upgrades.
 </MetaDataItem>
     <MetaDataItem id="0079" name="FrequencyName" type="0103">U.S. / Canada / Mexico</MetaDataItem>

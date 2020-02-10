@@ -1,5 +1,5 @@
-<!-- 
-Aeotec DSC11 Smart Strip 
+<!--
+Aeotec DSC11 Smart Strip
 https://aeotec.freshdesk.com/helpdesk/attachments/6009584527
 --><Product Revision="2" xmlns="https://github.com/OpenZWave/open-zwave">
   <MetaData>
@@ -83,7 +83,7 @@ https://aeotec.freshdesk.com/helpdesk/attachments/6009584527
       <Help>Configure auto report which information as Group 1.
 	 Value 1 (msb) Reserved
 	 Value 2 Reserved
-	 Value 3 
+	 Value 3
 			bit 7 reserved
 			bit 6 Auto report power level with specified time interval (channel 6)
 			bit 5 Auto report power level with specified time interval (channel 5)
@@ -92,7 +92,7 @@ https://aeotec.freshdesk.com/helpdesk/attachments/6009584527
 			bit 2 Auto report power level with specified time interval (channel 2)
 			bit 1 Auto report power level with specified time interval (channel 1)
 			bit 0 Auto report the total power level with specified time interval
-	Value 4 (lsb) 
+	Value 4 (lsb)
 			bit 7 reserved
 			bit 6 Auto report power consumption with specified time interval (channel 6)
 			bit 5 Auto report power consumption with specified time interval (channel 5)
@@ -107,7 +107,7 @@ https://aeotec.freshdesk.com/helpdesk/attachments/6009584527
       <Help>Configure auto report which information as Group 2.
 	 Value 1 (msb) Reserved
 	 Value 2 Reserved
-	 Value 3 
+	 Value 3
 			bit 7 reserved
 			bit 6 Auto report power level with specified time interval (channel 6)
 			bit 5 Auto report power level with specified time interval (channel 5)
@@ -116,7 +116,7 @@ https://aeotec.freshdesk.com/helpdesk/attachments/6009584527
 			bit 2 Auto report power level with specified time interval (channel 2)
 			bit 1 Auto report power level with specified time interval (channel 1)
 			bit 0 Auto report the total power level with specified time interval
-	Value 4 (lsb) 
+	Value 4 (lsb)
 			bit 7 reserved
 			bit 6 Auto report power consumption with specified time interval (channel 6)
 			bit 5 Auto report power consumption with specified time interval (channel 5)
@@ -131,7 +131,7 @@ https://aeotec.freshdesk.com/helpdesk/attachments/6009584527
       <Help>Configure auto report which information as Group 3.
 	 Value 1 (msb) Reserved
 	 Value 2 Reserved
-	 Value 3 
+	 Value 3
 			bit 7 reserved
 			bit 6 Auto report power level with specified time interval (channel 6)
 			bit 5 Auto report power level with specified time interval (channel 5)
@@ -140,7 +140,7 @@ https://aeotec.freshdesk.com/helpdesk/attachments/6009584527
 			bit 2 Auto report power level with specified time interval (channel 2)
 			bit 1 Auto report power level with specified time interval (channel 1)
 			bit 0 Auto report the total power level with specified time interval
-	Value 4 (lsb) 
+	Value 4 (lsb)
 			bit 7 reserved
 			bit 6 Auto report power consumption with specified time interval (channel 6)
 			bit 5 Auto report power consumption with specified time interval (channel 5)

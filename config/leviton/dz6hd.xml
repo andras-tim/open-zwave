@@ -59,7 +59,7 @@ The Z-Wave® controller will exclude the Decora Smart™ device
     </Value>
     <Value genre="config" index="2" label="Fade Off Time" max="253" min="0" size="1" type="byte" units="seconds" value="2">
       <Help>
-				The amount of time to take to fade the lights from on to off.  
+				The amount of time to take to fade the lights from on to off.
 				A value of zero is instant (no fade), values between 1 and 127 represent 1 to 127 seconds, and values from 128 to 253 represent from 1 to 126 minutes.
 			</Help>
     </Value>

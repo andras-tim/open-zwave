@@ -15,7 +15,7 @@
       <Help>Activate/Deactivate association sending for group 1 - Note: Parameter 15 must set to 1 to work properly. Default 0.</Help>
       <Item label="Map status to all devices in group 1 (default)" value="0" />
       <Item label="Map OFF status to all devices in group 1, Double click on key 1 will send ON to all devices in group 1, all dimmers set to prev.value" value="1" />
-      <Item label="Map OFF status to all devices in group 1, Double click on key 1 will send ON to all devices in group 1, all dimmers set to 100%" value="2" />                
+      <Item label="Map OFF status to all devices in group 1, Double click on key 1 will send ON to all devices in group 1, all dimmers set to 100%" value="2" />
     </Value>
     <Value type="list" genre="config" instance="1" index="7" label="Control key #2 behaviour" size="1" value="1">
       <Help>Key no.2 is not represented by any physical device except of devices on association list. This functionality prevents of lack of reaction on pressing key no.2 through polling devices from association list one by one and checking their actual statuses. Default 1.</Help>
@@ -94,7 +94,7 @@
       <Value type="list" genre="config" instance="1" index="41" label="Scene activation functionality" size="1" value="0">
       <Help>The device offers the possibility of sending commands compatible with Command class scene activation. Information is sent to devices assigned to association group no. 3. Controllers such as Home Center 2 are able to interpret such commands and based on these commands they activate scenes, to which specific scene IDs have been assigned. The user may expand the functionality of the button connected to inputs S1 and S2 by distinguishing the actions of keys connected to those inputs. For example: double click would activate the scene goodnight and triple click would activate the scene morning. Default 0.</Help>
       <Item label="Functionality deactivated" value="0"/>
-      <Item label="Functionality activated" value="1"/>      
+      <Item label="Functionality activated" value="1"/>
     </Value>
   </CommandClass>
 

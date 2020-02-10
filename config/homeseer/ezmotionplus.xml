@@ -26,7 +26,7 @@
 				20 min for an office environment.
 				60 min for a library or other room where someone may be sitting
 				still for a long time.
-				This may be inaccurate, but default for Homeseer HSM100 may actually be 3 minutes, instead of 20?				
+				This may be inaccurate, but default for Homeseer HSM100 may actually be 3 minutes, instead of 20?
 			</Help>
     </Value>
     <Value genre="config" index="3" label="LED ON/OFF" max="" min="" size="1" type="list" units="" value="255">
@@ -58,7 +58,7 @@
 				Usually a value between 40% and 60% will prevent the lights
 				from coming on in a reasonably well light room and will turn
 				them on as it is getting dark. Some experimentation is required
-				with each room to determine the proper setting.				
+				with each room to determine the proper setting.
 			</Help>
     </Value>
     <Value genre="config" index="5" label="Stay Awake" max="255" min="0" type="byte" units="" value="0">

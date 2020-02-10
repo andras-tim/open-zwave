@@ -133,7 +133,7 @@
     </Value>
     <Value genre="config" index="16" label="User code pin length" max="8" min="4" type="byte" value="4">
       <Help>
-				User Code PIN length, a value between 4 and 8. 
+				User Code PIN length, a value between 4 and 8.
 				IMPORTANT: All user codes must be the same length.
 			</Help>
     </Value>

@@ -39,7 +39,7 @@
 
     <Value genre="config" index="2" label="Alarm duration time" max="127" min="0" size="1" type="list" value="2">
       <Help>This Parameter defines the alarm duration time when siren receives an alarm sensor notification report or an alarm command from controller.</Help>
-      <Item label="Siren is not on" value="0"/>      
+      <Item label="Siren is not on" value="0"/>
       <Item label="30 Seconds" value="1"/>
       <Item label="1 Minute" value="2"/>
       <Item label="5 Minutes" value="3"/>

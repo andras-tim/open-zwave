@@ -20,12 +20,12 @@ Please use this procedure only when the network primary controller is missing or
 4)	Wait for the adding process to end.
 5)	Successful adding will be confirmed by the Z-Wave controller’s message.
 </MetaDataItem>
-    <MetaDataItem name="Description">FIBARO Button is a compact, battery-powered, Z-Wave Plus compatible device. It allows you to control devices through the Z-Wave network and run various scenes defined in FIBARO System. 
-Different actions may be triggered with one to five clicks or by holding the button down. In Panic Button mode, each press of the button results in triggering the Fibaro Alarm. 
+    <MetaDataItem name="Description">FIBARO Button is a compact, battery-powered, Z-Wave Plus compatible device. It allows you to control devices through the Z-Wave network and run various scenes defined in FIBARO System.
+Different actions may be triggered with one to five clicks or by holding the button down. In Panic Button mode, each press of the button results in triggering the Fibaro Alarm.
 With its small design and wireless communication, the FIBARO Button can be conveniently mounted on any surface and in any position or location at home, e.g. beside the bed or under the desk.
 </MetaDataItem>
     <MetaDataItem id="1000" name="Identifier" type="0F01">FGPB-101</MetaDataItem>
-    <MetaDataItem name="WakeupDescription">The Button needs to be woken up to receive information about the new configuration from the controller, like parameters and associations. 
+    <MetaDataItem name="WakeupDescription">The Button needs to be woken up to receive information about the new configuration from the controller, like parameters and associations.
 1)	Click the Button 4 times to wake it up
 </MetaDataItem>
     <MetaDataItem id="1000" name="FrequencyName" type="0F01">CEPT (Europe)</MetaDataItem>

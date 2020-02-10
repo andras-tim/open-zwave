@@ -23,7 +23,7 @@
 
 Resetting the device is not the recommended way of removing the device from the Z-Wave network. Use the reset procedure only if the primary controller is missing or inoperable.</MetaDataItem>
     <MetaDataItem name="Name">Wall Plug UK</MetaDataItem>
-    <MetaDataItem name="Description">FIBARO Wall Plug is a remotely controlled plug-in switch with the ability to measure power and energy consumption. It uses a LED frame to visualize the current load and operating mode with color changing illumination. FIBARO Wall Plug makes it possible to control electrical devices in a convenient and maintenance-free way.  
+    <MetaDataItem name="Description">FIBARO Wall Plug is a remotely controlled plug-in switch with the ability to measure power and energy consumption. It uses a LED frame to visualize the current load and operating mode with color changing illumination. FIBARO Wall Plug makes it possible to control electrical devices in a convenient and maintenance-free way.
 Main features of FIBARO Wall Plug:
 - Compatible with any Z-Wave or Z-Wave+ Controller.
 - Supports Z-Wave network Security Modes: S0 with AES-128 encryption and S2 with PRNG-based encryption.

@@ -218,7 +218,7 @@ This product is only available in the U.S. and Canada
     </Value>
     <Value genre="config" index="134" label="Cooling 1 Setpoint" max="" min="" type="byte" units="degrees" value="80">
       <Help>
-	      Default:  
+	      Default:
 	      HOLD   80F / 26C
 	      RUN    84F / xxC
 	      ESM
@@ -238,7 +238,7 @@ This product is only available in the U.S. and Canada
     </Value>
     <Value genre="config" index="137" label="Backlight Timeout" max="120" min="0" type="byte" units="seconds" value="30">
       <Help>
-	      Backlight Timeout is the time (in seconds) from the last 
+	      Backlight Timeout is the time (in seconds) from the last
 	      button press to the backlight going out.  The time-out
 	      can be set between 0 and 120
 	      seconds.  When set to 0, the backlight will remain
@@ -272,8 +272,8 @@ This product is only available in the U.S. and Canada
 	      This is the time before any screen reverts to the Minimized
 	      Screen (temperature display only), after you stop pushing
 	      buttons.  Minimized Screen feature is disabled by setting this
-	      time to 0. 
-	      Default:  0 
+	      time to 0.
+	      Default:  0
 	    </Help>
     </Value>
     <Value genre="config" index="142" label="Unknown-142" max="" min="" type="byte" units="" value="0">
@@ -302,8 +302,8 @@ This product is only available in the U.S. and Canada
     <Value genre="config" index="148" label="Screen Contrast" max="20" min="0" type="byte" units="" value="10">
       <Help>
 	      The Screen Contrast sets the contrast level of the LCD display.
-	      The contrast can be set between 0 and 20.  If the display 
-	      is too light, use a higher number.  If dark lines appear on 
+	      The contrast can be set between 0 and 20.  If the display
+	      is too light, use a higher number.  If dark lines appear on
 	      the screen, use a lower number.
 	      Default:  10
 	    </Help>
@@ -388,7 +388,7 @@ This product is only available in the U.S. and Canada
     </Value>
     <Value genre="config" index="185" label="Schedule Enable" max="1" min="0" type="byte" units="" value="0">
       <Help>
-	      When enabled (set to 1), the local thermostat's scheduler 
+	      When enabled (set to 1), the local thermostat's scheduler
 	      function is enabled.
 	      Default:  0
 	    </Help>
@@ -517,12 +517,12 @@ This product is only available in the U.S. and Canada
       <Help>
 	      This value holds information about the first schedule
 	      setpoints for Sundays.
-	      
+
 	      Byte 1: Hour   (0-23)
 	      Byte 2: Minute (0-59)
 	      Byte 3: Heat Setpoint (degrees)
 	      Byte 4: Cool Setpoint (degrees)
-	      
+
 	      Default:  0x06004643 06:00AM 70F / 67F
 	      0x06001519 06:00AM 21C / 25C
 	    </Help>
@@ -531,12 +531,12 @@ This product is only available in the U.S. and Canada
       <Help>
 	      This value holds information about the second schedule
 	      setpoints for Sundays.
-	      
+
 	      Byte 1: Hour   (0-23)
 	      Byte 2: Minute (0-59)
 	      Byte 3: Heat Setpoint (degrees)
 	      Byte 4: Cool Setpoint (degrees)
-	      
+
 	      Default:  0x08003e55 08:00AM 62F / 85F
 	      0x0800101d 08:00AM 16C / 29C
 	    </Help>
@@ -545,12 +545,12 @@ This product is only available in the U.S. and Canada
       <Help>
 	      This value holds information about the third schedule
 	      setpoints for Sundays.
-	      
+
 	      Byte 1: Hour   (0-23)
 	      Byte 2: Minute (0-59)
 	      Byte 3: Heat Setpoint (degrees)
 	      Byte 4: Cool Setpoint (degrees)
-	      
+
 	      Default:  0x1200464e 06:00PM 70F / 78F
 	      0x12001519 06:00PM 21C / 25C
 	    </Help>
@@ -559,12 +559,12 @@ This product is only available in the U.S. and Canada
       <Help>
 	      This value holds information about the fourth schedule
 	      setpoints for Sundays.
-	      
+
 	      Byte 1: Hour   (0-23)
 	      Byte 2: Minute (0-59)
 	      Byte 3: Heat Setpoint (degrees)
 	      Byte 4: Cool Setpoint (degrees)
-	      
+
 	      Default:  0x16003e52 10:00PM 62F / 82F
 	      0x1600101b 10:00PM 16C / 27C
 	    </Help>
@@ -573,12 +573,12 @@ This product is only available in the U.S. and Canada
       <Help>
 	      This value holds information about the first schedule
 	      setpoints for Mondays.
-	      
+
 	      Byte 1: Hour   (0-23)
 	      Byte 2: Minute (0-59)
 	      Byte 3: Heat Setpoint (degrees)
 	      Byte 4: Cool Setpoint (degrees)
-	      
+
 	      Default:  0x06004643 06:00AM 70F / 67F
 	      0x06001519 06:00AM 21C / 25C
 	    </Help>
@@ -587,12 +587,12 @@ This product is only available in the U.S. and Canada
       <Help>
 	      This value holds information about the second schedule
 	      setpoints for Mondays.
-	      
+
 	      Byte 1: Hour   (0-23)
 	      Byte 2: Minute (0-59)
 	      Byte 3: Heat Setpoint (degrees)
 	      Byte 4: Cool Setpoint (degrees)
-	      
+
 	      Default:  0x08003e55 08:00AM 62F / 85F
 	      0x0800101d 08:00AM 16C / 29C
 	    </Help>
@@ -601,12 +601,12 @@ This product is only available in the U.S. and Canada
       <Help>
 	      This value holds information about the third schedule
 	      setpoints for Mondays.
-	      
+
 	      Byte 1: Hour   (0-23)
 	      Byte 2: Minute (0-59)
 	      Byte 3: Heat Setpoint (degrees)
 	      Byte 4: Cool Setpoint (degrees)
-	      
+
 	      Default:  0x1200464e 06:00PM 70F / 78F
 	      0x12001519 06:00PM 21C / 25C
 	    </Help>
@@ -615,12 +615,12 @@ This product is only available in the U.S. and Canada
       <Help>
 	      This value holds information about the fourth schedule
 	      setpoints for Mondays.
-	      
+
 	      Byte 1: Hour   (0-23)
 	      Byte 2: Minute (0-59)
 	      Byte 3: Heat Setpoint (degrees)
 	      Byte 4: Cool Setpoint (degrees)
-	      
+
 	      Default:  0x16003e52 10:00PM 62F / 82F
 	      0x1600101b 10:00PM 16C / 27C
 	    </Help>
@@ -629,12 +629,12 @@ This product is only available in the U.S. and Canada
       <Help>
 	      This value holds information about the first schedule
 	      setpoints for Tuesdays.
-	      
+
 	      Byte 1: Hour   (0-23)
 	      Byte 2: Minute (0-59)
 	      Byte 3: Heat Setpoint (degrees)
 	      Byte 4: Cool Setpoint (degrees)
-	      
+
 	      Default:  0x06004643 06:00AM 70F / 67F
 	      0x06001519 06:00AM 21C / 25C
 	    </Help>
@@ -643,12 +643,12 @@ This product is only available in the U.S. and Canada
       <Help>
 	      This value holds information about the second schedule
 	      setpoints for Tuesdays.
-	      
+
 	      Byte 1: Hour   (0-23)
 	      Byte 2: Minute (0-59)
 	      Byte 3: Heat Setpoint (degrees)
 	      Byte 4: Cool Setpoint (degrees)
-	      
+
 	      Default:  0x08003e55 08:00AM 62F / 85F
 	      0x0800101d 08:00AM 16C / 29C
 	    </Help>
@@ -657,12 +657,12 @@ This product is only available in the U.S. and Canada
       <Help>
 	      This value holds information about the third schedule
 	      setpoints for Tuesdays.
-	      
+
 	      Byte 1: Hour   (0-23)
 	      Byte 2: Minute (0-59)
 	      Byte 3: Heat Setpoint (degrees)
 	      Byte 4: Cool Setpoint (degrees)
-	      
+
 	      Default:  0x1200464e 06:00PM 70F / 78F
 	      0x12001519 06:00PM 21C / 25C
 	    </Help>
@@ -671,12 +671,12 @@ This product is only available in the U.S. and Canada
       <Help>
 	      This value holds information about the fourth schedule
 	      setpoints for Tuesdays.
-	      
+
 	      Byte 1: Hour   (0-23)
 	      Byte 2: Minute (0-59)
 	      Byte 3: Heat Setpoint (degrees)
 	      Byte 4: Cool Setpoint (degrees)
-	      
+
 	      Default:  0x16003e52 10:00PM 62F / 82F
 	      0x1600101b 10:00PM 16C / 27C
 	    </Help>
@@ -685,12 +685,12 @@ This product is only available in the U.S. and Canada
       <Help>
 	      This value holds information about the first schedule
 	      setpoints for Wednesdays.
-	      
+
 	      Byte 1: Hour   (0-23)
 	      Byte 2: Minute (0-59)
 	      Byte 3: Heat Setpoint (degrees)
 	      Byte 4: Cool Setpoint (degrees)
-	      
+
 	      Default:  0x06004643 06:00AM 70F / 67F
 	      0x06001519 06:00AM 21C / 25C
 	    </Help>
@@ -698,12 +698,12 @@ This product is only available in the U.S. and Canada
     <Value genre="config" index="241" label="Schedule Wed-2" max="" min="" type="int" units="">
       <Help>
 	      This value holds information about the second schedule setpoints for Wednesdays.
-	      
+
 	      Byte 1: Hour   (0-23)
 	      Byte 2: Minute (0-59)
 	      Byte 3: Heat Setpoint (degrees)
 	      Byte 4: Cool Setpoint (degrees)
-	      
+
 	      Default:  0x08003e55 08:00AM 62F / 85F
 	      0x0800101d 08:00AM 16C / 29C
 	    </Help>
@@ -711,12 +711,12 @@ This product is only available in the U.S. and Canada
     <Value genre="config" index="242" label="Schedule Wed-3" max="" min="" type="int" units="">
       <Help>
 	      This value holds information about the third schedule setpoints for Wednesdays.
-	      
+
 	      Byte 1: Hour   (0-23)
 	      Byte 2: Minute (0-59)
 	      Byte 3: Heat Setpoint (degrees)
 	      Byte 4: Cool Setpoint (degrees)
-	      
+
 	      Default:  0x1200464e 06:00PM 70F / 78F
 	      0x12001519 06:00PM 21C / 25C
 	    </Help>
@@ -724,12 +724,12 @@ This product is only available in the U.S. and Canada
     <Value genre="config" index="243" label="Schedule Wed-4" max="" min="" type="int" units="">
       <Help>
 	      This value holds information about the fourth schedule setpoints for Wednesdays.
-	      
+
 	      Byte 1: Hour   (0-23)
 	      Byte 2: Minute (0-59)
 	      Byte 3: Heat Setpoint (degrees)
 	      Byte 4: Cool Setpoint (degrees)
-	      
+
 	      Default:  0x16003e52 10:00PM 62F / 82F
 	      0x1600101b 10:00PM 16C / 27C
 	    </Help>
@@ -737,12 +737,12 @@ This product is only available in the U.S. and Canada
     <Value genre="config" index="244" label="Schedule Thu-1" max="" min="" type="int" units="">
       <Help>
 	      This value holds information about the first schedule setpoints for Thursdays.
-	      
+
 	      Byte 1: Hour   (0-23)
 	      Byte 2: Minute (0-59)
 	      Byte 3: Heat Setpoint (degrees)
 	      Byte 4: Cool Setpoint (degrees)
-	      
+
 	      Default:  0x06004643 06:00AM 70F / 67F
 	      0x06001519 06:00AM 21C / 25C
 	    </Help>
@@ -750,12 +750,12 @@ This product is only available in the U.S. and Canada
     <Value genre="config" index="245" label="Schedule Thu-2" max="" min="" type="int" units="">
       <Help>
 	      This value holds information about the second schedule setpoints for Thursdays.
-	      
+
 	      Byte 1: Hour   (0-23)
 	      Byte 2: Minute (0-59)
 	      Byte 3: Heat Setpoint (degrees)
 	      Byte 4: Cool Setpoint (degrees)
-	      
+
 	      Default:  0x08003e55 08:00AM 62F / 85F
 	      0x0800101d 08:00AM 16C / 29C
 	    </Help>
@@ -763,12 +763,12 @@ This product is only available in the U.S. and Canada
     <Value genre="config" index="246" label="Schedule Thu-3" max="" min="" type="int" units="">
       <Help>
 	      This value holds information about the third schedule setpoints for Thursdays.
-	      
+
 	      Byte 1: Hour   (0-23)
 	      Byte 2: Minute (0-59)
 	      Byte 3: Heat Setpoint (degrees)
 	      Byte 4: Cool Setpoint (degrees)
-	      
+
 	      Default:  0x1200464e 06:00PM 70F / 78F
 	      0x12001519 06:00PM 21C / 25C
 	    </Help>
@@ -776,12 +776,12 @@ This product is only available in the U.S. and Canada
     <Value genre="config" index="247" label="Schedule Thu-4" max="" min="" type="int" units="">
       <Help>
 	      This value holds information about the fourth schedule setpoints for Thursdays.
-	      
+
 	      Byte 1: Hour   (0-23)
 	      Byte 2: Minute (0-59)
 	      Byte 3: Heat Setpoint (degrees)
 	      Byte 4: Cool Setpoint (degrees)
-	      
+
 	      Default:  0x16003e52 10:00PM 62F / 82F
 	      0x1600101b 10:00PM 16C / 27C
 	    </Help>
@@ -789,12 +789,12 @@ This product is only available in the U.S. and Canada
     <Value genre="config" index="248" label="Schedule Fri-1" max="" min="" type="int" units="">
       <Help>
 	      This value holds information about the first schedule setpoints for Fridays.
-	      
+
 	      Byte 1: Hour   (0-23)
 	      Byte 2: Minute (0-59)
 	      Byte 3: Heat Setpoint (degrees)
 	      Byte 4: Cool Setpoint (degrees)
-	      
+
 	      Default:  0x06004643 06:00AM 70F / 67F
 	      0x06001519 06:00AM 21C / 25C
 	    </Help>
@@ -802,12 +802,12 @@ This product is only available in the U.S. and Canada
     <Value genre="config" index="249" label="Schedule Fri-2" max="" min="" type="int" units="">
       <Help>
 	      This value holds information about the second schedule setpoints for Fridays.
-	      
+
 	      Byte 1: Hour   (0-23)
 	      Byte 2: Minute (0-59)
 	      Byte 3: Heat Setpoint (degrees)
 	      Byte 4: Cool Setpoint (degrees)
-	      
+
 	      Default:  0x08003e55 08:00AM 62F / 85F
 	      0x0800101d 08:00AM 16C / 29C
 	    </Help>
@@ -815,12 +815,12 @@ This product is only available in the U.S. and Canada
     <Value genre="config" index="250" label="Schedule Fri-3" max="" min="" type="int" units="">
       <Help>
 	      This value holds information about the third schedule setpoints for Fridays.
-	      
+
 	      Byte 1: Hour   (0-23)
 	      Byte 2: Minute (0-59)
 	      Byte 3: Heat Setpoint (degrees)
 	      Byte 4: Cool Setpoint (degrees)
-	      
+
 	      Default:  0x1200464e 06:00PM 70F / 78F
 	      0x12001519 06:00PM 21C / 25C
 	    </Help>
@@ -828,12 +828,12 @@ This product is only available in the U.S. and Canada
     <Value genre="config" index="251" label="Schedule Fri-4" max="" min="" type="int" units="">
       <Help>
 	      This value holds information about the fourth schedule setpoints for Fridays.
-	      
+
 	      Byte 1: Hour   (0-23)
 	      Byte 2: Minute (0-59)
 	      Byte 3: Heat Setpoint (degrees)
 	      Byte 4: Cool Setpoint (degrees)
-	      
+
 	      Default:  0x16003e52 10:00PM 62F / 82F
 	      0x1600101b 10:00PM 16C / 27C
 	    </Help>
@@ -841,12 +841,12 @@ This product is only available in the U.S. and Canada
     <Value genre="config" index="252" label="Schedule Sat-1" max="" min="" type="int" units="">
       <Help>
 	      This value holds information about the first schedule setpoints for Saturdays.
-	      
+
 	      Byte 1: Hour   (0-23)
 	      Byte 2: Minute (0-59)
 	      Byte 3: Heat Setpoint (degrees)
 	      Byte 4: Cool Setpoint (degrees)
-	      
+
 	      Default:  0x06004643 06:00AM 70F / 67F
 	      0x06001519 06:00AM 21C / 25C
 	    </Help>
@@ -854,12 +854,12 @@ This product is only available in the U.S. and Canada
     <Value genre="config" index="253" label="Schedule Sat-2" max="" min="" type="int" units="">
       <Help>
 	      This value holds information about the second schedule setpoints for Saturdays.
-	      
+
 	      Byte 1: Hour   (0-23)
 	      Byte 2: Minute (0-59)
 	      Byte 3: Heat Setpoint (degrees)
 	      Byte 4: Cool Setpoint (degrees)
-	      
+
 	      Default:  0x08003e55 08:00AM 62F / 85F
 	      0x0800101d 08:00AM 16C / 29C
 	    </Help>
@@ -867,12 +867,12 @@ This product is only available in the U.S. and Canada
     <Value genre="config" index="254" label="Schedule Sat-3" max="" min="" type="int" units="">
       <Help>
 	      This value holds information about the third schedule setpoints for Saturdays.
-	      
+
 	      Byte 1: Hour   (0-23)
 	      Byte 2: Minute (0-59)
 	      Byte 3: Heat Setpoint (degrees)
 	      Byte 4: Cool Setpoint (degrees)
-	      
+
 	      Default:  0x1200464e 06:00PM 70F / 78F
 	      0x12001519 06:00PM 21C / 25C
 	    </Help>
@@ -880,12 +880,12 @@ This product is only available in the U.S. and Canada
     <Value genre="config" index="255" label="Schedule Sat-4" max="" min="" type="int" units="">
       <Help>
 	      This value holds information about the fourth schedule setpoints for Saturdays.
-	      
+
 	      Byte 1: Hour   (0-23)
 	      Byte 2: Minute (0-59)
 	      Byte 3: Heat Setpoint (degrees)
 	      Byte 4: Cool Setpoint (degrees)
-	      
+
 	      Default:  0x16003e52 10:00PM 62F / 82F
 	      0x1600101b 10:00PM 16C / 27C
 	    </Help>

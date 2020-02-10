@@ -24,16 +24,16 @@ Includes white and brown cases</MetaDataItem>
     </ChangeLog>
     <MetaDataItem name="ProductManual">https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&amp;filename=Manuals/2927/EU Z-wave Door Window Sensor H114101 ZWAVE_Ver03.pdf</MetaDataItem>
     <MetaDataItem name="WakeupDescription">The sensor will wake up every so often and when the case is closed to send a Wake-Up Notification to allow the life line master node controller that the sensor is now available for any queued messages that the controller may have for the sensor. The time between Wake-Up Notifications can be configured with the Wake-Up Notification command class to be between 1 hour and 1 week with interval steps of 200 seconds. </MetaDataItem>
-    <MetaDataItem name="InclusionDescription">The sensor must be added to a Z-Wave network prior to use. To include the sensor in a network both the sensor and the network controller must be in inclusion mode at the same time. Refer to the instructions provided by the manufacturer of your specific controller for details on initiating the controller’s inclusion mode. 
+    <MetaDataItem name="InclusionDescription">The sensor must be added to a Z-Wave network prior to use. To include the sensor in a network both the sensor and the network controller must be in inclusion mode at the same time. Refer to the instructions provided by the manufacturer of your specific controller for details on initiating the controller’s inclusion mode.
 
 STEP ONE  	     Start by placing the controller into inclusion mode.
 
 STEP TWO	    Activate inclusion mode for the sensor by removing the plastic pull-tab from the back of the sensor.  When the
     inclusion process is complete, the LED on the sensor will be solid blue, then go out.
 
-STEP THREE    Test the sensor.  Place the magnet next to the sensor to represent a closed position (see Installation section 
-	      to see where to position the magnet).  If the LED flashes ONE TIME, it is successfully communicating on your 
-	      Zwave network.  If the LED on the sensor flashes slow and steady for 5 seconds, you need to repeat the 
+STEP THREE    Test the sensor.  Place the magnet next to the sensor to represent a closed position (see Installation section
+	      to see where to position the magnet).  If the LED flashes ONE TIME, it is successfully communicating on your
+	      Zwave network.  If the LED on the sensor flashes slow and steady for 5 seconds, you need to repeat the
 	      inclusion process.
 </MetaDataItem>
     <MetaDataItem name="ExclusionDescription">Exclusion mode on the senor is initiated following the same exact procedure as inclusion.</MetaDataItem>

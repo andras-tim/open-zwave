@@ -35,8 +35,8 @@
       <Item label="Map OFF status to all devices in group 1, Double click on key 1 will send ON to all devices in group 1, all dimmers set to 100%" value="2"/>
     </Value>
     <Value genre="config" index="7" instance="1" label="Control key #2 behaviour" size="1" type="list" value="1">
-      <Help>Key no.2 is not represented by any physical device except of devices on association list. 
-        This functionality prevents of lack of reaction on pressing key no.2 through polling devices 
+      <Help>Key no.2 is not represented by any physical device except of devices on association list.
+        This functionality prevents of lack of reaction on pressing key no.2 through polling devices
         from association list one by one and checking their actual statuses.
       </Help>
       <Item label="Device status is not checked" value="0"/>

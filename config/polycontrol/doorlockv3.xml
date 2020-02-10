@@ -16,7 +16,7 @@
     <MetaDataItem id="0001" name="FrequencyName" type="0009">CEPT (Europe) / U.S. / Canada / Mexico / Australia / New Zealand / Japan / Australia / New Zealand / CEPT (Europe) / U.S. / Canada / Mexico / Australia / New Zealand / Japan / Brazil / South Korea / Russia / Israel</MetaDataItem>
     <MetaDataItem name="Description">Danalock supports:
 - S0/S2 Z-Wave Security
-- Bluetooth Smart 
+- Bluetooth Smart
 - Twist Assist
 - Auto Lock
 - Hold And Release

@@ -18,22 +18,22 @@ Sensor can be used to trigger scenes and wherever there is a need for informatio
     <MetaDataItem name="ProductManual">https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&amp;filename=Manuals/2181/FGDW-002-EN-T-v0.3.2.pdf</MetaDataItem>
     <MetaDataItem name="ExclusionDescription">1)	Place the Door/Window Sensor 2 within the direct range of your Z-Wave controller.
 2)	Set the main controller into remove mode (see the controller’s manual).
-3)	Quickly, three times press one of the TMP buttons (while the other button is pressed). 
+3)	Quickly, three times press one of the TMP buttons (while the other button is pressed).
 4)	Wait for the removing process to end.
 5)	Successful removing will be confirmed by the Z-Wave controller’s message.
 
 </MetaDataItem>
-    <MetaDataItem name="WakeupDescription">The Door/Window Sensor 2 needs to be woken up to receive informa¬tion about the new configuration from the controller, like parameters and associations. 
+    <MetaDataItem name="WakeupDescription">The Door/Window Sensor 2 needs to be woken up to receive informa¬tion about the new configuration from the controller, like parameters and associations.
 1)	To wake up the sensor manually, click one of the TMP buttons (while the other button is pressed).
 </MetaDataItem>
     <MetaDataItem name="ResetDescription">Reset procedure allows to restore the device back to its factory settings, which means all information about the Z-Wave controller and user configuration will be deleted. In order to reset the device:
-1)	Open the cover. 
-2)	Remove the battery. 
-3)	Install the battery while holding both TMP buttons. 
-4)	Release the TMP button within 5 seconds. 
-5)	Visual indicator will blink 3 times to confirm launching of reset procedure. 
-6)	Wait around 30s for the resetting process to end, do not remove the battery. 
-7)	Visual LED indicator will blink 6 times to confirm the reset. 
+1)	Open the cover.
+2)	Remove the battery.
+3)	Install the battery while holding both TMP buttons.
+4)	Release the TMP button within 5 seconds.
+5)	Visual indicator will blink 3 times to confirm launching of reset procedure.
+6)	Wait around 30s for the resetting process to end, do not remove the battery.
+7)	Visual LED indicator will blink 6 times to confirm the reset.
 
 *Resetting the device is not the recommended way of removing the device from the Z-Wave network. Use reset procedure only if the primary controller is missing or inoperable.</MetaDataItem>
     <MetaDataItem id="1000" name="FrequencyName" type="0702">CEPT (Europe)</MetaDataItem>

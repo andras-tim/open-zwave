@@ -15,8 +15,8 @@
       <Entry author="Justin Hammond - Justin@dynam.ac" date="02 Jun 2019" revision="2">Initial Metadata Import from Z-Wave Alliance Database - https://products.z-wavealliance.org/products/2147/xml</Entry>
     </ChangeLog>
   </MetaData>
-  <!-- 
-Popp 012501 Strike Lock Control 
+  <!--
+Popp 012501 Strike Lock Control
 http://www.popp.eu/wp-content/uploads/2016/11/Manual_ElectricStrikeLockControl_POPP_en.pdf
 -->
 	<!-- Configuration  -->

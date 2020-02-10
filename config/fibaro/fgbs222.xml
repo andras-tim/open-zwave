@@ -12,11 +12,11 @@ Main features of FIBARO Smart Implant:
 - Compatible with any Z-Wave or Z-Wave+ Controller,
 - Supports Z-Wave network Security Modes: S0 with AES-128 encryption and S2 with PRNG-based encryption,
 - Allows for connecting sensors:
-   o	6 DS18B20 sensors, 
+   o	6 DS18B20 sensors,
    o	1 DHT sensor,
    o	2 2-wire analog sensor,
    o	2 3-wire analog sensor,
-   o	2 binary sensors. 
+   o	2 binary sensors.
 - Works as a Z-Wave signal repeater,
 - Built-in temperature sensor.
 </MetaDataItem>
@@ -36,9 +36,9 @@ Main features of FIBARO Smart Implant:
 4.	If you are adding in Security S2 Authenticated, scan the DSK QR code or input the 5-digit PIN code (label on the bottom of the box).
 5.	LED will start blinking yellow, wait for the adding process to end.
 6.	Successful adding will be confirmed by the Z-Wave controller’s message.
- 
+
 To add the device to the Z-Wave network using Smart Start:
-1.	Set the main controller in Security S2 Authenticated add mode (see the controller’s manual). 
+1.	Set the main controller in Security S2 Authenticated add mode (see the controller’s manual).
 2.	Scan the DSK QR code or input the 5-digit PIN code (label on the bottom of the box).
 3.	Power the device.
 4.	LED will start blinking yellow, wait for the adding process to end.
@@ -73,7 +73,7 @@ removing the device from the Z-Wave network. Use this procedure only when the ne
   <CommandClass id="112">
     <Value genre="config" index="20" instance="1" label="Input 1 operating mode" size="1" type="list" value="2">
       <Help>
-        This parameter allows to choose mode of 1st input (IN1). 
+        This parameter allows to choose mode of 1st input (IN1).
         Change it depending on connected device.
       </Help>
       <Item label="Normally closed alarm input" value="0"/>
@@ -85,7 +85,7 @@ removing the device from the Z-Wave network. Use this procedure only when the ne
     </Value>
     <Value genre="config" index="21" instance="1" label="Input 2 operating mode" size="1" type="list" value="2">
       <Help>
-        This parameter allows to choose mode of 2nd input (IN2). 
+        This parameter allows to choose mode of 2nd input (IN2).
         Change it depending on connected device.
       </Help>
       <Item label="Normally closed alarm input" value="0"/>
@@ -97,7 +97,7 @@ removing the device from the Z-Wave network. Use this procedure only when the ne
     </Value>
     <Value genre="config" index="24" instance="1" label="Inputs orientation" size="1" type="list" value="0">
       <Help>
-        This parameter allows reversing operation of IN1 and IN2 inputs without changing the wiring. 
+        This parameter allows reversing operation of IN1 and IN2 inputs without changing the wiring.
         Use in case of incorrect wiring.
       </Help>
       <Item label="Default (IN1 - 1st input, IN2 - 2nd input)" value="0"/>
@@ -105,7 +105,7 @@ removing the device from the Z-Wave network. Use this procedure only when the ne
     </Value>
     <Value genre="config" index="25" instance="1" label="Outputs orientation" size="1" type="list" value="0">
       <Help>
-        This parameter allows reversing operation of OUT1 and OUT2 inputs without changing the wiring. 
+        This parameter allows reversing operation of OUT1 and OUT2 inputs without changing the wiring.
         Use in case of incorrect wiring.
       </Help>
       <Item label="Default (OUT1 - 1st output, OUT2 - 2nd output)" value="0"/>
@@ -113,7 +113,7 @@ removing the device from the Z-Wave network. Use this procedure only when the ne
     </Value>
     <Value genre="config" index="40" instance="1" label="Input 1 sent scenes" size="1" type="byte" value="0">
       <Help>
-        This parameter defines which actions result in sending scene ID and attribute assigned to them. 
+        This parameter defines which actions result in sending scene ID and attribute assigned to them.
         Parameter is relevant only if parameter 20 is set to 2 or 3. bitmask.
         0 => No scenes sent.
         1 => Key pressed 1 time.
@@ -124,7 +124,7 @@ removing the device from the Z-Wave network. Use this procedure only when the ne
     </Value>
     <Value genre="config" index="41" instance="1" label="Input 2 sent scenes" size="1" type="byte" value="0">
       <Help>
-        This parameter defines which actions result in sending scene ID and attribute assigned to them. 
+        This parameter defines which actions result in sending scene ID and attribute assigned to them.
         Parameter is relevant only if parameter 21 is set to 2 or 3. bitmask.
         0 => No scenes sent.
         1 => Key pressed 1 time.
@@ -164,7 +164,7 @@ removing the device from the Z-Wave network. Use this procedure only when the ne
     <Value genre="config" index="150" instance="1" label="Input 1 sensitivity" max="100" min="1" type="byte" units="10ms" value="10">
       <Help>
         This parameter defines the inertia time of IN1 input in alarm modes.
-        Adjust this parameter to prevent bouncing or signal disruptions. 
+        Adjust this parameter to prevent bouncing or signal disruptions.
         Parameter is relevant only if parameter 20 is set to 0 or 1 (alarm mode).
         Available settings: 1-100 (10ms-1000ms, 10ms step).
         Default setting: 10 (100ms).
@@ -180,7 +180,7 @@ removing the device from the Z-Wave network. Use this procedure only when the ne
     </Value>
     <Value genre="config" index="152" instance="1" label="Input 1 delay of alarm cancellation" max="3600" min="0" type="short" units="seconds" value="0">
       <Help>
-        This parameter defines additional delay of cancelling the alarm on IN1 input. 
+        This parameter defines additional delay of cancelling the alarm on IN1 input.
         Parameter is relevant only if parameter 20 is set to 0 or 1 (alarm mode).
         Available settings:
           0 - no delay.
@@ -190,7 +190,7 @@ removing the device from the Z-Wave network. Use this procedure only when the ne
     </Value>
     <Value genre="config" index="153" instance="1" label="Input 2 delay of alarm cancellation" max="3600" min="0" type="short" units="seconds" value="0">
       <Help>
-        This parameter defines additional delay of cancelling the alarm on IN2 input. 
+        This parameter defines additional delay of cancelling the alarm on IN2 input.
         Parameter is relevant only if parameter 21 is set to 0 or 1 (alarm mode).
         Available settings:
           0 - no delay.

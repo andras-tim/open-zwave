@@ -49,7 +49,7 @@ Note: Factory reset is not recommended for exclusion, please use this procedure 
     </Value>
     <Value genre="config" index="3" instance="1" label="Send the basic report" size="1" type="list" value="1">
       <Help>Enable/disable to send the basic report to the Lifeline when the load state changed.
-              When value set as 1, re-power on the dimmer, it will send Basic report automatically. 
+              When value set as 1, re-power on the dimmer, it will send Basic report automatically.
 		Default Enabled.
         </Help>
       <Item label="Disable" value="0"/>
@@ -58,7 +58,7 @@ Note: Factory reset is not recommended for exclusion, please use this procedure 
     <Value genre="config" index="4" instance="1" label="Fade time" max="255" min="0" type="byte" value="1">
       <Help>Fade time (units between 1-127 represent 1-127 seconds.
 		Units Betwen 128-244 represent minutes, 128 = 1 minute, 129 = 2 minutes.
-              This value has the same function as Duration of Multilevel). 
+              This value has the same function as Duration of Multilevel).
 		Default 1.
         </Help>
     </Value>
@@ -75,7 +75,7 @@ Note: Factory reset is not recommended for exclusion, please use this procedure 
     </Value>
     <Value genre="config" index="7" instance="1" label="Choose MOSFET driving type" size="1" type="list" value="1">
       <Help>
-          Choose MOSFET driving type". 
+          Choose MOSFET driving type".
 		Default trailing edge.
         </Help>
       <Item label="Trailing edge" value="0"/>
@@ -83,8 +83,8 @@ Note: Factory reset is not recommended for exclusion, please use this procedure 
     </Value>
     <Value genre="config" index="8" instance="1" label="External switch type" size="1" type="list" value="1">
       <Help>
-	   Choose external switch type. 
-		Default normal on/off switch. 
+	   Choose external switch type.
+		Default normal on/off switch.
         </Help>
       <Item label="Push button switch" value="0"/>
       <Item label="normal on/off switch" value="1"/>
@@ -132,7 +132,7 @@ Note: Factory reset is not recommended for exclusion, please use this procedure 
     </Value>
     <Value genre="config" index="14" instance="1" label="Power automatic report absolute threshold" size="2" type="short" units="W" value="10">
       <Help>
-           Power automatic report absolute threshold, unit is W. 
+           Power automatic report absolute threshold, unit is W.
 	   When power changes above the absolute threshold, immediately report current power value
         </Help>
     </Value>

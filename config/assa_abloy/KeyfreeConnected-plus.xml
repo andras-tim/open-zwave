@@ -61,7 +61,7 @@ Please use this procedure only when the network controller is missing or inopera
     <MetaDataItem id="0001" name="Identifier" type="0006">YKFCON</MetaDataItem>
   </MetaData>
   <!-- Yale Keyfree Connected (YKFCON)
-http://ozw.my-ho.st/Yale/Yale%20ZWave%20Developer%20Guide.pdf 
+http://ozw.my-ho.st/Yale/Yale%20ZWave%20Developer%20Guide.pdf
 https://products.z-wavealliance.org/products/2743/configs
 -->
 <!-- Yale Keyless Connected (YD-01-CON)

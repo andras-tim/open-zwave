@@ -5,7 +5,7 @@
     <MetaDataItem id="0002" name="ZWProductPage" type="0001">https://products.z-wavealliance.org/products/977/</MetaDataItem>
     <MetaDataItem id="0002" name="FrequencyName" type="0001">U.S. / Canada / Mexico / CEPT (Europe) / Australia / New Zealand / U.S. / Canada / Mexico</MetaDataItem>
     <MetaDataItem name="Name">PIR Sensor</MetaDataItem>
-    <MetaDataItem name="Description">The Motion Detector is designed with two detecting sensors, Passive Infra-Red (PIR) sensor and light sensor, to detect movement within a protected area, operating at 868.42 , 908.42, and 921.42 MHz. 
+    <MetaDataItem name="Description">The Motion Detector is designed with two detecting sensors, Passive Infra-Red (PIR) sensor and light sensor, to detect movement within a protected area, operating at 868.42 , 908.42, and 921.42 MHz.
 
 The detector can be used as a security device or home automation device.  When the detector is cooperated with security appliances, the detector is acting as a security device by detecting changes in infra-red radiation levels. If a person moves within or across the devices field of vision, a trigger radio signal will be transmitted to cause full alarm condition in order to frighten intruders away. Alternatively, when the detector is worked with Z-Wave Controller , the detector can be set to perform the role of home automation device by detecting both changes in infra-red radiation levels and percentage of lux levels.  Once night falls, the percentage of ambient illumination is lower than preset value. If a person moves within or across the devices field of vision, a trigger radio signal will be transmitted so as to turn connected lightings for better illumination.
 
@@ -60,7 +60,7 @@ Two mounting methods are provided for varying detection range.  The detector can
     <Value genre="config" index="6" label="On-Off Duration" max="3600" min="5" type="short" units="Seconds" value="5">
       <Help>
 	  The duration determines how long before the module sends an Off after being triggered.
-	  IMPORTANT: Parameter size is 1 5-127 or 2 if value > 127. Any value below 127 will be rejected!	  
+	  IMPORTANT: Parameter size is 1 5-127 or 2 if value > 127. Any value below 127 will be rejected!
       </Help>
     </Value>
   </CommandClass>

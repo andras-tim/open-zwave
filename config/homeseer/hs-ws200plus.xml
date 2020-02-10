@@ -18,7 +18,7 @@ the device.   To manually reset, tap the ON button twice quickly and then tap th
 - ON/OFF status and location LED indicator
 - Includes Z-Wave controllable RGB LED indicator
 - Fits into standard single or multiple gang junction box
-- Keypad can be replaced manually to match color with other wall switches 
+- Keypad can be replaced manually to match color with other wall switches
 - Over-The-Air firmware upgrade available with compatible gateway, Z-Wave static controller, or PC and software.
 - Internal resettable fuse to protect from surge current
 - Manual reset capability
@@ -26,7 +26,7 @@ the device.   To manually reset, tap the ON button twice quickly and then tap th
     <MetaDataItem name="Name">Z-Wave Wall Switch with RGB LED</MetaDataItem>
     <MetaDataItem id="3035" name="Identifier" type="4447">HS-WS200+</MetaDataItem>
     <MetaDataItem name="InclusionDescription">1. Turn the connected appliance ON/OFF by tapping the switch. Tapping and releasing the upper part of the rocker turns the appliance ON. Tapping and releasing the lower part of the rocker turns the appliance OFF.
-2. Add(Include) the module to/from your Z-Wave network with your primary controller. Please refer to the instructions manual of your gateway or remote controller for details and procedures on how these actions can be done. 
+2. Add(Include) the module to/from your Z-Wave network with your primary controller. Please refer to the instructions manual of your gateway or remote controller for details and procedures on how these actions can be done.
 3. Normally, the sequence is as follows: when the inclusion process is prompted by your primary controller, single click and release the rocker switch to ON or OFF position.  The controller should show that the action was successful.  If the controller shows it was a fail, repeat the procedure.</MetaDataItem>
     <ChangeLog>
       <Entry author="Justin Hammond - Justin@dynam.ac" date="02 Jun 2019" revision="2">Initial Metadata Import from Z-Wave Alliance Database - https://products.z-wavealliance.org/products/2675/xml</Entry>

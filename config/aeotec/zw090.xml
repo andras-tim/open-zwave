@@ -39,7 +39,7 @@ Press and hold the Action Button on Z-Stick for 20 seconds and then release.</Me
       <Item label="Enable" value="1"/>
     </Value>
     <Value genre="config" index="220" label="Configuration of the RF power level" max="10" min="1" size="1" type="list" value="10">
-      <Help>1~10, other= ignore. 
+      <Help>1~10, other= ignore.
 				A total of 10 levels, level 1 as the weak output power, and so on, 10 for most output power level</Help>
       <Item label="1" value="1"/>
       <Item label="2" value="2"/>

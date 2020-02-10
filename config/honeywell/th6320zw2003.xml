@@ -31,7 +31,7 @@ controller to EXCLUDE MODE. Please refer to the user manual of your Z-Wave contr
 If the procedure fails, “FAILED TO EXCLUDE” appears on the screen.
 • Your controller will indicate whether the thermostat was successfully excluded from its network. Please refer to the user manual of your Z-Wave controller.</MetaDataItem>
     <MetaDataItem name="ResetDescription">To reset the thermostat to factory default setting, go to Installer setup – advanced menu. To access the advanced menu, press and hold the thermostat Menu button for 5 seconds.
-Touch &lt; or > to go to RESET menu. Press Select. Touch &lt; or > to go to FACTORY. Press Select. Touch Yes to reset the thermostat to factory default settings.. 
+Touch &lt; or > to go to RESET menu. Press Select. Touch &lt; or > to go to FACTORY. Press Select. Touch Yes to reset the thermostat to factory default settings..
 Please use the reset procedure only when the primary controller is missing or inoperable.</MetaDataItem>
     <ChangeLog>
       <Entry author="Justin Hammond - Justin@dynam.ac" date="02 Jun 2019" revision="2">Initial Metadata Import from Z-Wave Alliance Database - https://products.z-wavealliance.org/products/2583/xml</Entry>

@@ -39,7 +39,7 @@ activation of exclusion mode.</MetaDataItem>
     </Value>
     <Value genre="config" index="2" label="Shock Sensor" max="32" min="0" type="byte" units="" value="10">
       <Help>
-        Shock sensor : 0=Maximum sensitivity ; 32=minimum sensitivity 
+        Shock sensor : 0=Maximum sensitivity ; 32=minimum sensitivity
       </Help>
     </Value>
   </CommandClass>

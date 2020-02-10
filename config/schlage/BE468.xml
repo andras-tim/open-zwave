@@ -45,7 +45,7 @@
 		</Value>
 		<Value type="byte" genre="config" index="16" label="User code pin length" min="4" max="8" value="4">
 			<Help>
-				User Code PIN length, a value between 4 and 8. 
+				User Code PIN length, a value between 4 and 8.
 				IMPORTANT: All user codes must be the same length.
 			</Help>
 		</Value>

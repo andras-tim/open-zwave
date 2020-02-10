@@ -56,11 +56,11 @@ Very low power consumption (3 years battery life)</MetaDataItem>
     </Value>
     <Value genre="user" index="1" instance="1" label="Alarm Report" read_only="true" size="1" type="list" value="0" verify_changes="false" vindex="0" write_only="false">
       <Help>
-				No alarm : There is no alarm to report. 
+				No alarm : There is no alarm to report.
 				Power applied : Once the power has been applied, Alarm Report Command will be sent to
-				Nodes in Grouping 1 to confirm the power applied status for HSM02. 
+				Nodes in Grouping 1 to confirm the power applied status for HSM02.
 				Tamper event : Grouping 1, afterward, LED will light up for 1 sec to remind user when HSM02 is
-				triggered due to open or close incidents. 
+				triggered due to open or close incidents.
 				Low battery : When HSM02 automatically wakes up, it will check the battery usage. When
 				low battery is detected, Alarm Report Command will be sent to Nodes in
 				Grouping 1, afterward, LED will light up for 1 sec to remind user when HSM02 is

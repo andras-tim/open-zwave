@@ -76,8 +76,8 @@ Resetting the device is not the recommended way of removing the device from the 
     </Value>
     <Value genre="config" index="7" instance="1" label="Associations in Z-Wave network security mode" max="63" min="0" type="byte" value="63">
       <Help>
-				Parameter defines how commands are sent in specified association groups: as secure or non-secure. 
-				Parameter is active only in Z-Wave network security mode. 
+				Parameter defines how commands are sent in specified association groups: as secure or non-secure.
+				Parameter is active only in Z-Wave network security mode.
 				It does not apply to 1st Lifeline association group.
 				Available settings:
 				0 - all groups sent as non-secure
@@ -105,7 +105,7 @@ Resetting the device is not the recommended way of removing the device from the 
     </Value>
     <Value genre="config" index="13" instance="1" label="Commands sent to 4th association group (CO Level)" max="3" min="1" size="1" type="list" value="3">
       <Help>
-				This parameter defines commands sent to devices associated in 4th association group (CO Level). 
+				This parameter defines commands sent to devices associated in 4th association group (CO Level).
 				Values of specified commands may be set in parameters 16 and 19.
 			</Help>
       <Item label="BASIC ON" value="1"/>
@@ -114,7 +114,7 @@ Resetting the device is not the recommended way of removing the device from the 
     </Value>
     <Value genre="config" index="14" instance="1" label="CO level required for sending BASIC ON command to 4th association group" max="400" min="20" type="short" units="ppm" value="40">
       <Help>
-				This parameter defines the minimum level of CO concentration whichexceeding will result in starting the timer set in parameter 15. 
+				This parameter defines the minimum level of CO concentration whichexceeding will result in starting the timer set in parameter 15.
 				Available settings: 20 - 400  CO concentration level in ppm
 			</Help>
     </Value>
@@ -155,7 +155,7 @@ Resetting the device is not the recommended way of removing the device from the 
     </Value>
     <Value genre="config" index="20" instance="1" label="Temperature report interval" max="1440" min="0" type="short" value="0">
       <Help>
-				Time interval (in seconds) between consecutive reports of temperature (done by built-in temperature sensor). 
+				Time interval (in seconds) between consecutive reports of temperature (done by built-in temperature sensor).
 				Short time interval means more frequent communication, which results in shortened battery life.
 				Available settings: 0 - no periodical reports 10-1440 (5min - 12h, in 30s steps)
 				Default setting: 0
@@ -189,7 +189,7 @@ Resetting the device is not the recommended way of removing the device from the 
     </Value>
     <Value genre="config" index="26" instance="1" label="Threshold of CO meter activation" max="255" min="10" type="short" units="ppm" value="30">
       <Help>
-				This parameter defines the CO concentration level, which exceeding will result in sending a new value to the main Z-Wave controller, according to parameter 25 settings. 
+				This parameter defines the CO concentration level, which exceeding will result in sending a new value to the main Z-Wave controller, according to parameter 25 settings.
 				Adjusting the value allows to get the accurate data in case of danger and helps to save the battery in normal conditions.
 				Available settings: 10-255 (ppm)
 				Default setting: 30 (30 ppm)

@@ -54,7 +54,7 @@ www.yale.co.uk/smart-living
     </ChangeLog>
   </MetaData>
   <!-- Yale Conexis L1 (SD-L1000-CH)
-http://ozw.my-ho.st/Yale/Yale%20ZWave%20Developer%20Guide.pdf 
+http://ozw.my-ho.st/Yale/Yale%20ZWave%20Developer%20Guide.pdf
 https://products.z-wavealliance.org/products/2535/configs
 -->
 	<!-- Configuration -->
@@ -75,7 +75,7 @@ https://products.z-wavealliance.org/products/2535/configs
     </Value>
     <Value genre="config" index="4" instance="1" label="Wrong Tag Limit" max="20" min="1" size="1" type="list" value="5">
       <Help>
-		    Number of incorrect tags before lock will accept before sending TAMPER Alarm. 
+		    Number of incorrect tags before lock will accept before sending TAMPER Alarm.
 			When number of wrong code entries is exceeded, lock will disable for the time specified by Wrong tag timeout parameter. (5 = default)
 			</Help>
       <Item label="1" value="1"/>

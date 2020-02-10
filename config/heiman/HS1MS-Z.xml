@@ -19,7 +19,7 @@ http://products.z-wavealliance.org/products/1801
     <MetaDataItem name="InclusionDescription">-  Click [Add] icon in Z-Wave PC Controller Program
 -  Press a Func_Button 3 time in HS1MS-Z (Motion Sensor), Green LED is Blinking 3 times within 1 second.
 -  If Inclusion Process is successful, Green LED will turn off.</MetaDataItem>
-    <MetaDataItem name="ResetDescription">Long press Func_Button while installing batteries in HS1MS-Z 
+    <MetaDataItem name="ResetDescription">Long press Func_Button while installing batteries in HS1MS-Z
 -  Device Reset Locally notification is Transmitted
 -  Please use the reset procedure only when the primary controller is missing or inoperable</MetaDataItem>
     <ChangeLog>

@@ -1,4 +1,4 @@
-<!-- 
+<!--
 MCO Home Touch Panel Dimmer Switch MH-P511, imported on User Manual 30/06/2016
 -->
 <Product Revision="1" xmlns="https://github.com/OpenZWave/open-zwave">
@@ -147,5 +147,5 @@ MCO Home Touch Panel Dimmer Switch MH-P511, imported on User Manual 30/06/2016
       <Group index="3" label="S1 Multi-level Set Command" max_associations="5"/>
     </Associations>
   </CommandClass>
-  
+
 </Product>

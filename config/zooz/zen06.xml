@@ -10,11 +10,11 @@
 - LED indicator displaying Z-Wave signal strength and power usage
 - Security enabled Z-Wave device with AES signal encryption (requires a security enabled gateway controller for full functionality)
 - Z-Wave Plus with improved 500 chip for faster and safer wireless communication
-- Built-in range extender for a stronger, more reliable network 
+- Built-in range extender for a stronger, more reliable network
 - 2 USB charging ports for your smart phone or tablet (no Z-Wave functionality)
 - Built-in overload protection in Z-Wave outlet and USB ports
 
-Product Specifications: 
+Product Specifications:
 Model Number: ZEN06
 Z-Wave Signal Frequency: 908.42 MHz
 Power: 110V, 60Hz
@@ -51,7 +51,7 @@ Secure Z-Wave Inclusion
 6. A new secure on / off device should be recognized by your Z-Wave controller
 </MetaDataItem>
     <MetaDataItem id="000A" name="Identifier" type="0101">ZEN06</MetaDataItem>
-    <MetaDataItem name="ResetDescription">When your network’s primary controller is missing or otherwise inoperable, you may need to reset the device to factory settings manually. In order to complete the process, plug the smart plug into a grounded receptacle, then PRESS AND HOLD the Z-Wave button for AT LEAST 20 SECONDS. The LED indicator will stay solid yellow for 2 seconds to indicate successful reset. The plug will then automatically turn off. 
+    <MetaDataItem name="ResetDescription">When your network’s primary controller is missing or otherwise inoperable, you may need to reset the device to factory settings manually. In order to complete the process, plug the smart plug into a grounded receptacle, then PRESS AND HOLD the Z-Wave button for AT LEAST 20 SECONDS. The LED indicator will stay solid yellow for 2 seconds to indicate successful reset. The plug will then automatically turn off.
 NOTE: All previously recorded activity and custom settings will be erased from the device’s memory. You may only reset your smart plug once it has been included to a Z-Wave network.</MetaDataItem>
     <MetaDataItem name="ExclusionDescription">1. Plug the smart plug into a grounded receptacle located within 3 feet from your Z-Wave gateway controller
 2. Put your Z-Wave controller in exclusion mode

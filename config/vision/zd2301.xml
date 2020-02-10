@@ -13,7 +13,7 @@ controller is missing or is otherwise inoperable.</MetaDataItem>
     <MetaDataItem name="Name">Zipato 4 in 1 Door Sensor</MetaDataItem>
     <MetaDataItem name="ExclusionDescription">Put the Z-WaveTM Interface
 Controller into “exclusion” mode, and following its instruction to delete the ZD2301 from your controller. Press the program switch of ZD2301 for 1 second at least to be excluded.</MetaDataItem>
-    <MetaDataItem name="Description">Door/Window, humidity, temperature and luminance sensor. 
+    <MetaDataItem name="Description">Door/Window, humidity, temperature and luminance sensor.
 * Primarily used as dry contact door/window sensor.
 * Very low power consumption
 * LED indicator

@@ -8,7 +8,7 @@
     <MetaDataItem name="ExclusionDescription">To remove the ZP3111 from the Z-Wave network (exclusion), place the Z-Wave primary controller into “exclusion” mode, and following its instruction to delete the ZP3111 to the controller.  Press the Program Switch of ZP3111 once to be excluded. </MetaDataItem>
     <MetaDataItem name="WakeupDescription">Use “Wake Up” command to set up the awaking time (from 10 minutes to 1 week) and send the wake up notification to controller</MetaDataItem>
     <MetaDataItem name="ResetDescription">Remove cover to trigged tamper switch, LED flash once &amp; send out Alarm Report.  Press Program Switch 10 times within 10 seconds, ZP3111 will send the “Device Reset Locally Notification” command and reset to the factory default. (Remark: This is to be used only in the case of primary controller being inoperable or otherwise unavailable.)
-   
+
 </MetaDataItem>
     <MetaDataItem id="2101" name="Identifier" type="2021">ZP3111JP-5</MetaDataItem>
     <MetaDataItem name="ProductManual">https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&amp;filename=Manuals/2479/ZP3111-5_R2_20170316.pdf</MetaDataItem>
@@ -28,7 +28,7 @@
     </ChangeLog>
   </MetaData>
   <!-- Vision ZP3111 Multisensor 4in1 -->
-<!-- 
+<!--
 Vision ZP3111-5 4 in 1 Multi-Sensor
 http://products.z-wavealliance.org/ProductManual/File?folder=&filename=Manuals/1572/ZP3111-5_R0_20151113%20-%20VISION.pdf
 

@@ -4,7 +4,7 @@
     <MetaDataItem name="ProductPic">images/popp/700397.png</MetaDataItem>
     <MetaDataItem id="000A" name="ZWProductPage" type="0003">https://products.z-wavealliance.org/products/2842/</MetaDataItem>
     <MetaDataItem name="Description">The Wall Plug Switch Outdoor can be placed between a wall outlet for Schuko plugs (plug type F) and electric devices, plugged in by cord. It can switch all loads up to 3500 W. The plug switch is IP 44 rated and can therefore be used both in dry as well as humid environments in- and outdoor.
-Switching is controlled by the local button or wirelessly. The use of the local button and the behavior oon wireless commands can be configured using configuration parameters. Whn detached from the control of local leads the button on the device can be used to trigger scenes in a central gateway. Single click and double click are distinguished. 
+Switching is controlled by the local button or wirelessly. The use of the local button and the behavior oon wireless commands can be configured using configuration parameters. Whn detached from the control of local leads the button on the device can be used to trigger scenes in a central gateway. Single click and double click are distinguished.
 The device is also measuring the mains voltage supply reporting mains voltage and mains frequency. Addtionally the powr consumption of the attached load is monitored as well.
 All metering values an be requested from the central controller and will be reported unsolicited if configured. </MetaDataItem>
     <MetaDataItem name="Name"> Z-Wave Metering Plug Smart Start</MetaDataItem>
@@ -74,7 +74,7 @@ All metering values an be requested from the central controller and will be repo
     </Value>
     <Value genre="config" index="23" instance="1" label="Voltage Report Threshold" max="250" min="0" size="1" type="byte" units="Volt" value="100">
       <Help>
-                Report the voltage when the voltage has changed by more then X  * 1 V. 
+                Report the voltage when the voltage has changed by more then X  * 1 V.
                 When disabled the device will report every 10 minutes regardless of current voltage.
                 0 -> Disabled
                 100 -> Default
@@ -92,7 +92,7 @@ All metering values an be requested from the central controller and will be repo
     </Value>
     <Value genre="config" index="25" instance="1" label="Power Reporting Threshold" max="255" min="0" size="1" type="byte" units="Watts" value="50">
       <Help>
-                Report the power when the power  has changed by more then X Watt. 
+                Report the power when the power  has changed by more then X Watt.
                 When disabled the device will report every 10 minutes regardless of power consumption change.
                 0 -> Disabled
                 50 -> Default
@@ -115,7 +115,7 @@ All metering values an be requested from the central controller and will be repo
             </Help>
     </Value>
     <Value genre="config" index="28" instance="1" label="Soft Circuit Breaker Recovery Time" max="255" min="0" size="1" type="byte" units="* 0,1 sec" value="10">
-      <Help>This delay time defines how fast the soft circuit breaker wil react when the threshold power is exceeded. 
+      <Help>This delay time defines how fast the soft circuit breaker wil react when the threshold power is exceeded.
                 The power is cut off only if the power draw remains over the threshold level for the defines time.
                 0 -> Disabled
                 10 -> Default

@@ -61,7 +61,7 @@
       <CreateVars>true</CreateVars>
     </Compatibility>
   </CommandClass>
-<!-- Thermostat fan modes --> 
+<!-- Thermostat fan modes -->
   <CommandClass id="68">
     <Instance index="1"/>
     <Value genre="user" index="0" instance="1" label="Fan Mode" size="1" read_only="false" type="list" units="" write_only="false">
@@ -69,7 +69,7 @@
       <Item label="On Auto High" value="2"/>
       <Item label="On High" value="3"/>
       <Item label="On Auto Medium" value="4"/>
-      <Item label="On Medium" value="5"/> 
+      <Item label="On Medium" value="5"/>
       <Item label="OFF" value="128"/>
     </Value>
     <SupportedModes>
@@ -77,7 +77,7 @@
       <Mode index="2" label="AUTO HIGH"/>
       <Mode index="3" label="HIGH"/>
       <Mode index="4" label="AUTO MEMDIUM"/>
-      <Mode index="5" label="MEDIUM"/> 
+      <Mode index="5" label="MEDIUM"/>
       <Mode index="128" label="OFF"/>
     </SupportedModes>
     <Compatibility/>
@@ -224,8 +224,8 @@
 	</Value>
 	<Value genre="config" index="41" label="TIME mode operation" max="3" min="1" size="1" type="list" units="" value="1">
 		<Help>
-			This parameter determines the Climate Mode (Heating or Cooling) to which HE-FT01 will switch when the TIME operating mode is selected. 
-			If the value = 1 the thermostat will go to Heating  and Cooling mode, if value = 2 the thermostat goes to Heating mode, if the value = 3 the thermostat goes to Cooling Mode. 
+			This parameter determines the Climate Mode (Heating or Cooling) to which HE-FT01 will switch when the TIME operating mode is selected.
+			If the value = 1 the thermostat will go to Heating  and Cooling mode, if value = 2 the thermostat goes to Heating mode, if the value = 3 the thermostat goes to Cooling Mode.
 		</Help>
 		<Item label="Heating and Cooling mode" value="1"/>
 		<Item label="Heating mode" value="2"/>

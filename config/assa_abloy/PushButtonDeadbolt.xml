@@ -25,7 +25,7 @@ Press the 1 key followed by the gear key</MetaDataItem>
 Remove the interior escutcheon to access the reset button.
 The reset button is located above the PCB cable connector.
 While pressing the reset button for a minimum of 3 seconds, reinstall batteries. Release reset button.
-Replace battery cover. 
+Replace battery cover.
 Please use this procedure only when the network primary controller is missing or otherwise inoperable</MetaDataItem>
     <MetaDataItem id="0600" name="Identifier" type="8004">YRC216-ZW2</MetaDataItem>
     <MetaDataItem id="0600" name="FrequencyName" type="8004">U.S. / Canada / Mexico</MetaDataItem>
@@ -35,7 +35,7 @@ Press the 7 key followed by the gear key
 Press the 3 key followed by the gear key</MetaDataItem>
   </MetaData>
   <!-- Yale Push Button Deadbolt (YRD210)
-http://ozw.my-ho.st/Yale/Yale%20ZWave%20Developer%20Guide.pdf 
+http://ozw.my-ho.st/Yale/Yale%20ZWave%20Developer%20Guide.pdf
 -->
 	<!-- Configuration -->
   <CommandClass id="112">
@@ -54,7 +54,7 @@ http://ozw.my-ho.st/Yale/Yale%20ZWave%20Developer%20Guide.pdf
     </Value>
     <Value genre="config" index="4" instance="1" label="Wrong Code Entry Limit" max="7" min="1" size="1" type="list" value="5">
       <Help>
-			The number of invalid code entries lock will accept before sending TAMPER Alarm. 
+			The number of invalid code entries lock will accept before sending TAMPER Alarm.
 			When number of wrong code entries is exceeded, lock will disable keypad for the time specified by Shutdown Time parameter. (5 = default)
 			</Help>
       <Item label="3" value="3"/>
@@ -80,7 +80,7 @@ http://ozw.my-ho.st/Yale/Yale%20ZWave%20Developer%20Guide.pdf
     </Value>
     <Value genre="config" index="8" instance="1" label="Operating Mode" max="2" min="0" size="1" type="list" value="1">
       <Help>
-			The number of invalid code entries lock will accept before sending TAMPER Alarm. 
+			The number of invalid code entries lock will accept before sending TAMPER Alarm.
 			When number of wrong code entries is exceeded, lock will disable keypad for the time specified by Shutdown Time parameter. (5 = default)
 			</Help>
       <Item label="Normal" value="0"/>

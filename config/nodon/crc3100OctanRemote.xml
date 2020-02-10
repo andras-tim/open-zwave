@@ -6,7 +6,7 @@
     <MetaDataItem name="ResetDescription">Simultaneously push on buttons 3 and 4, during 1 second. The LED will blink red and green to validate the factory reset.
 
 A factory reset will completely delete the memory of the remote control and restore all parameters to default value.
-In "Standalone" Mode, make sure to remove all the devices added or associated in the remote control's network before performing a factory reset. 
+In "Standalone" Mode, make sure to remove all the devices added or associated in the remote control's network before performing a factory reset.
 In "Gateway" Mode, use the factory reset procedure only when the primary controller (i.e the Gateway) is missing or defective. Reset the remote control does not mean that it has been removed from the primary controller memory. Remove the remote control (through the primary controller) before performing a factory reset.</MetaDataItem>
     <MetaDataItem id="0001" name="FrequencyName" type="0002">CEPT (Europe) / U.S. / Canada / Mexico</MetaDataItem>
     <MetaDataItem name="Name">OCTAN Remote</MetaDataItem>
@@ -17,7 +17,7 @@ Based on an innovative technology, the OCTAN Remote NodOn® is only powered with
 
 A magnetic wall support is included with your OCTAN Remote NodOn®, which allow you to easily install and move it. This support can be screwed or fixed by adhesive bonding. The remote control embeds a small magnet, allowing fixing it on its wall support or on any metallic surface (fridge door, heater, etc.).
 
-The OCTAN Remote NodOn® is based on brand new 500 series Z-Wave® module from Sigma Designs®, and supports all the new features of Z-Wave Plus® standard: 
+The OCTAN Remote NodOn® is based on brand new 500 series Z-Wave® module from Sigma Designs®, and supports all the new features of Z-Wave Plus® standard:
 Longer range (up to 40 meters indoor), lower power consumption, higher data rate transmission, and many more new features.
 </MetaDataItem>
     <MetaDataItem name="WakeupDescription">When the product in "Gateway" mode, any action on button will send a wake up notification to the gateway.</MetaDataItem>

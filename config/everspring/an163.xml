@@ -1,5 +1,5 @@
-<!-- 
-EVERSPRING AN163 PLUG-IN ON/OFF MODULE WITH METERING 
+<!--
+EVERSPRING AN163 PLUG-IN ON/OFF MODULE WITH METERING
 https://products.z-wavealliance.org/products/979
 --><Product Revision="2" xmlns="https://github.com/OpenZWave/open-zwave">
   <MetaData>
@@ -30,13 +30,13 @@ https://products.z-wavealliance.org/products/979
     </Value>
     <Value genre="config" index="3" label="Meter Report Period (W)" max="3240" min="0" type="short" units="10s" value="3">
       <Help>
-	      The device will report its meter value within the interval set. 
+	      The device will report its meter value within the interval set.
 	      Set to 0 will disable the autoreporting function.
       </Help>
     </Value>
     <Value genre="config" index="4" label="Meter Report Period (kWh)" max="3240" min="0" type="short" units="10s" value="1440">
       <Help>
-	      The device will report its meter value within the interval set. 
+	      The device will report its meter value within the interval set.
 	      Set to 0 will disable the autoreporting function.
       </Help>
     </Value>

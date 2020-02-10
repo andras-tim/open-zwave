@@ -1,4 +1,4 @@
-<!-- 
+<!--
 ZWA002 LED Bulb 6 Multi-Color
 https://products.z-wavealliance.org/products/2881
 --><Product Revision="3" xmlns="https://github.com/OpenZWave/open-zwave">
@@ -10,7 +10,7 @@ https://products.z-wavealliance.org/products/2881
     <MetaDataItem name="ResetDescription">Reset the Device.
 1.	Assuming led bulb was added to controller and was power on.
 2.	RGBW bulb re-power 6 times (between 0.5-2 seconds each time).
-Note: ON -> OFF -> ON -> OFF -> ON -> OFF -> ON -> OFF -> ON -> OFF -> ON -> OFF -> ON 
+Note: ON -> OFF -> ON -> OFF -> ON -> OFF -> ON -> OFF -> ON -> OFF -> ON -> OFF -> ON
 3.	If the 6th power on, the led bulb change to Yellow color(into pairing process ), which means that the reset factory settings are successf.
 
 Using this action in case of the primary controller is missing or inoperable.
@@ -19,7 +19,7 @@ Using this action in case of the primary controller is missing or inoperable.
 ✓ RGBW: dimmable from 5% to 100%, tunable from 1800K to 6500K, and 16 million colors
 ✓ Possible to be included in groups, scenes, or schedules
 ✓ Suitable for indoor lighting: Corridors, Bedroom, Living Room, etc.</MetaDataItem>
-    <MetaDataItem name="InclusionDescription">Add for inclusion 
+    <MetaDataItem name="InclusionDescription">Add for inclusion
 1.	Ensure the led bulb has been excluded outside the network.
 2.	Triggered by OFF ->ON (between 0.5-2 seconds each time)
 3.	LED solid yellow Color (0xFFFF00) during the pairing(Timeout is 10 seconds).
@@ -31,7 +31,7 @@ Blinks between 100% White and Green 0x00FF00 color for 3 seconds (at a rate of 2
 </MetaDataItem>
     <MetaDataItem name="Name"> LED Bulb 6:Multi-Colour</MetaDataItem>
     <MetaDataItem name="ProductManual">https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&amp;filename=Manuals/2881/AA LED Bulb 6 说明书（RGBW-AL001）_转曲-2dd.pdf</MetaDataItem>
-    <MetaDataItem name="ExclusionDescription">Remove for exclusion 
+    <MetaDataItem name="ExclusionDescription">Remove for exclusion
 1.	Assuming led bulb was added to controller.
 2.	Triggered by OFF -> ON -> OFF -> ON -> OFF -> ON (between 0.5-2 seconds each time).
 3.	LED Solid Purple/Violet Color (0xEE82EE) during the unpairing process. (Timeout is 10 seconds).

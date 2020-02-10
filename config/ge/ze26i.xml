@@ -9,11 +9,11 @@
 - Compatible with smart home systems supporting Z-Wave
 - 60 Watt equivalent light (750 lumens)
 - Consumes only 9 watts of power
-- 2700K soft light with frosted glass 
+- 2700K soft light with frosted glass
 - Instant ON and fully dimmable
 - Functions as a Z-Wave signal repeater
 - Very simple to include in your network
-- Z-Wave Plus certified 
+- Z-Wave Plus certified
 </MetaDataItem>
     <MetaDataItem name="ExclusionDescription">1. Turn off power to the light bulb socket
 2. Follow the network controller instruction to place your network controller into exclusion mode to remove the dt light bulb from the network.
@@ -27,13 +27,13 @@
 4. Turn On power to the light bulb.  If successful, the LED light bulb will flash twice to indicate successful inclusion.
 5. If the controller/gateway shows it was a fail, repeat the procedure.
 
-Note: If Inclusion still fails after the 2nd attempt, you need to first RESET the dt Smart Bulb before repeating the above steps. 
+Note: If Inclusion still fails after the 2nd attempt, you need to first RESET the dt Smart Bulb before repeating the above steps.
 </MetaDataItem>
     <MetaDataItem id="3031" name="Identifier" type="4C42">39723</MetaDataItem>
     <MetaDataItem name="Name">Z-Wave LED Light Bulb</MetaDataItem>
     <MetaDataItem name="ResetDescription">You may manually reset the light bulb as follows:
-1.  Flick the wall switch “OFF-ON” 4 times within 4 seconds. 
-2. The dt Smart Bulb will flash twice after Reset is successful.  
+1.  Flick the wall switch “OFF-ON” 4 times within 4 seconds.
+2. The dt Smart Bulb will flash twice after Reset is successful.
 
 Use this procedure only in the event that the network primary controller is lost or otherwise inoperable.</MetaDataItem>
     <ChangeLog>

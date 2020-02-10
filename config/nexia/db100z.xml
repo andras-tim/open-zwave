@@ -5,10 +5,10 @@
     <MetaDataItem id="3130" name="ZWProductPage" type="4442">https://products.z-wavealliance.org/products/1349/</MetaDataItem>
     <MetaDataItem name="WakeupDescription">When the Install Button is triple-pressed, the device will send a Wakeup Notification report and stay awake for 10 seconds.
 
-WAKEUP_INTERVAL_CAPABILITIES_REPORT 
-Min Wake Up Interval :60 seconds 
-Max Wake Up Interval: 86400 seconds 
-Default Wake Up Interval: 25200 seconds 
+WAKEUP_INTERVAL_CAPABILITIES_REPORT
+Min Wake Up Interval :60 seconds
+Max Wake Up Interval: 86400 seconds
+Default Wake Up Interval: 25200 seconds
 Wake Up Interval Step: 60
 </MetaDataItem>
     <MetaDataItem name="ExclusionDescription">1.  Set primary controller to Exclude mode
@@ -20,7 +20,7 @@ Wake Up Interval Step: 60
     <MetaDataItem name="ProductManual">https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&amp;filename=Manuals/1349/18-HD77D1-1-EN DB100Z Z-Wave Door Bell Sensor.pdf</MetaDataItem>
     <MetaDataItem id="3130" name="Identifier" type="4442">DB100Z</MetaDataItem>
     <MetaDataItem id="3130" name="FrequencyName" type="4442">U.S. / Canada / Mexico</MetaDataItem>
-    <MetaDataItem name="ResetDescription">Please only perform a factory reset when the primary controller is missing or inoperable.  A factory reset will remove all network settings and configurations. 
+    <MetaDataItem name="ResetDescription">Please only perform a factory reset when the primary controller is missing or inoperable.  A factory reset will remove all network settings and configurations.
 
 1. Hold down Install Button for 10 seconds
 2. Release the Install Button

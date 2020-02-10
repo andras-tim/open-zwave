@@ -3,7 +3,7 @@
     <MetaDataItem name="OzwInfoPage">http://www.openzwave.com/device-database/019B:0001:0001</MetaDataItem>
     <MetaDataItem name="ProductPic">images/thermofloor/heatit021.png</MetaDataItem>
     <MetaDataItem id="0001" name="ZWProductPage" type="0001">https://products.z-wavealliance.org/products/1234/</MetaDataItem>
-    <MetaDataItem name="Description">Heatit Z-Wave is an electronic thermostat for mounting in a standard wall box. The thermostat has a built-in Z-Wave chip that 
+    <MetaDataItem name="Description">Heatit Z-Wave is an electronic thermostat for mounting in a standard wall box. The thermostat has a built-in Z-Wave chip that
 can be connected to Home Automation systems like Fibaro, Sensio, Vera, Zipato and others.
 The display will show the actual room temperature. By pressing the buttons, the display will show the set value.
 Heatit Z-Wave is equipped with a single-pole switch.

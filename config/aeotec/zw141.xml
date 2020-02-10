@@ -17,7 +17,7 @@ If the Nano Dimmer has been successfully removed from your Z-Wave network, its R
 It can connect to 2 external manual switches/buttons to control the motor up/down/stop independently. Its surface has a pin socket, which can be used for connecting to the touch panel, so you can also use the touch panel to control the Nano Shutter.
 The wireless module is powered from the mains supply. In the event of power failure, non-volatile memory retains all programmed information relating to the units operating status.
 Nano Shutter is also a security Z-Wave plus device and supports Over The Air (OTA) feature for the products firmware upgrade.
-It can be a repeater in the Z-Wave network. Acting as a bridge for communication, it will forward Z-Wave command messages to their destinations if the originating controller is out of range from the destination node. 
+It can be a repeater in the Z-Wave network. Acting as a bridge for communication, it will forward Z-Wave command messages to their destinations if the originating controller is out of range from the destination node.
 By taking advantage of the Z-Wave mesh network, commands can be routed to their destination via intermediary “listening” Z-Wave products. Products that are Z-Wave certified can be used and communicate with other Z-Wave certified devices.</MetaDataItem>
     <MetaDataItem id="008D" name="FrequencyName" type="0103">U.S. / Canada / Mexico</MetaDataItem>
     <MetaDataItem id="008D" name="Identifier" type="0103">ZW141-A</MetaDataItem>

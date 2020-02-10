@@ -3,7 +3,7 @@
     <MetaDataItem name="OzwInfoPage">http://www.openzwave.com/device-database/010F:1002:0B01</MetaDataItem>
     <MetaDataItem name="ProductPic">images/fibaro/fgfs101zw5.png</MetaDataItem>
     <MetaDataItem id="1002" name="ZWProductPage" type="0B01">https://products.z-wavealliance.org/products/2791/</MetaDataItem>
-    <MetaDataItem name="ResetDescription">1) Open the cover by turning it counter-clockwise. 
+    <MetaDataItem name="ResetDescription">1) Open the cover by turning it counter-clockwise.
 2) Make sure the device is powered (either by a battery or a DC power supply).
 3) Press and hold the TMP button for 15-20 seconds until LED glows yellow (4th menu position).
 4) Release and click the TMP button to start the reset procedure.
@@ -18,7 +18,7 @@ Use reset procedure only if the primary controller is missing or inoperable.
 3) Place the device within the direct range of your Z-Wave controller.
 4) Set the main controller in remove mode (see the controller’s manual).
 5) Quickly, triple click the TMP button located inside the casing.
-6) Wait for the removing process to end.  
+6) Wait for the removing process to end.
 7) Successful removing will be confirmed by the Z-Wave controller’s message.
 </MetaDataItem>
     <MetaDataItem name="InclusionDescription">1) Open the cover by turning it counter-clockwise.
@@ -26,7 +26,7 @@ Use reset procedure only if the primary controller is missing or inoperable.
 3) Place the device within the direct range of your Z-Wave controller.
 4) Set the main controller in (security/non-security) add mode (see the controller’s manual).
 5) Quickly, triple click the TMP button located inside the casing.
-6) Wait for the adding process to end. 
+6) Wait for the adding process to end.
 7) Successful adding will be confirmed by the Z-Wave controller’s message.
 8) Close the cover by turning it clockwise.
 9) Place the sensor onto a surface prone to flooding. Three electrodes underneath the device should evenly touch the surface.

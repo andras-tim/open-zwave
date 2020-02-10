@@ -5,7 +5,7 @@
     <MetaDataItem id="0000" name="ZWProductPage" type="0002">https://products.z-wavealliance.org/products/631/</MetaDataItem>
     <MetaDataItem id="0000" name="FrequencyName" type="0002">U.S. / Canada / Mexico</MetaDataItem>
     <MetaDataItem name="ProductPage">http://www.yalerealliving.com</MetaDataItem>
-    <MetaDataItem name="Description">Never worry about carrying around or losing your keys again. Unlock and lock your home with ease from the backlit touchscreen keypad. Create unique pin codes for friends and family and remove codes whenever you need to. This Yale Real Living lock features Z-Wave technology and seamlessly integrates into 50+ home automation and security systems. When added to most Z-Wave automation systems, lock and unlock your door, create pin codes, view access history and receive notifications from anywhere. The lock is tamper resistant, easy to install and even easier to use! 
+    <MetaDataItem name="Description">Never worry about carrying around or losing your keys again. Unlock and lock your home with ease from the backlit touchscreen keypad. Create unique pin codes for friends and family and remove codes whenever you need to. This Yale Real Living lock features Z-Wave technology and seamlessly integrates into 50+ home automation and security systems. When added to most Z-Wave automation systems, lock and unlock your door, create pin codes, view access history and receive notifications from anywhere. The lock is tamper resistant, easy to install and even easier to use!
 </MetaDataItem>
     <MetaDataItem name="Name">Yale Assure Lock with Bluetooth Z-Wave Enabled Touch Screen Deadbolt</MetaDataItem>
     <MetaDataItem id="0000" name="Identifier" type="0002">Yale/YRD/ 220</MetaDataItem>
@@ -36,7 +36,7 @@
 3. Remove four (4) AA batteries.
 4. Remove the 10-32 x 3/4" pan head screw from the center of the battery housing into the barrel nut of the outside assembly.
 5. Remove inside escutcheon. Cables may stay connected.
-6. Reinstall batteries 
+6. Reinstall batteries
 7. On the back of the PC board, push and hold the Reset Button with the lever removal tool for 3 seconds.
 8. While continuing the press the reset button, temporarily remove one AA battery.
 9. Reinstall the battery
@@ -76,7 +76,7 @@ http://products.z-wavealliance.org/products/1973/configs
     </Value>
     <Value genre="config" index="4" instance="1" label="Wrong Code Entry Limit" max="7" min="1" size="1" type="list" value="5">
       <Help>
-			The number of invalid code entries lock will accept before sending TAMPER Alarm. 
+			The number of invalid code entries lock will accept before sending TAMPER Alarm.
 			When number of wrong code entries is exceeded, lock will disable keypad for the time specified by Shutdown Time parameter. (5 = default)
 			</Help>
       <Item label="1" value="1"/>
@@ -89,7 +89,7 @@ http://products.z-wavealliance.org/products/1973/configs
     </Value>
     <Value genre="config" index="5" instance="1" label="Language" max="3" min="1" size="1" type="list" value="1">
       <Help>
-			The number of invalid code entries lock will accept before sending TAMPER Alarm. 
+			The number of invalid code entries lock will accept before sending TAMPER Alarm.
 			When number of wrong code entries is exceeded, lock will disable keypad for the time specified by Shutdown Time parameter. (5 = default)
 			</Help>
       <Item label="English" value="1"/>
@@ -101,7 +101,7 @@ http://products.z-wavealliance.org/products/1973/configs
     </Value>
     <Value genre="config" index="8" instance="1" label="Operating Mode" max="2" min="0" size="1" type="list" value="1">
       <Help>
-			The number of invalid code entries lock will accept before sending TAMPER Alarm. 
+			The number of invalid code entries lock will accept before sending TAMPER Alarm.
 			When number of wrong code entries is exceeded, lock will disable keypad for the time specified by Shutdown Time parameter. (5 = default)
 			</Help>
       <Item label="Normal" value="0"/>

@@ -20,7 +20,7 @@
       <Group index="1" max_associations="5" label="Lifeline" />
       <Group index="2" max_associations="5" label="Control Commands" />
       <Group index="3" max_associations="5" label="Send Notification Report" />
-      <Group index="4" max_associations="5" label="Send Binary Sensor Report" />    
+      <Group index="4" max_associations="5" label="Send Binary Sensor Report" />
     </Associations>
   </CommandClass>
 </Product>

@@ -31,7 +31,7 @@ Common Applications
     </Value>
     <Value genre="config" index="3" label="Trigger Mapping" max="255" min="0" type="byte" units="" value="0">
       <Help>
-				SIG1 triggered/untriggered sets or clears Relay1. 
+				SIG1 triggered/untriggered sets or clears Relay1.
 				Refer to description in User Manual under section, Input to Relay Mapping. Note
 				that neither a Basic Report nor a Binary Switch Report is sent when relay is
 				automatically set or cleared by Trigger Mapping. Only applies to the Relay1 output.
@@ -39,7 +39,7 @@ Common Applications
     </Value>
     <Value genre="config" index="4" label="Lower Threshold, High" max="255" min="0" type="byte" value="187">
       <Help>
-				SIG1 high lower threshold. 
+				SIG1 high lower threshold.
 				Must be less than Upper Threshold Low and greater than Lower Threshold Low.
 			</Help>
     </Value>

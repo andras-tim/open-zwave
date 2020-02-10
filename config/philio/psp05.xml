@@ -1,4 +1,4 @@
-<!-- 
+<!--
 Philio: PSP05 PIR/Motion for version B, C and D
 http://products.z-wavealliance.org/products/2002
 http://products.z-wavealliance.org/ProductManual/File?folder=&filename=Manuals/2002/PSP05_manual.pdf
@@ -35,7 +35,7 @@ Press the button once, the device will awake 10 seconds.</MetaDataItem>
   <CommandClass id="112">
     <Value genre="config" index="2" label="Basic Set Level" max="255" min="0" type="byte" value="255">
       <Help>
-          Setting the BASIC command value to turn on the light. The 0xFF (-1) means turn on the light. 
+          Setting the BASIC command value to turn on the light. The 0xFF (-1) means turn on the light.
           For dimmer equipment 1 to 100 means the light strength. 0 means turn off the light.
 	  </Help>
     </Value>
@@ -50,26 +50,26 @@ Press the button once, the device will awake 10 seconds.</MetaDataItem>
     <Value genre="config" index="6" label="Multi-Sensor Function Switch" max="127" min="0" type="byte" value="5">
       <Help>
           Multi-Sensor Function switch. Using bit to control.
-          Bit 0: Reserved always 0 
-          Bit 1: Reserved always 0 
+          Bit 0: Reserved always 0
+          Bit 1: Reserved always 0
           Bit 2: Reserved always 1
           Bit 3: Are the device and the lighting in the same room? 0: In the same room(Default), 1: In the different room.
-          Bit 4: Disable delay 5 seconds to turn off the light, when door/window closed. 
-          Bit 5: Disable auto turn off the light, after door/window opened to turn on the light. Notice: If bit2 is zero, this setting is useless. Notice: If the configuration No.9 is zero, this setting is useless. 
+          Bit 4: Disable delay 5 seconds to turn off the light, when door/window closed.
+          Bit 5: Disable auto turn off the light, after door/window opened to turn on the light. Notice: If bit2 is zero, this setting is useless. Notice: If the configuration No.9 is zero, this setting is useless.
           Bit 6: Reserve.
 	  Bit 7: Reserve.
 	  </Help>
     </Value>
     <Value genre="config" index="7" label="Customer Function" max="127" min="0" type="byte" value="4">
       <Help>
-          Customer function switch, using bit control. 
-          Bit 0: Reserve. 
-          Bit 1: Enable sending motion OFF report (0:Disable, 1:Enable). 
-				 Note: Depends on the Bit4, 0: Report Notification CC, Type: 0x07, Event: 0xFE 1: Sensor Binary Report, Type: 0x0C, Value: 0x00. 
+          Customer function switch, using bit control.
+          Bit 0: Reserve.
+          Bit 1: Enable sending motion OFF report (0:Disable, 1:Enable).
+				 Note: Depends on the Bit4, 0: Report Notification CC, Type: 0x07, Event: 0xFE 1: Sensor Binary Report, Type: 0x0C, Value: 0x00.
           Bit 2: Enable PIR super sensitivity mode (0:Disable, 1:Enable).
-          Bit 3: Reserve. 
+          Bit 3: Reserve.
           Bit 4: Notification Type (0: Notification Report, 1: Sensor Binary Report).
-          Bit 5: Disable Multi CC in auto report (1:Disable, 0:Enable). 
+          Bit 5: Disable Multi CC in auto report (1:Disable, 0:Enable).
           Bit 6: Disable to report battery state when the device triggered (1:Disable, 0:Enable)
           Bit 7: Reserve.
 	       ozw recommended setting: 00010110 : 22
@@ -79,12 +79,12 @@ Press the button once, the device will awake 10 seconds.</MetaDataItem>
       <Help>
           In the normal mode, after the PIR motion detected, setting the re-detect time, 8 seconds per tick, default tick is 3 (24 seconds).
           Setting the suitable value to prevent received the trigger signal too frequency. Also can save the battery energy.
-          Notice: If this value bigger than the configuration setting NO. 9. There is a period after the light turned off and the PIR not start detecting. 
+          Notice: If this value bigger than the configuration setting NO. 9. There is a period after the light turned off and the PIR not start detecting.
        </Help>
     </Value>
     <Value genre="config" index="9" label="Turn Off Light Time" max="127" min="0" type="byte" units="8 sec" value="4">
       <Help>
-          After turn on the lighting, setting the delay time to turn off the lighting when the PIR motion is not detected. 
+          After turn on the lighting, setting the delay time to turn off the lighting when the PIR motion is not detected.
           8 seconds per tick, default tick is 4 (32 seconds). 0 means never send turn off light command.
        </Help>
     </Value>
@@ -101,7 +101,7 @@ Press the button once, the device will awake 10 seconds.</MetaDataItem>
   </CommandClass>
   <!-- Basic set as report -->
   <!-- <CommandClass id="32" setasreport="true" ignoremapping="true"/> -->
- 
+
   <!-- Association Groups -->
   <CommandClass id="133">
     <Associations num_groups="2">

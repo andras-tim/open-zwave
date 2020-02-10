@@ -97,7 +97,7 @@
 		<Help>
 			The brightness level can be selected in the active state from values 1 (lowest brightness) to 4
 			(highest brightness) but the level cannot be lower than the level of brightness for the inactive
-			state (param 11).			
+			state (param 11).
 		</Help>
 	</Value>
 	<!-- Configuration Parameter 11 -->

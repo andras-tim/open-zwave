@@ -27,7 +27,7 @@ time.</MetaDataItem>
 3. Select Z-Wave Settings
 4. Select Remove Z-Wave device
 5. Select My Hub Is No Longer Working
-6. Caution: Resetting a Z-Wave device without telling the hub can cause performance issues. Use this procedure only when the Z-Wave hub is missing or otherwise inoperable. 
+6. Caution: Resetting a Z-Wave device without telling the hub can cause performance issues. Use this procedure only when the Z-Wave hub is missing or otherwise inoperable.
 7. Select Reset Z-Wave Device
 8. On the Reset Z-Wave Device? prompt select Reset</MetaDataItem>
     <MetaDataItem id="0001" name="FrequencyName" type="0001">U.S. / Canada / Mexico</MetaDataItem>

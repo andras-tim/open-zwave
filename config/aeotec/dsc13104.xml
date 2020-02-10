@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Product xmlns='https://github.com/OpenZWave/open-zwave' Revision="1">
-<!-- 
+<!--
 Aeotec DSC13104 Micro Smart Energy Illuminator
 https://aeotec.freshdesk.com/helpdesk/attachments/6009584519
 -->
   <!-- Configuration Parameters -->
-  <CommandClass id="112">    
+  <CommandClass id="112">
 	<Value type="short" index="2" genre="config" label="Make SEI blink" size="2" min="0" max="65535" value="0">
       <Help>
 	  Configuration Value 1 is to Specify the time that SEI need blink (0-255), the unit is second;
 	  Configuration Value 2 is to Specify the Cycle of on/off (0-255), the unit of it is 0.1 second.</Help>
-    </Value>    
+    </Value>
 	<Value type="list" index="3" genre="config" label="Current Overload Protection" units="" min="0" max="1" size="1" value="0">
       <Help>Load will be closed when the Current overruns (EU 16.2A) for more than 2 minutes</Help>
       <Item label="Deactivate Overload Protection (Default)" value="0"/>
@@ -21,7 +21,7 @@ https://aeotec.freshdesk.com/helpdesk/attachments/6009584519
       <Item label="Nothing" value="0" />
       <Item label="Hail" value="1" />
       <Item label="Basic" value="2" />
-    </Value>    
+    </Value>
     <Value type="bool" index="90" genre="config" label="Enables/disables parameter 91/92" units="" value="0">
       <Help>Enable/disable Wattage threshold and percent.</Help>
     </Value>
@@ -30,17 +30,17 @@ https://aeotec.freshdesk.com/helpdesk/attachments/6009584519
     </Value>
     <Value type="byte" index="92" genre="config" label="Minimum Change to send Report (%)" units="%" min="0" max="100" value="5">
       <Help>The value represents the minimum percentage change in wattage for a Report to be sent (Default 5)</Help>
-    </Value>	
+    </Value>
 	<Value type="button" index="100" genre="config" label="Default Group Reports" units="" write_only="true" affects="101,102,103">
       <Help>Set report types for groups 1, 2 and 3 to default.</Help>
-    </Value>	
+    </Value>
     <Value type="int" index="101" genre="config" label="Report type sent in Reporting Group 1" size="4" value="0">
       <Help>
 	Defines the type of report sent for reporting group 1. 2 is multisensor report. 4 is meter report for watts. 8 is meter report for kilowatts.
 	 Value 1 (msb) Reserved
 	 Value 2 Reserved
 	 Value 3 Reserved
-	 Value 4(lsb) 
+	 Value 4(lsb)
 			bits 7-4 reserved
             bit 3 MRC(KWH)
 		    bit 2 MRC(watt)
@@ -63,7 +63,7 @@ https://aeotec.freshdesk.com/helpdesk/attachments/6009584519
 	 Value 1 (msb) Reserved
 	 Value 2 Reserved
 	 Value 3 Reserved
-	 Value 4 lsb) 
+	 Value 4 lsb)
 	        bits 7-4 reserved
             bit 3 MRC(KWH)
 		    bit 2 MRC(watt)
@@ -86,7 +86,7 @@ https://aeotec.freshdesk.com/helpdesk/attachments/6009584519
 	 Value 1 (msb) Reserved
 	 Value 2 Reserved
 	 Value 3 Reserved
-	 Value 4 (lsb) 
+	 Value 4 (lsb)
 			bits 7-4 reserved
             bit 3 MRC(KWH)
 		    bit 2 MRC(watt)

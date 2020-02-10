@@ -10,7 +10,7 @@
 To reset to factory settings please follow these steps:
 1.	Press the enter button for 2 seconds, release the enter button to start the remove routine (indication LED will blink 3 times every second).
 2.	During the remove routine press enter button 4 times within 1,5 seconds to reset the product.
-3.	If ‘back to factory settings’ was successful the indication LED will go in for 1 full second on the end of the remove routine. 
+3.	If ‘back to factory settings’ was successful the indication LED will go in for 1 full second on the end of the remove routine.
 4.	A DEVICE_RESET_LOCALLY_NOTIFICATION is sent to the nodes associated in the lifeline group. </MetaDataItem>
     <MetaDataItem name="InclusionDescription">To include the Tag Reader 500 US press and hold the enter button for two seconds (indication LED blinks shortly). Release the enter button now to start the inclusion (during the inclusion routine the indication LED willblink twice per second).</MetaDataItem>
     <MetaDataItem name="ExclusionDescription">To exclude the Tag Reader 500 US press and hold the enter button for two seconds (indication LED blinks shortly). Release the enter button now to start the exclusion (during the exclusion routine the indication LED willblink twice three times per 1,5 second).</MetaDataItem>

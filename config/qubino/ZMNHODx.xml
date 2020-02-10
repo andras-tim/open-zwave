@@ -3,7 +3,7 @@
     <MetaDataItem name="OzwInfoPage">http://www.openzwave.com/device-database/0159:0053:0003</MetaDataItem>
     <MetaDataItem name="ProductPic">images/qubino/ZMNHODx.png</MetaDataItem>
     <MetaDataItem id="0053" name="ZWProductPage" type="0003">https://products.z-wavealliance.org/products/2976/</MetaDataItem>
-    <MetaDataItem name="ExclusionDescription">•	Connect module to power supply 
+    <MetaDataItem name="ExclusionDescription">•	Connect module to power supply
 •	bring module within maximum 1 meter (3 feet) of the main controller,
 •	enable add/remove mode on main controller,
 If service button S is pressed more than 2 and less than 6 seconds (or if push button I1 is pressed three times within 3s) module is excluded, but configuration parameters are not set to default values.
@@ -13,7 +13,7 @@ NOTE: Please use this procedure only when the network primary controller is miss
     <MetaDataItem id="0053" name="FrequencyName" type="0003">U.S. / Canada / Mexico</MetaDataItem>
     <MetaDataItem name="Description">The Qubino Flush Shutter DC is ideal for controlling the 12–24V DC motors of blinds, rollers, shades, venetian blinds and similar sunscreens. You can control it either remotely through the Z-Wave network or through wall switches. It also measures power consumption and supports the connection of a digital temperature sensor.</MetaDataItem>
     <MetaDataItem id="0053" name="Identifier" type="0003">ZMNHOD3</MetaDataItem>
-    <MetaDataItem name="InclusionDescription">•	Connect module to power supply (with 
+    <MetaDataItem name="InclusionDescription">•	Connect module to power supply (with
 temperature sensor connected - if purchased),
 •	auto-inclusion (works for about 5 seconds after connected to power supply) or
 •	press service button S for more than 2 second or

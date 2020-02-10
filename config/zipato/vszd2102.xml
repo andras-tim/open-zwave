@@ -17,11 +17,11 @@ Auto Wake Up:  The wakeup interval is user settable from 10 minutes to 1 week us
       <Entry author="Justin Hammond - Justin@dynam.ac" date="24 May 2019" revision="3">Initial Metadata Import from Z-Wave Alliance Database - https://products.z-wavealliance.org/products/1864/xml</Entry>
     </ChangeLog>
   </MetaData>
-  <!--  
-	Zipato VS-ZD2102 Door/Window Sensor 
+  <!--
+	Zipato VS-ZD2102 Door/Window Sensor
 	https://www.zipato.com/wp-content/uploads/2015/09/vs-zd2102-Zipato-Door-Window-Sensor-User-Manual-v1.4.pdf
 	-->
-	
+
 	<!-- COMMAND_CLASS_BASIC -->
   <CommandClass id="32">
     <Compatibility>

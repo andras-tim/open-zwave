@@ -9,20 +9,20 @@
 Press any key once, the device will awake 10 seconds.</MetaDataItem>
     <MetaDataItem name="Description">The mydlink Z-Wave Motion Sensor DCH-Z120 has PIR, temperature and illumination, 3 sensors function in one,based on Z-Wave technology.</MetaDataItem>
     <MetaDataItem name="InclusionDescription">There are two tamper keys in the device, one is in the back side, another is in the front side.  Both of them  can add,  remove, reset or association from Z-Wave network.
-To add into a Z-Wave network: 
+To add into a Z-Wave network:
 1. Have Z-Wave  Controller entered inclusion mode.
 2. Pressing tamper key three times within 1.5 seconds to enter the inclusion mode.
 3. After add successful, the device will wake to receive the setting command from Z-Wave Controller about 20 seconds.</MetaDataItem>
     <MetaDataItem id="000D" name="Identifier" type="0002">DCH-Z120</MetaDataItem>
     <MetaDataItem name="Name">D-Link Z-Wave Motion Sensor</MetaDataItem>
     <MetaDataItem name="ResetDescription">There are two tamper keys in the device, one is in the back side, another is in the front side.  Both of them  can add,  remove, reset or association from Z-Wave network.
-To reset the device: 
+To reset the device:
 Notice: Use this procedure only in the event that the primary controller is lost or otherwise inoperable.
 1. Pressing tamper key four times within 1.5 seconds and do not release the tamper key in the 4th  pressed, and the LED will light ON.
 2. After 3 seconds the LED will turn OFF, after that within 2 seconds, release the tamper key. If successful, the LED will light ON one second. Otherwise, the LED will flash once.
 3. IDs are excluded and all settings will reset to factory default.</MetaDataItem>
     <MetaDataItem name="ExclusionDescription">There are two tamper keys in the device, one is in the back side, another is in the front side.  Both of them  can add,  remove, reset or association from Z-Wave network.
-To remove the device from a Z-Wave network: 
+To remove the device from a Z-Wave network:
 1. Have Z-Wave  Controller entered exclusion mode.
 2. Pressing tamper key three times within 1.5 seconds to enter the exclusion mode.
 Node ID has been excluded.</MetaDataItem>
@@ -35,7 +35,7 @@ Node ID has been excluded.</MetaDataItem>
     <Value genre="config" index="2" label="Basic Set Level" max="255" min="0" type="byte" value="255">
       <Help>
           Set the BASIC command value to turn on the light.
-          255: always turn on the light. 
+          255: always turn on the light.
           For dimmer equipment 1 to 100 means the light strength. 0 means turn off the light.
 	  </Help>
     </Value>
@@ -60,12 +60,12 @@ Node ID has been excluded.</MetaDataItem>
     </Value>
     <Value genre="config" index="5" label="Operation Mode" max="127" min="0" type="byte" value="0">
       <Help>
-          Bit 0: Reserved 
+          Bit 0: Reserved
           Bit 1: 1 means test mode, 0 means normal mode.
            Notice: This bit only effect by the DIP Switch setting to customer mode, otherwise it decides by DIP Switch setting to Test or Normal Mode.
           Bit 2: Reserved
-          Bit 3: Setting the temperature scale. 0: Fahrenheit, 1:Celsius. 
-          Bit 4: Disable the illumination report after event triggered (1: Disable, 0: Enable). 
+          Bit 3: Setting the temperature scale. 0: Fahrenheit, 1:Celsius.
+          Bit 4: Disable the illumination report after event triggered (1: Disable, 0: Enable).
           Bit 5: Disable the temperature report after event triggered (1: Disable, 0: Enable).
           Bit 6: Reserved.
           Bit 7: Disable the back key release into test mode. (1: Disable, 0: Enable)
@@ -79,7 +79,7 @@ Node ID has been excluded.</MetaDataItem>
           Bit 1: Disable PIR integrate Illumination to turn ON the lighting nodes in the association group 2. (1:Disable, 0:Enable) (Default: 0)
           Bit 2: Reserved always 1
           Bit 3: Reserved always 0
-          Bit 4: Reserved always 0 
+          Bit 4: Reserved always 0
           Bit 5: Reserved always 0
           Bit 6: Reserved always 0
           Bit 7: Reserved always 0
@@ -87,14 +87,14 @@ Node ID has been excluded.</MetaDataItem>
     </Value>
     <Value genre="config" index="7" label="Customer Function" max="127" min="0" type="byte" value="4">
       <Help>
-          Customer function switch, using bit control. 
-          Bit 0: Reserved always 0. 
+          Customer function switch, using bit control.
+          Bit 0: Reserved always 0.
           Bit 1: Enable sending motion OFF report. Note: Depends on the Bit4, 0: Report Notification CC, Type: 0x07, Event: 0xFE 1: Sensor Binary Report, Type: 0x0C, Value: 0x00.  (Default: 0)
-          Bit 2: Enable PIR super sensitivity mode. (Default: 1) 
+          Bit 2: Enable PIR super sensitivity mode. (Default: 1)
           Bit 3: Reserved always 0
           Bit 4: Notification Type, 0: Using Notification Report. 1: Using Sensor Binary Report. (Default: 0)
           Bit 5: Disable Multi CC in auto report. (Default: 0)
-          Bit 6: Disable to report battery state when the device triggered. (1:Disable, 0:Enable) (Default: 0) 
+          Bit 6: Disable to report battery state when the device triggered. (1:Disable, 0:Enable) (Default: 0)
           Bit 7: Reserved always 0.
        </Help>
     </Value>
@@ -105,7 +105,7 @@ Node ID has been excluded.</MetaDataItem>
     </Value>
     <Value genre="config" index="9" label="Turn Off Light Time" max="127" min="0" type="byte" units="8 sec" value="4">
       <Help>
-          After turn on the lighting, setting the delay time to turn off the lighting when the PIR motion is not detected. 
+          After turn on the lighting, setting the delay time to turn off the lighting when the PIR motion is not detected.
           8 seconds per tick, default tick is 4 (32 seconds). 0 means never send turn off light command.
        </Help>
     </Value>
@@ -142,7 +142,7 @@ Node ID has been excluded.</MetaDataItem>
   </CommandClass>
   <!-- Basic set as report -->
   <!-- <CommandClass id="32" setasreport="true" ignoremapping="true"/> -->
- 
+
   <!-- Association Groups -->
   <CommandClass id="133">
     <Associations num_groups="2">

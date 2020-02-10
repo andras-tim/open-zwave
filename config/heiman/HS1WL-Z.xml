@@ -16,10 +16,10 @@ http://products.z-wavealliance.org/products/2322
     <MetaDataItem name="ProductManual">https://Products.Z-WaveAlliance.org/ProductManual/File?folder=&amp;filename=Manuals/3027/HS3WL-Z-S2documentation.pdf</MetaDataItem>
     <MetaDataItem id="1000" name="Identifier" type="8004">HS3WL-Z</MetaDataItem>
     <MetaDataItem name="ExclusionDescription">-  Click [Remove] icon in Z-Wave Controller
--  Press the Networking_Button 3 times within 1.5s 
+-  Press the Networking_Button 3 times within 1.5s
 -  If Exclusion Process is successful, Green led is Blinking 6 times, then turn off.
 </MetaDataItem>
-    <MetaDataItem name="ResetDescription">-Long press Networking_Button while installing batteries in the Device 
+    <MetaDataItem name="ResetDescription">-Long press Networking_Button while installing batteries in the Device
 -Device Reset Locally notification is Transmitted
 -Green LED Turns off after 2 seconds.
 Please use this procedure only when the network primary controller is missing or otherwise  inoperable.</MetaDataItem>

@@ -5,7 +5,7 @@
     <MetaDataItem id="0009" name="ZWProductPage" type="0002">https://products.z-wavealliance.org/products/141/</MetaDataItem>
     <MetaDataItem name="ProductPage">http://www.aeon-labs.com/site/products/category/1/</MetaDataItem>
     <MetaDataItem name="ProductSupport">http://www.aeon-labs.com/site/support/</MetaDataItem>
-    <MetaDataItem name="Description">The Aeon Labs Smart Energy Monitor is a low-cost energy monitor for the entire home. It can wirelessly report immediate wattage and kWh usage to central control point gateways such as the 4HomeMedia CP and can be easily and safely installed by anyone. 
+    <MetaDataItem name="Description">The Aeon Labs Smart Energy Monitor is a low-cost energy monitor for the entire home. It can wirelessly report immediate wattage and kWh usage to central control point gateways such as the 4HomeMedia CP and can be easily and safely installed by anyone.
 </MetaDataItem>
     <MetaDataItem id="0009" name="FrequencyName" type="0002">U.S. / Canada / Mexico / CEPT (Europe)</MetaDataItem>
     <MetaDataItem name="Name">Aeon Labs Home Energy Meter EU</MetaDataItem>
@@ -15,7 +15,7 @@
       <Entry author="Justin Hammond - Justin@dynam.ac" date="03 May 2019" revision="4">Updated Metadata Import from Z-Wave Alliance Database - https://products.z-wavealliance.org/products/141/xml</Entry>
     </ChangeLog>
   </MetaData>
-  <!-- 
+  <!--
 Aeotec DSB09104 Home Energy Meter
 https://aeotec.freshdesk.com/helpdesk/attachments/6009584509
 -->

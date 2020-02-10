@@ -10,7 +10,7 @@
 			<Item label="Show switch (default)" value="1" />
 			<Item label="Operated by Indicator Command Class" value="2" />
 		</Value>
-	
+
 		<Value type="short" genre="config" instance="1" index="2" label="Automatically switch Off" size="2" units="seconds" min="0" max="65535" value="0">
 			<Help>
 			If not zero, automatically switch device off after an user defined time.
@@ -21,7 +21,7 @@
 
 		<Value type="list" genre="config" instance="1" index="3" label="Behaviour for a RF Off-Command" size="1" value="0">
 			<Help>
-			Defines how to interpret RF Off-Command. 
+			Defines how to interpret RF Off-Command.
 			Ignore - to switch on the light by motion detectors and switch it off after some amount of time;
 			in case of multiple motion detectors each would try to switch the light off that would break logics;
 			Switch on - to switch on the light on both On and Off paddle press on the remote and switch it off after some amount of time.
@@ -38,7 +38,7 @@
 			<Item label="No, turn off" value="0" />
 			<Item label="Yes (default)" value="1" />
 		</Value>
-		
+
 		<Value type="short" genre="config" instance="1" index="20" label="Energy consumption" size="2" units="Watts" min="0" max="3500" value="0">
 			<Help>
 			Specify the consumption of the load in Watts, for the calculation of power.
