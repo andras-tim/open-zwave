@@ -65,10 +65,7 @@
   <!-- Remove COMMAND_CLASS_BASIC -->
   <CommandClass action="remove" id="32"/>
   <!-- Map endpoints to instances -->
-  <CommandClass id="96">
-    <Compatibility>
-      <MapRootToEndpoint>true</MapRootToEndpoint>
-    </Compatibility>
+  <CommandClass id="96" mapping="endpoints">
     <Instance index="1" label="Total Readings"/>
     <Instance index="2" label="Phase 1"/>
     <Instance index="3" label="Phase 2"/>

@@ -296,10 +296,7 @@ Please note that the Tone Play Mode needs to be configured to be 0 or 1 after th
     	<GetSupported>false</GetSupported>
     </Compatibility>
   </CommandClass>
-  <CommandClass id="96">
-    <Compatibility>
-        <MapRootToEndpoint>true</MapRootToEndpoint>
-    </Compatibility>
+  <CommandClass id="96" mapping="endpoints">
     <Instance index="1" label="Browse"/>
     <Instance index="2" label="Tampering"/>
     <Instance index="3" label="Doorbell 1"/>

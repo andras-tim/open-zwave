@@ -197,10 +197,7 @@ ZMNHTD5 916,0 MHz
   </CommandClass>
   <!-- Remove COMMAND_CLASS_BASIC -->
   <CommandClass action="remove" id="32"/>
-  <CommandClass id="96">
-    <Compatibility>
-      <MapRootToEndpoint>true</MapRootToEndpoint>
-    </Compatibility>
+  <CommandClass id="96" mapping="endpoints">
     <Instance index="1" label="Total Readings"/>
     <Instance index="2" label="External Relay"/>
     <Instance index="3" label="External IR Relay"/>

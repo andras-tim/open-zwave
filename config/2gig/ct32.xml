@@ -28,11 +28,7 @@
       <Base>0</Base>
     </Compatibility>
   </CommandClass>
-  <CommandClass id="96">
-    <Compatibility>
-      <MapRootToEndpoint>true</MapRootToEndpoint>
-    </Compatibility>
-  </CommandClass>
+  <CommandClass id="96" mapping="endpoints"/>CommandClass>
   <CommandClass id="112">
     <Value genre="config" index="1" label="Temperature Reporting Threshold" max="4" min="0" size="1" type="list" units="" value="0">
       <Help>

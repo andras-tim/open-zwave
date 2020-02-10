@@ -84,11 +84,7 @@ https://products.z-wavealliance.org/products/2674
     </Value>
   </CommandClass>
   <!-- -->
-  <CommandClass id="96">
-    <Compatibility>
-      <MapRootToEndpoint>true</MapRootToEndpoint>
-    </Compatibility>
-  </CommandClass>
+  <CommandClass id="96" mapping="endpoints"/>CommandClass>
   <!-- Association Groups -->
   <CommandClass id="133">
     <Associations num_groups="1">

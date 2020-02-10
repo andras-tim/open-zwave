@@ -77,11 +77,7 @@ In the case of alarm frames the alarm priority is specified. Possible parameter 
       <Item label="Scenes enabled" value="1"/>
     </Value>
   </CommandClass>
-  <CommandClass id="96">
-    <Compatibility>
-      <MapRootToEndpoint>true</MapRootToEndpoint>
-    </Compatibility>
-  </CommandClass>
+  <CommandClass id="96" mapping="endpoints"/>CommandClass>
   <CommandClass id="32">
     <Compatibility>
       <SetAsReport>true</SetAsReport>

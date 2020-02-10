@@ -50,11 +50,7 @@
       <Item label="Enable" value="1"/>
     </Value>
   </CommandClass>
-  <CommandClass id="96">
-    <Compatibility>
-      <MapRootToEndpoint>true</MapRootToEndpoint>
-    </Compatibility>
-  </CommandClass>
+  <CommandClass id="96" mapping="endpoints"/>CommandClass>
   <!-- COMMAND_CLASS_ALARM. This class is in the list reported by the GreenWave PowerNode 6, but it does not respond to requests -->
   <CommandClass action="remove" id="113"/>
   <!-- COMMAND_CLASS_INDICATOR. This class is in the list reported by the GreenWave PowerNode 6, but it does not respond to requests -->

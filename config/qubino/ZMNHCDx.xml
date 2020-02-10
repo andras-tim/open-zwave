@@ -158,9 +158,5 @@ NOTE: Please use this procedure only when the network primary controller is miss
   <!-- Remove COMMAND_CLASS_BASIC -->
   <CommandClass action="remove" id="32"/>
   <!-- Map endpoints to instances -->
-  <CommandClass id="96">
-    <Compatibility>
-      <MapRootToEndpoint>true</MapRootToEndpoint>
-    </Compatibility>
-  </CommandClass>
+  <CommandClass id="96" mapping="endpoints"/>CommandClass>
 </Product>

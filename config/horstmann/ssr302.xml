@@ -63,9 +63,5 @@
     COMMAND_CLASS_ASSOCIATION
     COMMAND_CLASS_ASSOCIATION_GROUP_INFO
   -->
-  <CommandClass id="96">
-    <Compatibility>
-      <MapRootToEndpoint>true</MapRootToEndpoint>
-    </Compatibility>
-  </CommandClass>
+  <CommandClass id="96" mapping="endpoints"/>CommandClass>
 </Product>

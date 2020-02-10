@@ -43,11 +43,7 @@ http://z-uno.z-wave.me/examples/Certified10Channels/</MetaDataItem>
       <Item label="Enabled" value="1"/>
     </Value>
   </CommandClass>
-  <CommandClass id="96">
-    <Compatibility>
-      <MapRootToEndpoint>true</MapRootToEndpoint>
-    </Compatibility>
-  </CommandClass>
+  <CommandClass id="96" mapping="endpoints"/>CommandClass>
   <CommandClass id="142">
     <Compatibility>
       <ForceInstances>true</ForceInstances>

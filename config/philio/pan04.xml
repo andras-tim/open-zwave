@@ -56,11 +56,7 @@ This in-wall switch module is able to detect Instant power wattage and overload 
       <Help>Threshold of kWh for Load Caution</Help>
     </Value>
   </CommandClass>
-  <CommandClass id="96">
-    <Compatibility>
-      <MapRootToEndpoint>true</MapRootToEndpoint>
-    </Compatibility>
-  </CommandClass>
+  <CommandClass id="96" mapping="endpoints"/>CommandClass>
   <!-- COMMAND_CLASS_BASIC does not respond to requests -->
   <CommandClass action="remove" id="32"/>
   <!-- COMMAND_CLASS_ALARM does not respond to requests -->

@@ -24,11 +24,7 @@ Node ID has been excluded.</MetaDataItem>
       <Entry author="Justin Hammond - Justin@dynam.ac" date="02 Jun 2019" revision="3">Initial Metadata Import from Z-Wave Alliance Database - https://products.z-wavealliance.org/products/2421/xml</Entry>
     </ChangeLog>
   </MetaData>
-  <CommandClass id="96">
-    <Compatibility>
-      <MapRootToEndpoint>true</MapRootToEndpoint>
-    </Compatibility>
-  </CommandClass>
+  <CommandClass id="96" mapping="endpoints"/>CommandClass>
   <!-- Configuration Parameters -->
   <CommandClass id="112">
     <Value genre="config" index="1" instance="1" label="Watt Meter Report Period" max="32000" min="1" type="short" units="5 seconds" value="720">

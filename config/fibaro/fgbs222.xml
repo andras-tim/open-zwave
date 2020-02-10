@@ -294,11 +294,7 @@ removing the device from the Z-Wave network. Use this procedure only when the ne
       </Help>
     </Value>
   </CommandClass>
-  <CommandClass id="96">
-    <Compatibility>
-      <MapRootToEndpoint>true</MapRootToEndpoint>
-    </Compatibility>
-  </CommandClass>
+  <CommandClass id="96" mapping="endpoints"/>CommandClass>
   <CommandClass id="32">
     <Compatibility>
       <SetAsReport>true</SetAsReport>

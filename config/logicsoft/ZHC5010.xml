@@ -303,11 +303,7 @@
     </Compatibility>
   </CommandClass>
   <!-- MultiInstance Command Class. Note: If you do not need Dedicated Relay Control instance, change below mapping to "endpoints", then rejoin the node to your network. -->
-  <CommandClass id="96">
-    <Compatibility>
-      <MapRootToEndpoint>true</MapRootToEndpoint>
-    </Compatibility>
-  </CommandClass>
+  <CommandClass id="96" mapping="endpoints"/>CommandClass>
   <!-- Multi Channel Association Groups -->
   <CommandClass id="142">
     <Compatibility>

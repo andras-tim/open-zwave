@@ -25,10 +25,9 @@ Capacitive technology to adjust lighting level</MetaDataItem>
     </ChangeLog>
   </MetaData>
   <!-- Multi-Instance configuration -->
-  <CommandClass id="96">
+  <CommandClass id="96" mapping="endpoints">
     <Compatibility>
       <IgnoreMCCapReports>true</IgnoreMCCapReports>
-      <MapRootToEndpoint>true</MapRootToEndpoint>
     </Compatibility>
   </CommandClass>
 </Product>

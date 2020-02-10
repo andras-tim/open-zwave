@@ -149,9 +149,5 @@ NOTE: The module will be excluded from your network, but any custom configuratio
     </Associations>
   </CommandClass>
   <!-- Map endpoints to instances -->
-  <CommandClass id="96">
-    <Compatibility>
-      <MapRootToEndpoint>true</MapRootToEndpoint>
-    </Compatibility>
-  </CommandClass>
+  <CommandClass id="96" mapping="endpoints"/>CommandClass>
 </Product>

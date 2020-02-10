@@ -121,11 +121,7 @@
     </Compatibility>
   </CommandClass>
   <!-- Association Groups -->
-  <CommandClass id="96">
-    <Compatibility>
-      <MapRootToEndpoint>true</MapRootToEndpoint>
-    </Compatibility>
-  </CommandClass>
+  <CommandClass id="96" mapping="endpoints"/>CommandClass>
   <CommandClass id="133">
     <Associations num_groups="1">
       <Group index="1" label="Motion" max_associations="4"/>

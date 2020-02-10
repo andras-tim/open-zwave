@@ -221,11 +221,7 @@ The Water Sensor 6 is also a security Z-Wave device that supports Over The Air (
     </Value>
   </CommandClass>
   <!-- Map endpoints to instances -->
-  <CommandClass id="96">
-    <Compatibility>
-      <MapRootToEndpoint>true</MapRootToEndpoint>
-    </Compatibility>
-  </CommandClass>
+  <CommandClass id="96" mapping="endpoints"/>CommandClass>
   <CommandClass id="142">
     <Compatibility>
       <ForceInstances>true</ForceInstances>

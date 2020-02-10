@@ -65,9 +65,5 @@ Follow  ‘Exclusion’ steps.</MetaDataItem>
     Power Level (V1):
     Power Level Command Class defines RF transmit power controlling commands useful when installing or testing a network.
   -->
-  <CommandClass id="96">
-    <Compatibility>
-      <MapRootToEndpoint>true</MapRootToEndpoint>
-    </Compatibility>
-  </CommandClass>
+  <CommandClass id="96" mapping="endpoints"/>CommandClass>
 </Product>

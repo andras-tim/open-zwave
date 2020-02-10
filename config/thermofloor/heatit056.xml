@@ -176,9 +176,5 @@ NB! Please use this procedure only when the primary controller/ gateway is missi
     </Compatibility>
   </CommandClass>
   <!--COMMAND_CLASS_MULTI_CHANNEL_V2 Map endpoints to instances -->
-  <CommandClass id="96">
-    <Compatibility>
-      <MapRootToEndpoint>true</MapRootToEndpoint>
-    </Compatibility>
-  </CommandClass>
+  <CommandClass id="96" mapping="endpoints"/>CommandClass>
 </Product>

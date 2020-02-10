@@ -32,10 +32,9 @@ Capacitive technology to adjust lighting level</MetaDataItem>
     <MetaDataItem id="4A00" name="FrequencyName" type="1100">CEPT (Europe)</MetaDataItem>
   </MetaData>
   <!-- Multi-Instance configuration -->
-  <CommandClass id="96">
+  <CommandClass id="96" mapping="endpoints">
     <Compatibility>
       <IgnoreMCCapReports>true</IgnoreMCCapReports>
-      <MapRootToEndpoint>true</MapRootToEndpoint>
     </Compatibility>
   </CommandClass>
 </Product>

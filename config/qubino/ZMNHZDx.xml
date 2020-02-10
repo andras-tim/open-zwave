@@ -13,11 +13,7 @@
     </Compatibility>
   </CommandClass>
   <!-- Map endpoints to instances -->
-  <CommandClass id="96">
-    <Compatibility>
-      <MapRootToEndpoint>true</MapRootToEndpoint>
-    </Compatibility>
-  </CommandClass>
+  <CommandClass id="96" mapping="endpoints"/>CommandClass>
   <!-- Configuration -->
   <CommandClass id="112">
     <Value genre="config" index="1" instance="1" label="Wind Gust Top Value" max="8800" min="0" size="2" type="short" value="1000">

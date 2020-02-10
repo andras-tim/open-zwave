@@ -183,9 +183,8 @@ The Smart Dimmer 6 is also a security Z-Wave device and supports Over The Air (O
       </Help>
     </Value>
   </CommandClass>
-  <CommandClass id="96">
+  <CommandClass id="96" mapping="endpoints">
     <Compatibility>
-      <MapRootToEndpoint>true</MapRootToEndpoint>
       <ForceUniqueEndpoints>true</ForceUniqueEndpoints>
     </Compatibility>
   </CommandClass>

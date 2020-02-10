@@ -25,11 +25,7 @@ Node ID has been excluded.</MetaDataItem>
   <!-- Remove COMMAND_CLASS_BASIC -->
   <CommandClass action="remove" id="32"/>
   <!-- Map endpoints to instances -->
-  <CommandClass id="96">
-    <Compatibility>
-      <MapRootToEndpoint>true</MapRootToEndpoint>
-    </Compatibility>
-  </CommandClass>
+  <CommandClass id="96" mapping="endpoints"/>CommandClass>
   <!-- Configuration Parameters -->
   <CommandClass id="112">
     <Value genre="config" index="1" instance="1" label="Watt Meter Report Period" max="32767" min="1" type="short" units="5 sec" value="720">

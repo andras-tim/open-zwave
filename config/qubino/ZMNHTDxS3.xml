@@ -111,9 +111,5 @@ ZMNHTD5 916,0 MHz
 	<CommandClass id="32" action="remove" />
 
 	<!-- Map endpoints to instances -->
-	<CommandClass id="96">
-		<Compatibility>
-			<MapRootToEndpoint>true</MapRootToEndpoint>
-		</Compatibility>
-	</CommandClass>
+	<CommandClass id="96" mapping="endpoints" />
 </Product>
